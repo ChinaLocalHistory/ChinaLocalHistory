@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>China Locals</title>
+  </head>
+
+<body >
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+  
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("../navbar/index.html");
+    });
+    </script>
+  <!--end of Navigation bar-->
+
+  <div class="container">
+    <!-- basemap container  -->
+    <div class="basemap-container">
+      <h2>Tangxi City God Temple</h2>
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 147 509.43" height="95%" width="95%">
+        <defs>
+            <style>
+                .cls-1 {
+                    fill: #023859;
+                }
+                .cls-2 {
+                    font-size: 12px;
+                    fill: #fff;
+                    font-family: MyriadPro-Regular, Myriad Pro;
+                }
+            </style>
+        </defs>
+    <title>layout</title><image width="147" height="500" xlink:href="data:image/gif;base64,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"/>
+    <circle class="cls-1" id="tangxi-A" cx="73.5" cy="496.4" r="13.02" onclick="toFrontGate()"/>
+    <text class="cls-2" transform="translate(69.97 500.64)" onclick="toFrontGate()">A</text>
+    <circle class="cls-1" id="tangxi-C" cx="73.5" cy="398.36" r="13.02"/>
+    <text class="cls-2" transform="translate(69.97 402.6)">C</text>
+    <circle class="cls-1" id="tangxi-D" cx="73.5" cy="320.79" r="13.02"/>
+    <text class="cls-2" transform="translate(69.97 325.02)">D</text>
+    <circle class="cls-1" id="tangxi-E" cx="19" cy="280.28" r="13.02"/>
+    <text class="cls-2" transform="translate(15.47 284.51)">E</text>
+    <circle class="cls-1" id="tangxi-G" cx="73.5" cy="224.28" r="13.02"/>
+    <text class="cls-2" transform="translate(69.97 228.51)">G</text>
+    <circle class="cls-1" id="tangxi-I" cx="73.5" cy="26.26" r="13.02"/>
+    <text class="cls-2" transform="translate(69.97 30.49)">I</text>
+    <circle class="cls-1" id="tangxi-H" cx="73.5" cy="127.77" r="13.02"/>
+    <text class="cls-2" transform="translate(69.97 132)">H</text>
+    <circle class="cls-1" id="tangxi-F" cx="126.23" cy="280.28" r="13.02"/>
+    <text class="cls-2" transform="translate(122.7 284.51)">F</text>
+    <circle class="cls-1" id="tangxi-B" cx="73.5" cy="443.96" r="13.02" onclick="toOperaStage()"/>
+    <text class="cls-2" transform="translate(69.97 448.19)" onclick="toOperaStage()">B</text>
+    <circle class="cls-1" cx="133.72" cy="211.26" r="13.02"/>
+    <text class="cls-2" transform="translate(130.19 215.49)">J</text>
+    <circle class="cls-1" cx="133.72" cy="69.51" r="13.02"/>
+    <text class="cls-2" transform="translate(130.19 73.75)">K</text></svg>
+ 
+    </div>
+
+
+
+    
+    <!-- menu container  -->
+    <div id="menu-container">
+      <table style="width:100%" id = "table">
+     
+        <tr>
+          <td><a href = "..\panorama\index-A.html" title = "HAHAHAHAHAHHAHA">A. Front Gate</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\panorama\index-B.html">B. Opera Stage</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\panorama\index-C.html">C. Courtyard near stage</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\panorama\index-D.html">D. Courtyard near main hall</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\panorama\index-E.html">E. Dragon King Temple</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\panorama\index-F.html">F. Bearing Children Cloister</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\panorama\index-G.html">G. Main Hall South</a></td>
+        </tr>
+        <tr>
+          <td><dt><a href = "..\panorama\index-H.html">H. Main Hall North</a></dt>
+          <dd><a href = "..\Documents\text03.html">"The Tangxi City God" by Li Zhongxian</a></dd>
+          <dd><a href = "..\Documents\text13.html">"Inscription for the Stele Commemorating the Virtuous Administration of Lord Song" by Minister of Justice Lu Yu (1409-1489) / 刑部尚書陸瑜〈宋侯德政碑記〉</a></dd>
+          
+          </td>
+
+        </tr>
+        <tr>
+          <td><a href = "..\panorama\index-I.html">I. Rear Hall</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\Documents\text04.html">J. Pillar Inscriptions-- First Section</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\Documents\text04.html">K. Pillar Inscriptions--Second Section</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\Documents\text14.html">"Entry on the City God Temple" in Tangxi county gazetteer, 1604 edition</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\Documents\text05.html">"Entry on the City God Temple" in Tangxi county gazetteer, 1604 edition</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\Documents\text10.html">"Record of the Rebuilding of the Tangxi County City God Temple" by Yang Heshu from 1828-32 / 楊鶴書〈重修湯溪縣城隍廟記〉</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\Documents\text11.html">"Record of the Rebuilding of the Tangxi County City God Temple" by Zhang Exian from 1925-27 / 章萼銜〈重修城隍廟記〉</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\Documents\text12.html">Interview with Li Zhongxian at the Tangxi Chenghuang Miao</a></td>
+        </tr>
+      </table>
+    </div>
+    
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+To add a new scene:
+1. organize the images within corresponding folder
+	(Tangxi/panorama/img/THENEWSCENE/)
+2. run ls command in this directory to get a list of jpg
+3. copy and edit the list generated with ls command into gallery.txt
+4. run reactfile.py with
+	formatGallery(edittxt(readgallery('gallery.txt')),'SCENENAME')
+5. copy the result into react-gallery.js and panorama/index.js
+
