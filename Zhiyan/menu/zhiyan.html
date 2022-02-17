@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>China Locals </title>
+  </head>
+
+<body>
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+
+  </div>
+
+  <script>
+
+  $(function(){
+    $("#nav-placeholder").load("navbar.html");
+    
+  });
+  </script>
+<!--end of Navigation bar-->
+  <div class="container">
+    <!-- basemap container  -->
+    <div class="basemap-container">
+      <h1>Zhiyan Village</h1>
+      <h3>Menu</h3>
+      <svg id="Layer_9" data-name="Layer 9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 335 738" height="95%" width="95%">
+        <defs>
+            <style>.cls-1{fill:#023859;stroke:#023859;}.cls-2{font-size:9.99px;fill:#fff;font-family:MyriadPro-Regular, Myriad Pro;}</style>
+        </defs>
+        
+        
+
+<!-- locations of the dots
+        <ellipse class="cls-1" id="guodong-O" cx="22.58" cy="725.54" rx="9.98" ry="10.06"/>
+        <text id="A" class="cls-2" transform="translate(19.37 728.52) scale(0.99 1)" >O</text></a>
+        <ellipse class="cls-1" id="guodong-N" cx="206.56" cy="31.67" rx="9.98" ry="10.06"/>
+        <text id="A-2" data-name="A" class="cls-2" transform="translate(203.35 34.65) scale(0.99 1)" >N</text></a>
+        <ellipse class="cls-1" id="guodong-M" cx="159.77" cy="725.54" rx="9.98" ry="10.06"onclick="toM()"/>
+        <text id="A-3" data-name="A" class="cls-2" transform="translate(156.56 728.52) scale(0.99 1)" onclick="toM()">M</text>
+        <ellipse class="cls-1" id="guodong-L" cx="189.63" cy="725.54" rx="9.98" ry="10.06" onclick="toL()"/>
+        <text id="A-4" data-name="A" class="cls-2" transform="translate(186.42 728.52) scale(0.99 1)" onclick="toL()">L</text>
+        <ellipse class="cls-1" id="guodong-K" cx="217.38" cy="725.54" rx="9.98" ry="10.06" onclick="toK1()"/>
+        <text id="A-5" data-name="A" class="cls-2" transform="translate(214.17 728.52) scale(0.99 1)" onclick="toK1()">K</text>
+        <ellipse class="cls-1" id="guodong-J" cx="231.61" cy="662.64" rx="9.98" ry="10.06" onclick="toJ1()"/>
+        <text id="A-6" data-name="A" class="cls-2" transform="translate(228.4 665.62) scale(0.99 1)" onclick="toJ1()">J</text>
+        <ellipse class="cls-1" id="guodong-I" cx="44.46" cy="369" rx="9.98" ry="10.06" onclick="toI()"/>
+        <text id="A-7" data-name="A" class="cls-2" transform="translate(43.25 371.98) scale(0.99 1)" onclick="toI()">I</text>
+        <ellipse class="cls-1" id="guodong-H" cx="216.54" cy="268.4" rx="9.98" ry="10.06" onclick="toH1()"/>
+        <text id="A-8" data-name="A" class="cls-2" transform="translate(213.33 271.38) scale(0.99 1)" onclick="toH1()">H</text>
+        <ellipse class="cls-1" id="guodong-G" cx="198.65" cy="276.52" rx="9.98" ry="10.06" onclick="toG()"/>
+        <text id="A-9" data-name="A" class="cls-2" transform="translate(195.44 279.5) scale(0.99 1)" onclick="toG()">G</text>
+        <ellipse class="cls-1" id="guodong-F" cx="163.56" cy="250.69" rx="9.98" ry="10.06" onclick="toF1()"/>
+        <text id="A-10" data-name="A" class="cls-2" transform="translate(160.35 253.67) scale(0.99 1)" onclick="toF1()">F</text>
+        <ellipse class="cls-1" id="guodong-E" cx="215.72" cy="140.87" rx="9.98" ry="10.06" onclick="toE()"/>
+        <text id="A-11" data-name="A" class="cls-2" transform="translate(212.51 143.85) scale(0.99 1)" onclick="toE()">E</text>
+        <ellipse class="cls-1" id="guodong-D" cx="197.71" cy="95.62" rx="9.98" ry="10.06" onclick="toD1()"/>
+        <text id="A-12" data-name="A" class="cls-2" transform="translate(194.49 98.6) scale(0.99 1)" onclick="toD1()">D</text>
+        <ellipse class="cls-1" id="guodong-C" cx="170.71" cy="92.89" rx="9.98" ry="10.06" onclick="toC()"/>
+        <text id="A-13" data-name="A" class="cls-2" transform="translate(167.5 95.87) scale(0.99 1)" onclick="toC()">C</text>
+        <ellipse class="cls-1" id="guodong-B" cx="117.68" cy="89.91" rx="9.98" ry="10.06" onclick="toB()"/>
+        <text id="A-14" data-name="A" class="cls-2" transform="translate(114.47 92.89) scale(0.99 1)" onclick="toB()">B</text>
+        <ellipse class="cls-1" id="guodong-A" cx="95.49" cy="60.43" rx="9.98" ry="10.06" onclick="toA()" />
+        <text id="A-15" data-name="A" class="cls-2" transform="translate(92.28 63.41) scale(0.99 1)" onclick="toA()" >A</text>
+      </svg>
+-->
+    </div>
+    <!-- menu container  -->
+    <div id="menu-container">
+      <table style="width:100%" id = "table">
+        
+<!-- informations about the dots
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-A.html" title = "West Gate was built to be the only entrance to Guodong Village as a defense measure. It is set in a five meter high stone wall, built in the Ming period, which runs between the West and Dragon Mountains, closing the village to the outside. The.concrete road was not built until the late 1990s.">A. West Gate, Ximen 西門</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-B.html" title = "	The Water Mouth, directly inside West Gate, serves as a village reservoir, a source of water power, and as a defense line. The resevoir, combined with the adjoining mountains, makes the entrance to the village into an easily defended narrow defile. In addition, the accumulation of water at the front of the village represents the desire that all good fortune should stay in the village and not flow out.">B. Water Mouth (reservoir), Shuikou 水口</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-C.html">C. Returning Dragon Bridge, Huilong Qiao 迴龍橋</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-D.html">D. Hailin Court, Hailin Ge 海麟閣</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-E.html" title = "The path of inlaid pebbles goes along Dragon Brook.">E. Path between Sea and Unicorn Chamber and Guodong Primary School</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-F.html">F.	He Lineage Ancestral Hall, He Shi Zong Ci 何氏宗祠</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-G.html">G. Between He Lineage Ancestral Hall and Xinwu Li</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-H.html" title = "	Xinwu Li, or the new house, is formally known as Fanyu Hall. This two-story family residence was built in the late Ming period and is seen as one of the most elegant houses in the village. Households have their own rooms off the courtyard and the small offering hall where common ceremonies are held.">H.	Xinwu Li</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-I.html" title = "This arch, honoring the chastity and filial piety of a widow, was one of five such arches in the village. It is the only one that survived the Cultural Revolution. It was built in 1804 to honor the widow Jin, wife of He Xuqi. Her son, He Songtao, was a scholar who helped compile the Wuyi County Gazetteer. In 1809, Songtao's son, having reached the rank of Company Commander in the military, arranged for further posthumous honors for his grandmother as well as for his father Songtao, his mother and his stepmother. Widow Jin was the second woman, after her husband's grandmother, to be honored with an arch in the family. There was a Shrine of the Two Chaste Widows here until, in the early twentieth century, the descendants became too poor to maintain it.">I.	Arch of Chastity and Filial Piety, Jie Xiao Fang 節孝坊</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-J.html">J. Temple of God of Literature, Wenchang Ge 文昌閣</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-K.html" title = "	Now remodeled as the Precious Spring Hotel, this building formerly housed the ancestral hall of the Hes of the Upper Village. Once this ancesral hall was built the Upper Hes stopped joining in the sacrfices and the ancestral hall in the Lower Village">K. Precious Spring Inn, Baoquan Shanzhuang 寶泉山莊</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-L.html" title = "The community hall in Upper Guodong, built after 1949. Broom makers are drying their brooms in the square between the hall and the resevoir.">L. Upper Guodong, Community Hall Square</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\index-M.html" title = "Looking out over Upper Guodong from the roof of a new red-brick building. The village largely consists of older buildings. The farmers` fields extend up the valley.">M.	Overview of Upper Guodong</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\Gallery-N.html" title = "The Precious Spring (Baoquan) Peak area is a complex at the top of Precious Spring Mountain at Guodong. There are the three buildings of the Precious Spring Buddhist Meditation Monastery, a spring, and a pavillion. It is said to have been recognized as a famous sight of Wuyi during the Ming period. In the 1930s it was held by Red Army guerillas">N. Precious Spring Peak Area, Baoquan Yan 寶泉岩</a></td>
+        </tr>
+        <tr>
+          <td><a href = "..\..\Guodong\panoramaGuoD\Gallery-O.html">O. Lake Dawan, Dawan Hu 大灣湖</a></td>
+        </tr>
+-->
+      </table>
+    </div>
+
+    </div>
+</body>
+</html>
