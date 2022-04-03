@@ -17,7 +17,7 @@ var v=pannellum.viewer('panorama', {
         "A":{
             "title":"A. Half Moon Reservoir, Banyue Tang",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/A%20panorama.jpeg",
+            "panorama": "../../panorama-pictures/A%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
