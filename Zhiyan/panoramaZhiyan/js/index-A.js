@@ -42,7 +42,7 @@ var v=pannellum.viewer('panorama', {
                     "pitch": -6.224028266500834,
                     "yaw": 85.91131837122502,
                     "type": "scene",
-                    "text": "B. Water Mouth (reservoir), Shuikou",
+                    "text": "B. Five Manifestations Cult Temple, Wuxian Miao",
                     "sceneId": "B",
                     "clickHandlerFunc" : toB,
                 }
@@ -78,7 +78,7 @@ var v=pannellum.viewer('panorama', {
                 "pitch": -4.845269962047471, 
                 "yaw": -52.80660848248078,
                 "type": "scene",
-                "text":"C. Returning Dragon Bridge, Huilong Qiao",
+                "text":"C. Lord Yang Temple, Yanggong Miao",
                 "sceneId": "C",
                 "clickHandlerFunc" : toC,
             },
@@ -86,7 +86,7 @@ var v=pannellum.viewer('panorama', {
                 "pitch": -14.233784317065176, 
                 "yaw":  126.65324634098477,
                 "type": "scene",
-                "text": "A. West Gate, Ximen",
+                "text": "A. Half Moon Reservoir, Banyue Tang",
                 "sceneId": "A",
                 "clickHandlerFunc" : toA,
             }
@@ -114,7 +114,7 @@ var v=pannellum.viewer('panorama', {
                 "pitch":  -24.90504120976177, 
                 "yaw": 140.9004422127586,
                 "type": "scene",
-                "text": "D1 Hailin Court--exterior",
+                "text": "D. The Hall of Completing Will, Chengzhi Tang",
                 "sceneId": "D1",
                 "clickHandlerFunc" : toD1,
             },
@@ -122,12 +122,15 @@ var v=pannellum.viewer('panorama', {
                 "pitch":-22.29490993983829, 
                 "yaw": -45.40962870380243,
                 "type": "scene",
-                "text": "B. Water Mouth (reservoir), Shuikou",
+                "text": "B. Five Manifestations Cult Temple, Wuxian Miao",
                 "sceneId": "B",
                 "clickHandlerFunc" : toB,
             }
             ]
         },
+
+
+        //need more works
         "D1":{
             "title":"D. The Hall of Completing Will, ChengZhi Tang",
             "type": "equirectangular",
@@ -588,7 +591,7 @@ function expandImg(hotspot,txt){
 function toA(){
     var i;
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="A. West Gate, Ximen";
+    currentSceneTxt.innerText="A. Half Moon Reservoir, Banyue Tang";
     var myCircles = document.getElementsByClassName('cls-1');
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
@@ -603,7 +606,7 @@ function toA(){
 
 function toB(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="B. Water Mouth (reservoir), Shuikou";
+    currentSceneTxt.innerText="B. Five Manifestations Cult Temple, Wuxian Miao";
     var myCircles = document.getElementsByClassName('cls-1');
     var i;
     for(i=0;i<myCircles.length;i++){
@@ -620,7 +623,7 @@ function toB(){
 
 function toC(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="C. Returning Dragon Bridge, Huilong Qiao";
+    currentSceneTxt.innerText="C. Lord Yang Temple, Yanggong Miao";
     var myCircles = document.getElementsByClassName('cls-1');
     var i;
     for(i=0;i<myCircles.length;i++){
@@ -637,7 +640,7 @@ function toC(){
 
 function toD1(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="D1. Hailin Court--exterior";
+    currentSceneTxt.innerText="D1. The Hall of Completing Will, Chengzhi Tang";
     var myCircles = document.getElementsByClassName('cls-1');
     var i;
     for(i=0;i<myCircles.length;i++){
@@ -651,7 +654,7 @@ function toD1(){
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
-
+/*
 function toD2(){
     var currentSceneTxt = document.getElementById('currentScene');
     currentSceneTxt.innerText="D2. Hailin Court -- Shrine of Lord Guan, Guan Sheng Ci";
@@ -685,10 +688,10 @@ function toD3(){
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
-
+*/
 function toE(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="E. Path between Sea and Unicorn Chamber and Guodong Primary School";
+    currentSceneTxt.innerText="E. The Hall of Continuing Virtue, Yande Tang";
     var myCircles = document.getElementsByClassName('cls-1');
     var i;
     for(i=0;i<myCircles.length;i++){
@@ -702,77 +705,10 @@ function toE(){
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
-function toF1(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="F1. He Lineage Ancestral Hall--exterior";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-F');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("F1");
-    pageScene="F1";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toF2(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="F2. He Lineage Ancestral Hall, Opera Stage";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-F');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("F2");
-    pageScene="F2";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toF3(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="F3 He Lineage Ancestral Hall, Main Hall";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-F');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("F3");
-    pageScene="F3";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toF4(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="F4. He Lineage Ancestral Shrine, Back Hall";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-F');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("F4");
-    pageScene="F4";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
 
 function toG(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="G. Between He Lineage Ancestral Hall and Xinwu Li";
+    currentSceneTxt.innerText="G. The Hall of Succeeding Glory, Chengxian Tang";
     var myCircles = document.getElementsByClassName('cls-1');
     var i;
     for(i=0;i<myCircles.length;i++){
@@ -789,7 +725,7 @@ function toG(){
 
 function toH1(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="H1. Xinwu Li, Front Courtyard";
+    currentSceneTxt.innerText="H1. Entrance to the Hall of Promoting Goodness, Jimei Tang";
     var myCircles = document.getElementsByClassName('cls-1');
     var i;
     for(i=0;i<myCircles.length;i++){
@@ -804,6 +740,7 @@ function toH1(){
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
+/*
 function toH2(){
     var currentSceneTxt = document.getElementById('currentScene');
     currentSceneTxt.innerText="H2. Xinwu Li, Back Courtyard";
@@ -820,10 +757,10 @@ function toH2(){
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
-
+*/
 function toI(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="I. Arch of Chastity and Filial Piety, Jie Xiao Fang";
+    currentSceneTxt.innerText="I. The Hall of Filial Devotion, Xiaosi Tang";
     var myCircles = document.getElementsByClassName('cls-1');
     var i;
     for(i=0;i<myCircles.length;i++){
@@ -837,145 +774,3 @@ function toI(){
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
-
-function toJ1(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="J1. Temple of God of Literature, First Floor";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-J');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("J1");
-    pageScene="J1";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toJ2(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="J2. Temple of the God of Literature, Second Floor";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-J');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("J2");
-    pageScene="J2";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toK1(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="K1. Precious Spring Inn, Exterior";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-K');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("K1");
-    pageScene="K1";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toK2(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="K2. Precious Spring Inn, Front Hall";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-K');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("K2");
-    pageScene="K2";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toK3(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="K3. Precious Spring Inn, Main Hall Front";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-K');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("K3");
-    pageScene="K3";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toK4(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="K4. Precious Spring Inn, Main Hall Back";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-K');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("K4");
-    pageScene="K4";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toL(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="L. Upper Guodong, Community Hall Square";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-L');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("L");
-    pageScene="L";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-function toM(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="M. Overview of Upper Guodong";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-M');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("M");
-    pageScene="M";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-
-
-
-
-
-
