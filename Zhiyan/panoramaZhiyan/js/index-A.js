@@ -15,9 +15,9 @@ var v=pannellum.viewer('panorama', {
 
     "scenes":{
         "A":{
-            "title":"A. West Gate, Ximen",
+            "title":"A. Half Moon Reservoir, Banyue Tang",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/A.jpg",
+            "panorama": "https://github.com/ChinaLocalHistory/ChinaLocalHistory/blob/main/Zhiyan/panoramaZhiyan/panorama-pictures/A%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -50,7 +50,7 @@ var v=pannellum.viewer('panorama', {
         },
 
         "B":{
-            "title":"B. Water Mouth (reservoir), Shuikou",
+            "title":"B. Five Manifestations Cult Temple, Wuxian Miao",
             "type": "equirectangular",
             "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/B.jpg",
             //angle range of horizontal view
@@ -93,7 +93,7 @@ var v=pannellum.viewer('panorama', {
             ]
         },
         "C":{
-            "title":"C. Returning Dragon Bridge, Huilong Qiao",
+            "title":"C. Lord Yang Temple, Yanggong Miao",
             "type": "equirectangular",
             "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/C.jpg",
             //angle range of horizontal view
@@ -129,7 +129,7 @@ var v=pannellum.viewer('panorama', {
             ]
         },
         "D1":{
-            "title":"D. Hailin Court, Hailin Ge",
+            "title":"D. The Hall of Completing Will, ChengZhi Tang",
             "type": "equirectangular",
             "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/D1.jpg",
             //angle range of horizontal view
