@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhiyan Village</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- pannellum css & javaScript -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+
+    <!-- css  -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- Load React. -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="js/react-gallery.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+
+<body>
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+
+  </div>
+
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("index.html");
+  
+  });
+  </script>
+
+
+    <!-- overlay for expanded img -->
+    <div id="overlay" onclick="off()" style="display:none">
+      <img id="expandedImg">
+  </div>
+
+<div class="container">
+  <div class="img-overlay-wrap">
+    <!-- basemap container  -->
+    <div class="basemap-container">
+      <h2>Zhiyan Village</h2>
+      <h3 id="currentScene">E. The Hall of Continuing Virtue, Yande Tang 衍德堂</h3>
+      <img src="usemap.jpg" style="width:335; height:738;">
+      <svg id="Layer_9" data-name="Layer 9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 335 738" height="95%" width="95%">
+        <defs>
+            <style>.cls-1{fill:#023859;stroke:#023859;}.cls-2{font-size:9.99px;fill:#fff;font-family:MyriadPro-Regular, Myriad Pro;}</style>
+        </defs>
+        
+        <!-- A-->
+        <ellipse class="cls-1" id="zhiyan-A" cx="49.58" cy="584.54" rx="9.98" ry="10.06"/>
+        <text id="A" class="cls-2" transform="translate(46.58 587.22) scale(0.99 1)" >A</text>
+
+        <!-- B-->
+        <ellipse class="cls-1" id="zhiyan-B" cx="83.5" cy="517.54" rx="9.98" ry="10.06"onclick="toM()"/>
+        <text id="A-3" data-name="A" class="cls-2" transform="translate(81.06 520.52) scale(0.99 1)" onclick="toM()">B</text>
+        
+        <!-- C-->  
+        <ellipse class="cls-1" id="zhiyan-C" cx="110.73" cy="466.54" rx="9.98" ry="10.06" onclick="toL()"/>
+        <text id="A-4" data-name="A" class="cls-2" transform="translate(108.02 470.52) scale(0.99 1)" onclick="toL()">C</text>
+        
+        <!-- D-->  
+        <ellipse class="cls-1" id="zhiyan-D" cx="116.28" cy="360.04" rx="9.98" ry="10.06" onclick="toK1()"/>
+        <text id="A-5" data-name="A" class="cls-2" transform="translate(113.37 363.52) scale(0.99 1)" onclick="toK1()">D</text>
+        
+        <!-- E-->
+        <ellipse class="cls-1" id="zhiyan-E" cx="214.50" cy="300.8" rx="9.98" ry="10.06" onclick="toH1()"/>
+        <text id="A-8" data-name="A" class="cls-2" transform="translate(211.50 304) scale(0.99 1)" onclick="toH1()">E</text>
+        
+        <!-- G-->
+        <ellipse class="cls-1" id="zhiyan-G" cx="259.61" cy="576.64" rx="9.98" ry="10.06" onclick="toJ1()"/>
+        <text id="A-6" data-name="A" class="cls-2" transform="translate(256.4 580.62) scale(0.99 1)" onclick="toJ1()">G</text>
+        
+        <!-- H-->
+        <ellipse class="cls-1" id="zhiyan-H" cx="-6" cy="179" rx="9.98" ry="10.06" onclick="toI()"/>
+        <text id="A-7" data-name="A" class="cls-2" transform="translate(-9 181.98) scale(0.99 1)" onclick="toI()">H</text>
+        
+        <!-- I-->     
+        <ellipse class="cls-1" id="zhiyan-I" cx="143.56" cy="356.67" rx="9.98" ry="10.06"/>
+        <text id="A-2" data-name="A" class="cls-2" transform="translate(142.56 359.67) scale(0.99 1)" >I</text>
+    </svg>
+  </div>
+
+
+
+
+    <!-- panorama container  -->
+    <div id="pano-container">
+        <div id="panorama"></div>
+    </div>
+
+  </div>
+
+    <div id="react-gallery"></div>
+
+
+<script type="text/babel" src="js/index-B.js"></script>
+
+
+
+
+</body>
+</html>
