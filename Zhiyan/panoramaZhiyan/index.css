@@ -65,7 +65,7 @@ h4{
 }
 
 .img-overlay-wrap svg {
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
 }
