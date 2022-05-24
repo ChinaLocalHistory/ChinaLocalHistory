@@ -16,38 +16,14 @@
 
   /*container for basemap*/
   .container{
-    position: absolute;
-    /*overflow: hidden;*/
+    display: flex;
+    overflow: hidden;
   }
-  .container1{
-    padding-left: 250px;
-  }
-
   .h1{
     display: inline-block;
 
     text-align: center;
   }
-
-  .img-overlay-wrap {
-    position: relative;
-    display: inline-block; /* <= shrinks container to image size */
-    transition: transform 150ms ease-in-out;
-  }
-
-  .img-overlay-wrap img { /* <= optional, for responsiveness */
-     display: block; 
-     max-width: 100%;
-     height: auto;
-  }
-
-  .img-overlay-wrap svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-
   /*basemap*/
   .basemap-container {
     padding:1.5vw 1vw;
@@ -72,7 +48,6 @@
   
 table {
   border-spacing: 0.5vw;
-  
 }
 th, td {
   padding: 0.5vw;
