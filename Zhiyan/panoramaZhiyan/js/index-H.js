@@ -422,10 +422,10 @@ var v=pannellum.viewer('panorama', {
             }
             ]
         },
-        "H1":{
+        "H":{
             "title":"H. Entrance to the Hall of Promoting Goodness, Jimei Tang",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/H1.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/A%20panorama.jpg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -723,9 +723,9 @@ function toG(){
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-function toH1(){
+function toH(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="H1. Entrance to the Hall of Promoting Goodness, Jimei Tang";
+    currentSceneTxt.innerText="H. Entrance to the Hall of Promoting Goodness, Jimei Tang";
     var myCircles = document.getElementsByClassName('cls-1');
     var i;
     for(i=0;i<myCircles.length;i++){
@@ -733,8 +733,8 @@ function toH1(){
     }
     var myCircle = document.getElementById('guodong-H');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("H1");
-    pageScene="H1";
+    v.loadScene("H");
+    pageScene="H";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
