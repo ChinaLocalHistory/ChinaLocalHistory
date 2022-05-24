@@ -40,15 +40,22 @@ h4{
 /*container for basemap & panorama*/
 .container{
   display: flex;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 /*basemap*/
 .basemap-container {
-  padding:20px;
+  padding:1.5vw 1vw;
   flex: 15%;
   text-align: center;
   max-height: 100%;
+  max-width: 100%;
+  display: inline-table;
+
+  /*padding:20px;
+  flex: 15%;
+  text-align: center;
+  max-height: 100%; */
 }
 
 .img-overlay-wrap {
