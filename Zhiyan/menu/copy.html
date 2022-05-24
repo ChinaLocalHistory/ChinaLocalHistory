@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>China Locals </title>
+  </head>
+
+<body>
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+
+  </div>
+
+  <script>
+
+  $(function(){
+    $("#nav-placeholder").load("navbar.html");
+    
+  });
+  </script>
+<!--end of Navigation bar-->
+  <div class="container">
+
+
+
+
+
+    <div class="img-overlay-wrap">
+      <!-- basemap container  -->
+      <div class="basemap-container">
+        
+        <h1>Zhiyan Village</h1>
+        <h3>Menu</h3>
+          <img src="usemap.jpg" style="width:335; height:738;">
+          <defs>
+              <style>.cls-1{fill:#023859;stroke:#023859;}.cls-2{font-size:9.99px;fill:#fff;font-family:MyriadPro-Regular, Myriad Pro;}</style>
+          </defs>
+  <!-- svg for the dots -->
+          <svg id="Layer_9" data-name="Layer 9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 335 738" height="95%" width="95%">
+
+  <!-- locations of the dots -->
+
+          <!-- A-->
+          <ellipse class="cls-1" id="zhiyan-A" cx="54.58" cy="595.54" rx="9.98" ry="10.06"/>
+          <text id="A" class="cls-2" transform="translate(51.58 598.52) scale(0.99 1)" >A</text>
+          
+          <!-- B-->
+          <ellipse class="cls-1" id="zhiyan-B" cx="87.5" cy="530.54" rx="9.98" ry="10.06"onclick="toM()"/>
+          <text id="A-3" data-name="A" class="cls-2" transform="translate(84.56 532.52) scale(0.99 1)" onclick="toM()">B</text>
+          
+          <!-- C-->  
+          <ellipse class="cls-1" id="zhiyan-C" cx="113.23" cy="482.54" rx="9.98" ry="10.06" onclick="toL()"/>
+          <text id="A-4" data-name="A" class="cls-2" transform="translate(110.42 485.52) scale(0.99 1)" onclick="toL()">C</text>
+          
+          <!-- D-->  
+          <ellipse class="cls-1" id="zhiyan-D" cx="118.38" cy="380.54" rx="9.98" ry="10.06" onclick="toK1()"/>
+          <text id="A-5" data-name="A" class="cls-2" transform="translate(115.17 383.52) scale(0.99 1)" onclick="toK1()">D</text>
+          
+          <!-- E-->
+          <ellipse class="cls-1" id="zhiyan-E" cx="211.00" cy="323" rx="9.98" ry="10.06" onclick="toH1()"/>
+          <text id="A-8" data-name="A" class="cls-2" transform="translate(208.00 326) scale(0.99 1)" onclick="toH1()">E</text>
+          
+          <!-- G-->
+          <ellipse class="cls-1" id="zhiyan-G" cx="255.61" cy="588.64" rx="9.98" ry="10.06" onclick="toJ1()"/>
+          <text id="A-6" data-name="A" class="cls-2" transform="translate(252.4 591.62) scale(0.99 1)" onclick="toJ1()">G</text>
+          
+          <!-- H-->
+          <ellipse class="cls-1" id="zhiyan-H" cx="0.46" cy="207" rx="9.98" ry="10.06" onclick="toI()"/>
+          <text id="A-7" data-name="A" class="cls-2" transform="translate(-3 209.98) scale(0.99 1)" onclick="toI()">H</text>
+          
+          <!-- I-->     
+          <ellipse class="cls-1" id="zhiyan-I" cx="143.56" cy="377.67" rx="9.98" ry="10.06"/>
+          <text id="A-2" data-name="A" class="cls-2" transform="translate(142.56 380.67) scale(0.99 1)" >I</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="container1" >
+      <!-- menu container  -->
+      <div id="menu-container">
+        <table style="width:100%" id = "table">
+   
+  <!-- informations about the dots  -->
+         <tr>
+            <td><a href = "..\..\Zhiyan\panoramaZhiyan\index-A.html">A. Half Moon Reservoir, Banyue Tang 半月塘</a></td>
+         </tr>
+
+          <tr>
+            <td><a href = "..\..\Zhiyan\panoramaZhiyan\index-B.html">B. Five Manifestations Cult Temple, Wuxian Miao 五顯廟</a></td>
+          </tr>
+
+          <tr>
+            <td><a href = "..\..\Zhiyan\panoramaZhiyan\index-C.html">C. Lord Yang Temple, Yanggong Miao 羊公廟</a></td>
+          </tr>
+
+          <tr>
+            <td><a href = "..\..\Zhiyan\panoramaZhiyan\index-D.html">D. The Hall of Completing Will, Chengzhi Tang 成志堂</a></td>
+          </tr>
+
+          <tr>
+            <td><dt><a href = "..\..\Zhiyan\panoramaZhiyan\index-E.html">E. The Hall of Continuing Virtue, Yande Tang 衍德堂</a></dt>
+            <dd><a href = "..\Zhiyan\doc">"The Receipt from the Hall of Filial Devotion</a></dd>
+            <dd><a href = "..\Zhiyan\doc\record_pertaining.html">"Record Pertaining to Donating Fields for Additional Sacrifices</a></dd>
+            <dd><a href = "..\Zhiyan\doc">"Contract for fileds from Mr. Hui 133rd</a></dd>
+            </td>
+
+          </tr>
+
+          <tr>
+            <td><a href = "..\..\Zhiyan\panoramaZhiyan\index-G.html">G. The Hall of Succeeding Glory, Chengxian Tang 承顯堂</a></td>
+          </tr>
+
+          <tr>
+            <td><a href = "..\..\Zhiyan\panoramaZhiyan\index-H.html">H. Entrance to the Hall of Promoting Goodness, Jimei Tang 濟美堂</a></td>
+          </tr>
+
+          <tr>
+            <td><a href = "..\..\Zhiyan\panoramaZhiyan\index-I.html">I. The Hall of Filial Devotion, Xiaosi Tang 孝思堂</a></td>
+          </tr>
+
+          
+
+        </table>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
