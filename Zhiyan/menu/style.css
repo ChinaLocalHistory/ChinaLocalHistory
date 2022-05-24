@@ -17,10 +17,10 @@
   /*container for basemap*/
   .container{
     position: absolute;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   .container1{
-    padding-left: 250px;
+    padding-left: 200px;
   }
 
   .h1{
