@@ -49,10 +49,10 @@ var v=pannellum.viewer('panorama', {
             ]
         },
 
-        "B":{
+        "B1":{
             "title":"B. Five Manifestations Cult Temple, Wuxian Miao",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/B.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/B.1%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -92,10 +92,89 @@ var v=pannellum.viewer('panorama', {
             }
             ]
         },
-        "C":{
+        "B2":{
+            "title":"B. Five Manifestations Cult Temple, Wuxian Miao",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/B.2%20panorama.jpeg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               
+            {
+            "pitch":  7.171152625819008, 
+            "yaw": -4.245616451134026, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'Overview%20of%20the%20Watermouth.JPG'}
+            },
+            {
+                "pitch": -4.845269962047471, 
+                "yaw": -52.80660848248078,
+                "type": "scene",
+                "text":"C. Lord Yang Temple, Yanggong Miao",
+                "sceneId": "C",
+                "clickHandlerFunc" : toC,
+            },
+            {
+                "pitch": -14.233784317065176, 
+                "yaw":  126.65324634098477,
+                "type": "scene",
+                "text": "A. Half Moon Reservoir, Banyue Tang",
+                "sceneId": "A",
+                "clickHandlerFunc" : toA,
+            }
+            ]
+        },
+        "C1":{
             "title":"C. Lord Yang Temple, Yanggong Miao",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/C.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/C.1%20panorama.jpeg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               
+            {
+                "pitch":  -24.90504120976177, 
+                "yaw": 140.9004422127586,
+                "type": "scene",
+                "text": "D. The Hall of Completing Will, Chengzhi Tang",
+                "sceneId": "D1",
+                "clickHandlerFunc" : toD1,
+            },
+            {
+                "pitch":-22.29490993983829, 
+                "yaw": -45.40962870380243,
+                "type": "scene",
+                "text": "B. Five Manifestations Cult Temple, Wuxian Miao",
+                "sceneId": "B",
+                "clickHandlerFunc" : toB,
+            }
+            ]
+        },
+        "C2":{
+            "title":"C. Lord Yang Temple, Yanggong Miao",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/C.2%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -129,12 +208,11 @@ var v=pannellum.viewer('panorama', {
             ]
         },
 
-
         //need more works
         "D1":{
             "title":"D. The Hall of Completing Will, ChengZhi Tang",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/D1.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/D.1%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -185,11 +263,11 @@ var v=pannellum.viewer('panorama', {
               
             ]
         },
-    /*
+    
         "D2":{
             "title":"D2. Hailin Court -- Shrine of Lord Guan, Guan Sheng Ci",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/D2.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/D.2%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -300,10 +378,11 @@ var v=pannellum.viewer('panorama', {
             ]
         },
 
-        "D3":{
-            "title":"D3. Hailin Court -- Chamber of Guanyin of the Southern Ocean Nanhai Guanyin Ge",
+       
+        "E1":{
+            "title":"E. The Hall of Continuing Virtue, Yande Tang",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/D3.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/E.1%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -318,34 +397,62 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                    "pitch": 1, 
-                    "yaw": 1, 
+                    "pitch": 9.067050007264166,
+                    "yaw": 53.024768243799144,
                     "type": "info",
                     "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002798.JPG'}
-                    },
-                    {
-                    "pitch":  5.151257690414573,
-                    "yaw": -98.2509217745344, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002799.JPG'}
-                    },   
+                    "clickHandlerArgs" : {"text":'Overview%20of%20the%20path%20.JPG'}
+                    },  
             {
-                "pitch": -21.391706106077184,
-                "yaw": 40.0319196510468,
+                "pitch": -2.028715927162636, 
+                "yaw":-158.85376649216724,
                 "type": "scene",
-                "text": "D2. Hailin Court -- Shrine of Lord Guan, Guan Sheng Ci",
-                "sceneId": "D2",
-                "clickHandlerFunc" : toD2,
+                "text": "D1. Hailin Court, Hailin Ge",
+                "sceneId": "D1",
+                "clickHandlerFunc" : toD1,
             },
             ]
         },
-*/
-        "E":{
+
+        "E2":{
             "title":"E. The Hall of Continuing Virtue, Yande Tang",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/E.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/E.2%20panorama.jpeg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+                {
+                    "pitch": 9.067050007264166,
+                    "yaw": 53.024768243799144,
+                    "type": "info",
+                    "clickHandlerFunc" : expandImg,
+                    "clickHandlerArgs" : {"text":'Overview%20of%20the%20path%20.JPG'}
+                    },  
+            {
+                "pitch": -2.028715927162636, 
+                "yaw":-158.85376649216724,
+                "type": "scene",
+                "text": "D1. Hailin Court, Hailin Ge",
+                "sceneId": "D1",
+                "clickHandlerFunc" : toD1,
+            },
+            ]
+        },
+
+        "E3":{
+            "title":"E. The Hall of Continuing Virtue, Yande Tang",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/E.3%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -377,7 +484,7 @@ var v=pannellum.viewer('panorama', {
             ]
         },
         
-
+        /*
         "G":{
             "title":"G. The Hall of Succeeding Glory, Chengxian Tang",
             "type": "equirectangular",
@@ -473,7 +580,7 @@ var v=pannellum.viewer('panorama', {
             }
             ]
         },
-        /*
+        
         "H2":{
             "title":"H. Xinwu Li",
             "type": "equirectangular",
@@ -501,7 +608,7 @@ var v=pannellum.viewer('panorama', {
             }
             ]
         },
-        */
+        
         "I":{
             "title":"I. The Hall of Filial Devotion, Xiaosi Tang",
             "type": "equirectangular",
@@ -544,7 +651,7 @@ var v=pannellum.viewer('panorama', {
                     },
             
             ]
-        },
+        },*/
        
 },
 }
