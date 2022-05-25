@@ -77,7 +77,7 @@ function GetMap() {
     infobox3.setMap(map);
     pin3.metadata = {
         title: 'Zhiyan Village 芝堰村',
-        description: ' <p>这里是芝堰村的简介</p><br><a href="#">Details</a>'
+        description: ' <p>这里是芝堰村的简介</p><br><a href="Zhiyan/menu/zhiyan.html">Details</a>'
     };
     Microsoft.Maps.Events.addHandler(pin3, 'click', pushpinClicked);
     
