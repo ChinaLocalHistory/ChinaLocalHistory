@@ -25,11 +25,11 @@ def formatGallery(txtList,nameOfScene):
     
     for txt in txtList:
         print(' <div className="gallery-column">')
-        print(' <img '+'id='+txt+' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/'
+        print(' <img '+'id='+txt+' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/'
           + nameOfScene + '/' + txt + '" alt=' +txt + 'onClick={this.on.bind(this)}></img></div>')
     print('\n')
     print('<div className="back-button">\n'+
-          '<p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/menu/index.html">&rarr;</a></b></p>'+
+          '<p><b><a href = "https://ChinaLocalHistory.github.io/TangxiCityGodTemple/menu/index.html">&rarr;</a></b></p>'+
           '</div>\n</div>')
     print('\n')
     for txt in txtList:
@@ -46,7 +46,7 @@ def galleryHtml(txtList,nameOfScene):
     for txt in txtList:
         print('<div class="mySlides">')
         print('<div class="numbertext">' + str(n) +' / 38</div>')
-        print('<img src="'+ 'https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/'
+        print('<img src="'+ 'https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/'
           + nameOfScene + '/' + txt + '" alt=' +txt + 'style="width:100%">'+
               '</div>')
         n+=1
@@ -57,7 +57,7 @@ def galleryHtml2(txtList,nameOfScene):
     x = 1
     for txt in txtList:
         print('<div class="column">')
-        print('<img class="demo cursor"'+' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/'
+        print('<img class="demo cursor"'+' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/'
           + nameOfScene + '/' + txt + '" style="width:100%" onclick="currentSlide(' + str(x) + ') ' + '" alt=' +txt +'></div>')
         x+=1
         print()
@@ -66,6 +66,6 @@ def galleryHtml2(txtList,nameOfScene):
 
 
         
-formatGallery(edittxt(readgallery('gallery.txt')),'N%20Precious%20Spring%20Peak%20Area%2C%20Baoquan%20Yan')
-galleryHtml(edittxt(readgallery('gallery.txt')),'N%20Precious%20Spring%20Peak%20Area%2C%20Baoquan%20Yan')
-galleryHtml2(edittxt(readgallery('gallery.txt')),'N%20Precious%20Spring%20Peak%20Area%2C%20Baoquan%20Yan')
+formatGallery(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')
+galleryHtml(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')
+galleryHtml2(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')

@@ -15,7 +15,7 @@ var v=pannellum.viewer('panorama', {
 
     "scenes":{
         "A":{
-            "title":"A. Half Moon Reservoir, Banyue Tang",
+            "title":"A Half Moon Reservoir, Banyue Tang",
             "type": "equirectangular",
             "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/A%20panorama.jpg",
             //angle range of horizontal view
@@ -774,3 +774,4 @@ function toI(){
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
+
