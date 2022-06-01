@@ -10,7 +10,7 @@ class ReactGallery extends React.Component {
  <div className="gallery-column">
   <img id='DSC00012.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSC00012.JPG" alt='DSC00012.JPG' onClick={this.on.bind(this)}></img></div>
   <div className="back-button">
-  <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p>
+  <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistoryZhiyan/panoramaZhiyan/sites-links.html">&rarr;</a></b></p>
   </div>
 </div>
   );
