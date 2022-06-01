@@ -8,7 +8,7 @@ class ReactGallery extends React.Component {
     //still images in the gallery
     <div className="gallery-row">
  <div className="gallery-column">
-  <img id='Overview%20of%20the%20West%20Gate.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/A%20West%20Gate%2C%20Ximen/Overview%20of%20the%20West%20Gate.JPG" alt='Overview%20of%20the%20West%20Gate.JPG' onClick={this.on.bind(this)}></img></div>
+  <img id='DSC00012.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSC00012.JPG" alt='DSC00012.JPG' onClick={this.on.bind(this)}></img></div>
   <div className="back-button">
   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p>
   </div>
