@@ -29,7 +29,7 @@ def formatGallery(txtList,nameOfScene):
           + nameOfScene + '/' + txt + '" alt=' +txt + 'onClick={this.on.bind(this)}></img></div>')
     print('\n')
     print('<div className="back-button">\n'+
-          '<p><b><a href = "https://ChinaLocalHistory.github.io/TangxiCityGodTemple/menu/index.html">&rarr;</a></b></p>'+
+          '<p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p>'+
           '</div>\n</div>')
     print('\n')
     for txt in txtList:
@@ -66,6 +66,6 @@ def galleryHtml2(txtList,nameOfScene):
 
 
         
-formatGallery(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')
-galleryHtml(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')
-galleryHtml2(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')
+formatGallery(edittxt(readgallery('gallery.txt')),'F%20The%20Hall%20of%20Abundant%20Splendor,%20Guangyu%20Tang-F.2')
+#galleryHtml(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')
+#galleryHtml2(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')
