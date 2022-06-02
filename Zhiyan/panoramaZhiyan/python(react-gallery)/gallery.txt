@@ -1,23 +1,2 @@
-A Half Moon Reservoir, Banyue Tang
-B The Hall of Continuing Virtue, Yande Tang-B.1 The Hall of Continuing Virtue, Yande Tang exterior
-B The Hall of Continuing Virtue, Yande Tang-B.2 The Hall of Continuing Virtue, Yande Tang
-C The Hall of Succeeding Glory, Chengxian Tang-C.1 front room
-C The Hall of Succeeding Glory, Chengxian Tang-C.2 back room
-D Entrance to the Hall of Promoting Goodness, Jimei Tang-D.1exterior
-D Entrance to the Hall of Promoting Goodness, Jimei Tang-D.2
-E The Hall of Filial Devotion, Xiaosi Tang-E.1 exterior
-E The Hall of Filial Devotion, Xiaosi Tang-E.2 front hall
-E The Hall of Filial Devotion, Xiaosi Tang-E.3 back hall
-F The Hall of Abundant Splendor, Guangyu Tang-F.1
-F The Hall of Abundant Splendor, Guangyu Tang-F.2
-G Five Manifestations Cult Temple, Wuxian Miao
-H Lord Yang Temple, Yanggong Miao
-I The Hall of Completing Will, Chengzhi Tang
-J Inside the village-J.1 On the Streets
-J Inside the village-J.2 Washing Clothes
-J Inside the village-J.3  Villagers
-J Inside the village-J.4 Doors
-J Inside the village-J.5 Altars
-J Inside the village-J.6 Residences
-J Inside the village-J.7 Countyard
-K Outside the village
+SANY0015.JPG
+SANY0016.JPG
