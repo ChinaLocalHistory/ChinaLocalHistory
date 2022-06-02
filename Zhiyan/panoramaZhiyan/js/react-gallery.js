@@ -24,32 +24,24 @@ class ReactGallery extends React.Component {
             <div className="gallery-column">
             <img id='DSCN1061.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN1061.JPG" alt='DSCN1061.JPG' onClick={this.on.bind(this)}></img></div>
           <div className="back-button">
-            <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistoryZhiyan/panoramaZhiyan/sites-links.html">&rarr;</a></b></p>
+            <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p>
           </div>
-          </div>);}
+          </div>
+          );
+        }
 
     if (pageScene== "B") {
         return(
           <div className="gallery-row">
 
  <div className="gallery-column">
- <img id='A%20grainery%20house%20besides%20the%20Watermouth.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/B%20Water%20Mouth%20(reservoir)%2C%20Shuikou/A%20grainery%20house%20besides%20the%20Watermouth.JPG" alt='A%20grainery%20house%20besides%20the%20Watermouth.JPG'onClick={this.on.bind(this)}></img></div>
+ <img id='P0002473.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.1%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang%20exterior/P0002473.JPG" alt='P0002473.JPG'onClick={this.on.bind(this)}></img></div>
  <div className="gallery-column">
- <img id='Overview%20of%20the%20Watermouth.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/B%20Water%20Mouth%20(reservoir)%2C%20Shuikou/Overview%20of%20the%20Watermouth.JPG" alt='Overview%20of%20the%20Watermouth.JPG'onClick={this.on.bind(this)}></img></div>
- <div className="gallery-column">
- <img id='Rice%20Grinder%20in%20the%20grainery%20house%202.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/B%20Water%20Mouth%20(reservoir)%2C%20Shuikou/Rice%20Grinder%20in%20the%20grainery%20house%202.JPG" alt='Rice%20Grinder%20in%20the%20grainery%20house%202.JPG'onClick={this.on.bind(this)}></img></div>
- <div className="gallery-column">
- <img id='Rice%20Grinder%20in%20the%20grainery%20house%203.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/B%20Water%20Mouth%20(reservoir)%2C%20Shuikou/Rice%20Grinder%20in%20the%20grainery%20house%203.JPG" alt='Rice%20Grinder%20in%20the%20grainery%20house%203.JPG'onClick={this.on.bind(this)}></img></div>
- <div className="gallery-column">
- <img id='Rice%20Grinder%20in%20the%20grainery%20house.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/B%20Water%20Mouth%20(reservoir)%2C%20Shuikou/Rice%20Grinder%20in%20the%20grainery%20house.JPG" alt='Rice%20Grinder%20in%20the%20grainery%20house.JPG'onClick={this.on.bind(this)}></img></div>
- <div className="gallery-column">
- <img id='View%20of%20the%20bridge%20from%20the%20Watermouth%20.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/B%20Water%20Mouth%20(reservoir)%2C%20Shuikou/View%20of%20the%20bridge%20from%20the%20Watermouth%20.JPG" alt='View%20of%20the%20bridge%20from%20the%20Watermouth%20.JPG'onClick={this.on.bind(this)}></img></div>
- <div className="gallery-column">
- <img id='Waterway%20into%20grainery%20from%20Watermouth.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/B%20Water%20Mouth%20(reservoir)%2C%20Shuikou/Waterway%20into%20grainery%20from%20Watermouth.JPG" alt='Waterway%20into%20grainery%20from%20Watermouth.JPG'onClick={this.on.bind(this)}></img></div>
-
+ <img id='P0002474.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.1%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang%20exterior/P0002474.JPG" alt='P0002474.JPG'onClick={this.on.bind(this)}></img></div>
+ 
 
 <div className="back-button">
-<p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+<p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p></div>
 </div> 
 );
     }
