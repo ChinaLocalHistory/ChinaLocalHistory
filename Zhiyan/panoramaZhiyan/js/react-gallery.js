@@ -24,27 +24,68 @@ class ReactGallery extends React.Component {
             <div className="gallery-column">
             <img id='DSCN1061.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN1061.JPG" alt='DSCN1061.JPG' onClick={this.on.bind(this)}></img></div>
           <div className="back-button">
-            <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p>
+            <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html"> &rarr; </a></b></p>
           </div>
           </div>
           );
         }
-
-    if (pageScene== "B") {
+/
+    if (pageScene== "B1") {
         return(
           <div className="gallery-row">
+           <div className="gallery-column">
+           <img id='P0002473.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.1%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang%20exterior/P0002473.JPG" alt='P0002473.JPG'onClick={this.on.bind(this)}></img></div>
+           <div className="gallery-column">
+           <img id='P0002474.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.1%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang%20exterior/P0002474.JPG" alt='P0002474.JPG'onClick={this.on.bind(this)}></img></div>
 
- <div className="gallery-column">
- <img id='P0002473.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.1%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang%20exterior/P0002473.JPG" alt='P0002473.JPG'onClick={this.on.bind(this)}></img></div>
- <div className="gallery-column">
- <img id='P0002474.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.1%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang%20exterior/P0002474.JPG" alt='P0002474.JPG'onClick={this.on.bind(this)}></img></div>
- 
-
-<div className="back-button">
-<p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p></div>
-</div> 
-);
+          <div className="back-button">
+          <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p></div>
+          </div> 
+          );
     }
+/
+    if (pageScene== "B2") {
+        return(
+          <div className="gallery-row">
+           <div className="gallery-column">
+           <img id='1-YDT%20overview%20of%20temple%20hall.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/1-YDT%20overview%20of%20temple%20hall.JPG" alt='1-YDT%20overview%20of%20temple%20hall.JPG'onClick={this.on.bind(this)}></img></div>
+           
+           <div className="gallery-column">
+           <img id='2-YDT%20west%20pillar%20in%20entrance%20hall.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/2-YDT%20west%20pillar%20in%20entrance%20hall.JPG" alt='2-YDT%20west%20pillar%20in%20entrance%20hall.JPG'onClick={this.on.bind(this)}></img></div>
+          
+           <div className="gallery-column">
+           <img id='3-YDT_renovated_beam_structure_in_entrance.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/3-YDT_renovated_beam_structure_in_entrance.JPG" alt='3-YDT_renovated_beam_structure_in_entrance.JPG'onClick={this.on.bind(this)}></img></div>
+           
+           <div className="gallery-column">
+           <img id='4-YDT_main_hall_sign.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/4-YDT_main_hall_sign.JPG" alt='4-YDT_main_hall_sign.JPG'onClick={this.on.bind(this)}></img></div>
+           
+           <div className="gallery-column">
+           <img id='5-YDT_roof_and_supporting_beam_for_main_hall.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/5-YDT_roof_and_supporting_beam_for_main_hall.JPG" alt='5-YDT_roof_and_supporting_beam_for_main_hall.JPG'onClick={this.on.bind(this)}></img></div>
+           
+           <div className="gallery-column">
+           <img id='6-YDT_waterway_between_entrance_hall_and_main_hall.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/6-YDT_waterway_between_entrance_hall_and_main_hall.JPG" alt='6-YDT_waterway_between_entrance_hall_and_main_hall.JPG'onClick={this.on.bind(this)}></img></div>
+
+           <div className="gallery-column">
+           <img id='7-YDT_east_wall_decoration_of_main_hall.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/7-YDT_east_wall_decoration_of_main_hall.JPG" alt='7-YDT_east_wall_decoration_of_main_hall.JPG'onClick={this.on.bind(this)}></img></div>
+           
+           <div className="gallery-column">
+           <img id='8-YDT_ancestor_tablet_chest.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/8-YDT_ancestor_tablet_chest.JPG.JPG" alt='8-YDT_ancestor_tablet_chest.JPG.JPG'onClick={this.on.bind(this)}></img></div>
+
+           <div className="gallery-column">
+           <img id='9-YDT_ancestor_tablets_inside_chest.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/9-YDT_ancestor_tablets_inside_chest.JPG" alt='9-YDT_ancestor_tablets_inside_chest.JPG'onClick={this.on.bind(this)}></img></div>
+           
+           <div className="gallery-column">
+           <img id='10-YDT_northwest_side_pillar_near_ancestor_tablet_chest.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/10-YDT_northwest_side_pillar_near_ancestor_tablet_chest.JPG" alt='10-YDT_northwest_side_pillar_near_ancestor_tablet_chest.JPG'onClick={this.on.bind(this)}></img></div>
+
+           <div className="gallery-column">
+           <img id='11-YDT_east_pillar_in_main_hall.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/11-YDT_east_pillar_in_main_hall.JPG" alt='11-YDT_east_pillar_in_main_hall.JPG'onClick={this.on.bind(this)}></img></div>
+           
+          <div className="back-button">
+          <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p></div>
+          </div> 
+          );
+    }
+
     if(pageScene=="C"){
      
       return(
