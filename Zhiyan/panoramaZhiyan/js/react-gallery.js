@@ -6,34 +6,28 @@ class ReactGallery extends React.Component {
       if (pageScene== "A") {
       return (
     //still images in the gallery
-    <div className="gallery-row">
- <div className="gallery-column">
-  <img id='DSC00012.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSC00012.JPG" alt='DSC00012.JPG' onClick={this.on.bind(this)}></img></div>
-  <img id='DSC00014.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSC00014.JPG" alt='DSC00014.JPG' onClick={this.on.bind(this)}></img></div>
-  <img id='DSCN0225.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0225.JPG" alt='DSCN0225.JPG' onClick={this.on.bind(this)}></img></div>
-  <img id='DSCN0228.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0228.JPG" alt='DSCN0228.JPG' onClick={this.on.bind(this)}></img></div>
-  <img id='DSCN0229.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0229.JPG" alt='DSCN0229.JPG' onClick={this.on.bind(this)}></img></div>
-  <img id='DSCN0233.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0233.JPG" alt='DSCN0233.JPG' onClick={this.on.bind(this)}></img></div>
-  <img id='DSCN0234.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0234.JPG" alt='DSCN0234.JPG' onClick={this.on.bind(this)}></img></div>
-  <img id='DSCN0294.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0294.JPG" alt='DSCN0294.JPG' onClick={this.on.bind(this)}></img></div>
-  <img id='DSCN1061.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN1061.JPG" alt='DSCN1061.JPG' onClick={this.on.bind(this)}></img></div>
-  <img id='House%20of%20Great%20Peace-01.jpg' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/House%20of%20Great%20Peace-01.jpg" alt='House%20of%20Great%20Peace-01.jpg' onClick={this.on.bind(this)}></img></div>
-  <img id='House%20of%20Great%20Peace.A%20Daoist%20priest%20.jpg' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/House%20of%20Great%20Peace.A%20Daoist%20priest%20.jpg" alt='House%20of%20Great%20Peace.A%20Daoist%20priest%20.jpg' onClick={this.on.bind(this)}></img></div>
-  <img id='House%20of%20Great%20Peace.Inside%20House%20of%20Great%20Peace.jpg' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/House%20of%20Great%20Peace.Inside%20House%20of%20Great%20Peace.jpg" alt='House%20of%20Great%20Peace.Inside%20House%20of%20Great%20Peace.jpg' onClick={this.on.bind(this)}></img></div>
-  <img id='House%20of%20Great%20Peace.jpg' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/House%20of%20Great%20Peace.jpg" alt='House%20of%20Great%20Peace.jpg' onClick={this.on.bind(this)}></img></div>
-  <img id='House%20of%20Great%20Peace.the%20altar%20table%20for%20an%20old%20woman%20who%20just%20passed%20away.jpg' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/House%20of%20Great%20Peace.the%20altar%20table%20for%20an%20old%20woman%20who%20just%20passed%20away.jpg" alt='House%20of%20Great%20Peace.the%20altar%20table%20for%20an%20old%20woman%20who%20just%20passed%20away.jpg' onClick={this.on.bind(this)}></img></div>
-  <img id='House%20of%20Great%20Peace.The%20coffin%20behind%20the%20altar%20table.jpg' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/House%20of%20Great%20Peace.The%20coffin%20behind%20the%20altar%20table.jpg" alt='House%20of%20Great%20Peace.The%20coffin%20behind%20the%20altar%20table.jpg' onClick={this.on.bind(this)}></img></div>
-  <img id='Houses%20and%20mountains%20surrounding%20Half%20Moon%20Reservoir.jpg' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/Houses%20and%20mountains%20surrounding%20Half%20Moon%20Reservoir.jpg" alt='Houses%20and%20mountains%20surrounding%20Half%20Moon%20Reservoir.jpg' onClick={this.on.bind(this)}></img></div>
-  <img id='Houses%20surrounding%20Half%20Moon%20Reservoir.jpg' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/Houses%20surrounding%20Half%20Moon%20Reservoir.jpg" alt='Houses%20surrounding%20Half%20Moon%20Reservoir.jpg' onClick={this.on.bind(this)}></img></div>
-  <img id='Sign%20of%20Zhi%20Brook%20Village.jpg' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/Sign%20of%20Zhi%20Brook%20Village.jpg" alt='Sign%20of%20Zhi%20Brook%20Village.jpg' onClick={this.on.bind(this)}></img></div>
-  
+        <div className="gallery-row">
+            <div className="gallery-column">
+            <img id='DSC00012.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSC00012.JPG" alt='DSC00012.JPG' onClick={this.on.bind(this)}></img></div>
+            <div className="gallery-column">
+            <img id='DSC00014.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSC00014.JPG" alt='DSC00014.JPG' onClick={this.on.bind(this)}></img></div>
+            <div className="gallery-column">
+            <img id='DSCN0225.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0225.JPG" alt='DSCN0225.JPG' onClick={this.on.bind(this)}></img></div>
+            <div className="gallery-column">
+            <img id='DSCN0229.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0229.JPG" alt='DSCN0229.JPG' onClick={this.on.bind(this)}></img></div>
+            <div className="gallery-column">
+            <img id='DSCN0233.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0233.JPG" alt='DSCN0233.JPG' onClick={this.on.bind(this)}></img></div>
+            <div className="gallery-column">
+            <img id='DSCN0234.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0234.JPG" alt='DSCN0234.JPG' onClick={this.on.bind(this)}></img></div>
+            <div className="gallery-column">
+            <img id='DSCN0294.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0294.JPG" alt='DSCN0294.JPG' onClick={this.on.bind(this)}></img></div>
+            <div className="gallery-column">
+            <img id='DSCN1061.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN1061.JPG" alt='DSCN1061.JPG' onClick={this.on.bind(this)}></img></div>
+          <div className="back-button">
+            <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistoryZhiyan/panoramaZhiyan/sites-links.html">&rarr;</a></b></p>
+          </div>
+          </div>);}
 
-  <div className="back-button">
-  <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistoryZhiyan/panoramaZhiyan/sites-links.html">&rarr;</a></b></p>
-  </div>
-</div>
-  );
-    }
     if (pageScene== "B") {
         return(
           <div className="gallery-row">
