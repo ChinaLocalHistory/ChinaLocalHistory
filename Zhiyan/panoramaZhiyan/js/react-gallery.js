@@ -29,7 +29,7 @@ class ReactGallery extends React.Component {
           </div>
           );
         }
-/
+
     if (pageScene== "B1") {
         return(
           <div className="gallery-row">
@@ -43,7 +43,7 @@ class ReactGallery extends React.Component {
           </div> 
           );
     }
-/
+
     if (pageScene== "B2") {
         return(
           <div className="gallery-row">
