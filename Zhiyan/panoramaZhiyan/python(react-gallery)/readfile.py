@@ -45,7 +45,7 @@ def galleryHtml(txtList,nameOfScene):
     n = 1
     for txt in txtList:
         print('<div class="mySlides">')
-        print('<div class="numbertext">' + str(n) +' / 38</div>')
+        print('<div class="numbertext">' + str(n) +' / 14</div>')
         print('<img src="'+ 'https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/'
           + nameOfScene + '/' + txt + '" alt=' +txt + 'style="width:100%">'+
               '</div>')
@@ -66,6 +66,6 @@ def galleryHtml2(txtList,nameOfScene):
 
 
         
-formatGallery(edittxt(readgallery('gallery.txt')),'F%20The%20Hall%20of%20Abundant%20Splendor,%20Guangyu%20Tang-F.2')
-#galleryHtml(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')
-#galleryHtml2(edittxt(readgallery('gallery.txt')),'A%20Half%20Moon%20Reservoir,%20Banyue%20Tang')
+formatGallery(edittxt(readgallery('gallery.txt')),'H%20Lord%20Yang%20Temple,%20Yanggong%20Miao')
+galleryHtml(edittxt(readgallery('gallery.txt')),'H%20Lord%20Yang%20Temple,%20Yanggong%20Miao')
+galleryHtml2(edittxt(readgallery('gallery.txt')),'H%20Lord%20Yang%20Temple,%20Yanggong%20Miao')
