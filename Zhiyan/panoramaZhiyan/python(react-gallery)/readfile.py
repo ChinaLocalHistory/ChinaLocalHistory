@@ -45,7 +45,7 @@ def galleryHtml(txtList,nameOfScene):
     n = 1
     for txt in txtList:
         print('<div class="mySlides">')
-        print('<div class="numbertext">' + str(n) +' / 23</div>')
+        print('<div class="numbertext">' + str(n) +' / 4</div>')
         print('<img src="'+ 'https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/'
           + nameOfScene + '/' + txt + '" alt=' +txt + ' style="width:100%">'+
               '</div>')
@@ -64,8 +64,7 @@ def galleryHtml2(txtList,nameOfScene):
 
 
 
-
         
-formatGallery(edittxt(readgallery('gallery.txt')),'K%20Outside%20the%20village')
-galleryHtml(edittxt(readgallery('gallery.txt')),'K%20Outside%20the%20village')
-galleryHtml2(edittxt(readgallery('gallery.txt')),'K%20Outside%20the%20village')
+#formatGallery(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.3%20Villagers/')
+galleryHtml(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.7%20Countyard')
+galleryHtml2(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.7%20Countyard')

@@ -42,7 +42,6 @@
     /* Hide the images by default */
     .mySlides {
       display: none;
-      style="border: solid 1px #CCC;"
     }
 
     /* Add a pointer when hovering over the thumbnail images */
@@ -115,15 +114,28 @@
 
     .active,
     .demo:hover {
-      opacity: 1;}
-
-    /* resizing the pic in the gallery */
+      opacity: 1;
+    }
+    /* resizing the pic in the gallery
+        4
+     */
     img.fix {
-      height: 44%;
-      width: 44%;
+      height: 44.4%;
+      width: 44.4%;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      object-fit: scale-down;
+      }
+    /*3*/
+    img.fix2 {
+      height: auto;
+      width: 88.8%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
       object-fit: scale-down;
       }
     </style>
@@ -153,7 +165,7 @@
 
       <div class="basemap-container">
         <h2>Zhiyan Village</h2>
-        <h3 id="currentScene">K. Outside the village</h3>
+        <h3 id="currentScene">J. Inside the village</h3>
           <?xml version="1.0" encoding="utf-8"?>
           <!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 590 1000" style="enable-background:new 0 0 590 1000;" xml:space="preserve">
@@ -950,176 +962,43 @@
       </div>
     </div>
 
-    <!-- panorama container  -->
+      <!-- J. Inside the village --- Washing clothes -->
     <div id="pano-container" style="flex:60%">
-      <h1 style="text-align:center">K. Outside the village</h1>
+      <h1 style="text-align:center">J. Inside the village --- Washing clothes</h1>
 
       <div class="gallery-container">
       <div class="mySlides">
-      <div class="numbertext">1 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002479.JPG" alt=P0002479.JPG style="width:100%"></div>
+      <div class="numbertext">1 / 4</div>
+      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/J%20Inside%20the%20village-J.7%20Countyard/000392.JPG" alt=000392.JPG style="width:100%"></div>
 
       <div class="mySlides">
-      <div class="numbertext">2 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002480.JPG" alt=P0002480.JPG style="width:100%"></div>
+      <div class="numbertext">2 / 4</div>
+      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/J%20Inside%20the%20village-J.7%20Countyard/000521.JPG" alt=000521.JPG style="width:100%"></div>
 
       <div class="mySlides">
-      <div class="numbertext">3 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002481.JPG" alt=P0002481.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">4 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002482.JPG" alt=P0002482.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">5 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002483.JPG" alt=P0002483.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">6 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002484.JPG" alt=P0002484.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">7 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002485.JPG" alt=P0002485.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">8 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002486.JPG" alt=P0002486.JPG style="width:100%"></div>
+      <div class="numbertext">3 / 4</div>
+      <img class="fix2" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/J%20Inside%20the%20village-J.7%20Countyard/DSCN0694.JPG" alt=DSCN0694.JPG></div>
 
       <div class="mySlides" style="border: solid 1px #CCC;">
-      <div class="numbertext">9 / 23</div>
-      <img class = "fix"src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002487.JPG" alt=P0002487.JPG></div>
-
-      <div class="mySlides">
-      <div class="numbertext">10 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002489.JPG" alt=P0002489.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">11 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002490.JPG" alt=P0002490.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">12 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002491.JPG" alt=P0002491.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">13 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002492.JPG" alt=P0002492.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">14 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002493.JPG" alt=P0002493.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">15 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002494.JPG" alt=P0002494.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">16 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002495.JPG" alt=P0002495.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">17 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002496.JPG" alt=P0002496.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">18 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002497.JPG" alt=P0002497.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">19 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002498.JPG" alt=P0002498.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">20 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002499.JPG" alt=P0002499.JPG style="width:100%"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">21 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002500.JPG" alt=P0002500.JPG style="width:100%"></div>
-
-      <div class="mySlides" style="border: solid 1px #CCC;">
-      <div class="numbertext">22 / 23</div>
-      <img class="fix" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002501.JPG" alt=P0002501.JPG style="object-fit:scale-down; width:100%; height:570px; border: solid 1px #CCC"></div>
-
-      <div class="mySlides">
-      <div class="numbertext">23 / 23</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002502.JPG" alt=P0002502.JPG style="width:100%"></div>
-          
+      <div class="numbertext">4 / 4</div>
+      <img class="fix" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/J%20Inside%20the%20village-J.7%20Countyard/P0002507.JPG" alt=P0002507.JPG ></div>
+                
     <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
 
-      <div class="row">
+       <div class="row">
       <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002479.JPG" style="width:100%" onclick="currentSlide(1) " alt=P0002479.JPG></div>
+      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/J%20Inside%20the%20village-J.7%20Countyard/000392.JPG" style="width:100%" onclick="currentSlide(1) " alt=000392.JPG></div>
 
       <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002480.JPG" style="width:100%" onclick="currentSlide(2) " alt=P0002480.JPG></div>
+      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/J%20Inside%20the%20village-J.7%20Countyard/000521.JPG" style="width:100%" onclick="currentSlide(2) " alt=000521.JPG></div>
 
       <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002481.JPG" style="width:100%" onclick="currentSlide(3) " alt=P0002481.JPG></div>
+      <img class="fix2 demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/J%20Inside%20the%20village-J.7%20Countyard/DSCN0694.JPG" onclick="currentSlide(3) " alt=DSCN0694.JPG></div>
 
       <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002482.JPG" style="width:100%" onclick="currentSlide(4) " alt=P0002482.JPG></div>
+      <img class="fix demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/J%20Inside%20the%20village-J.7%20Countyard/P0002507.JPG" onclick="currentSlide(4) " alt=P0002507.JPG></div>
 
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002483.JPG" style="width:100%" onclick="currentSlide(5) " alt=P0002483.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002484.JPG" style="width:100%" onclick="currentSlide(6) " alt=P0002484.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002485.JPG" style="width:100%" onclick="currentSlide(7) " alt=P0002485.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002486.JPG" style="width:100%" onclick="currentSlide(8) " alt=P0002486.JPG></div>
-
-      <div class="column">
-      <img class="fix demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002487.JPG" onclick="currentSlide(9) " alt=P0002487.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002489.JPG" style="width:100%" onclick="currentSlide(10) " alt=P0002489.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002490.JPG" style="width:100%" onclick="currentSlide(11) " alt=P0002490.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002491.JPG" style="width:100%" onclick="currentSlide(12) " alt=P0002491.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002492.JPG" style="width:100%" onclick="currentSlide(13) " alt=P0002492.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002493.JPG" style="width:100%" onclick="currentSlide(14) " alt=P0002493.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002494.JPG" style="width:100%" onclick="currentSlide(15) " alt=P0002494.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002495.JPG" style="width:100%" onclick="currentSlide(16) " alt=P0002495.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002496.JPG" style="width:100%" onclick="currentSlide(17) " alt=P0002496.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002497.JPG" style="width:100%" onclick="currentSlide(18) " alt=P0002497.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002498.JPG" style="width:100%" onclick="currentSlide(19) " alt=P0002498.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002499.JPG" style="width:100%" onclick="currentSlide(20) " alt=P0002499.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002500.JPG" style="width:100%" onclick="currentSlide(21) " alt=P0002500.JPG></div>
-
-      <div class="column">
-      <img class="fix demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002501.JPG" onclick="currentSlide(22) " alt=P0002501.JPG></div>
-
-      <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/K%20Outside%20the%20village/P0002502.JPG" style="width:100%" onclick="currentSlide(23) " alt=P0002502.JPG></div>
-          
     </div>
       </div>
 
@@ -1154,9 +1033,9 @@
       }
       </script>
 
+
     </div>
 
   </div>
 </body>
 </html>
-
