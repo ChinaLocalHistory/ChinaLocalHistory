@@ -116,6 +116,36 @@
     .demo:hover {
       opacity: 1;
     }
+
+    /* resizing the pic in the gallery */
+    img.fix {
+      height: 56%;
+      width: 56%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      object-fit: scale-down;
+      }
+    /*for the last pic*/
+    img.fix2 {
+      height: 49.8%;
+      width: 49.8%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      object-fit: scale-down;
+      }
+    /*for the first pic*/
+    img.fix3 {
+      height: auto;
+      width: 112%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      object-fit: scale-down;
+      }
     </style>
   </head>
 
@@ -945,23 +975,17 @@
       <h1 style="text-align:center">H. Entrance to the Hall of Promoting Goodness, Jimei Tang</h1>
 
       <div class="gallery-container">
-		  <div class="mySlides">
+		  <div class="mySlides" style="border: solid 1px #CCC;">
       <div class="numbertext">1 / 14</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000503.JPG" alt=000503.JPG style="width:100%"></div>
+      <img class="fix3" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000503.JPG" alt=000503.JPG ></div>
 
-      <div class="mySlides">
+      <div class="mySlides" style="border: solid 1px #CCC;">
       <div class="numbertext">2 / 14</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000621.JPG" alt=000621.JPG style="object-fit:scale-down;
-            width:100%;
-            height:460px;
-            border: solid 1px #CCC"></div>
+      <img class="fix" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000621.JPG" alt=000621.JPG></div>
 
-      <div class="mySlides">
+      <div class="mySlides" style="border: solid 1px #CCC;">
       <div class="numbertext">3 / 14</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000622.JPG" alt=000622.JPG style="object-fit:scale-down;
-            width:100%;
-            height:460px;
-            border: solid 1px #CCC"></div>
+      <img class="fix" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000622.JPG" alt=000622.JPG ></div>
 
       <div class="mySlides">
       <div class="numbertext">4 / 14</div>
@@ -1003,25 +1027,22 @@
       <div class="numbertext">13 / 14</div>
       <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/SANY0005.JPG" alt=SANY0005.JPG style="width:100%"></div>
 
-      <div class="mySlides">
+      <div class="mySlides" style="border: solid 1px #CCC;">
       <div class="numbertext">14 / 14</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/hall%20that%20village%20women%20are%20renovating.JPG" alt=hall%20that%20village%20women%20are%20renovating.JPG style="object-fit:scale-down;
-            width:100%;
-            height:460px;
-            border: solid 1px #CCC"></div>
+      <img class="fix2" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/hall%20that%20village%20women%20are%20renovating.JPG" alt=hall%20that%20village%20women%20are%20renovating.JPG></div>
 
 		<a class="prev" onclick="plusSlides(-1)">❮</a>
        	<a class="next" onclick="plusSlides(1)">❯</a>
 
        <div class="row">
 		  <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000503.JPG" style="width:100%" onclick="currentSlide(1) " alt=000503.JPG></div>
+      <img class="fix3 demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000503.JPG" onclick="currentSlide(1) " alt=000503.JPG></div>
 
       <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000621.JPG" style="width:100%" onclick="currentSlide(2) " alt=000621.JPG></div>
+      <img class="fix demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000621.JPG" onclick="currentSlide(2) " alt=000621.JPG></div>
 
       <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000622.JPG" style="width:100%" onclick="currentSlide(3) " alt=000622.JPG></div>
+      <img class="fix demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/000622.JPG" onclick="currentSlide(3) " alt=000622.JPG></div>
 
       <div class="column">
       <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/DSCN0312.JPG" style="width:100%" onclick="currentSlide(4) " alt=DSCN0312.JPG></div>
@@ -1054,7 +1075,7 @@
       <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/SANY0005.JPG" style="width:100%" onclick="currentSlide(13) " alt=SANY0005.JPG></div>
 
       <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/hall%20that%20village%20women%20are%20renovating.JPG" style="width:100%" onclick="currentSlide(14) " alt=hall%20that%20village%20women%20are%20renovating.JPG></div>
+      <img class="fix2 demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/H%20Lord%20Yang%20Temple,%20Yanggong%20Miao/hall%20that%20village%20women%20are%20renovating.JPG" onclick="currentSlide(14) " alt=hall%20that%20village%20women%20are%20renovating.JPG></div>
 		</div>
       </div>
 

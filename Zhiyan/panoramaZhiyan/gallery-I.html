@@ -116,6 +116,15 @@
     .demo:hover {
       opacity: 1;
     }
+    /* resizing the pic in the gallery */
+    img.fix {
+      height: 44.4%;
+      width: 44.4%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      object-fit: scale-down;
+      }
     </style>
   </head>
 
@@ -946,13 +955,9 @@
       <h1 style="text-align:center">I. The Hall of Filial Devotion, Xiaosi Tang</h1>
 
       <div class="gallery-container">
-		  <div class="mySlides">
+		  <div class="mySlides" style="border: solid 1px #CCC;">
       <div class="numbertext">1 / 2</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/I%20The%20Hall%20of%20Completing%20Will,%20Chengzhi%20Tang/000484.JPG" alt=000484.JPG 
-            style="object-fit:scale-down;
-            width:100%;
-            height:475px;
-            border: solid 1px #CCC"/></div>
+      <img class="fix" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/I%20The%20Hall%20of%20Completing%20Will,%20Chengzhi%20Tang/000484.JPG" alt=000484.JPG></div>
 
       <div class="mySlides">
       <div class="numbertext">2 / 2</div>
@@ -963,7 +968,7 @@
 
       <div class="row">
       <div class="column">
-      <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/I%20The%20Hall%20of%20Completing%20Will,%20Chengzhi%20Tang/000484.JPG" style="width:100%" onclick="currentSlide(1) " alt=000484.JPG></div>
+      <img class="fix demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/I%20The%20Hall%20of%20Completing%20Will,%20Chengzhi%20Tang/000484.JPG" onclick="currentSlide(1) " alt=000484.JPG></div>
 
       <div class="column">
       <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/I%20The%20Hall%20of%20Completing%20Will,%20Chengzhi%20Tang/000485.JPG" style="width:100%" onclick="currentSlide(2) " alt=000485.JPG></div>

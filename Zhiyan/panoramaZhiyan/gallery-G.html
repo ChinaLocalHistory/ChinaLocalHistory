@@ -114,8 +114,18 @@
 
     .active,
     .demo:hover {
-      opacity: 1;
-    }
+      opacity: 1;}
+
+    /* resizing the pic in the gallery */
+    img.fix {
+      height: 56.3%;
+      width: 56.3%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      object-fit: scale-down;
+      }
+    
     </style>
   </head>
 
@@ -949,12 +959,9 @@
       <div class="numbertext">1 / 5</div>
       <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/G%20Five%20Manifestations%20Cult%20Temple,%20Wuxian%20Miao/SANY0007.JPG" alt=SANY0007.JPG style="width:100%"></div>
 
-      <div class="mySlides">
+      <div class="mySlides" style="border: solid 1px #CCC;">
       <div class="numbertext">2 / 5</div>
-      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/G%20Five%20Manifestations%20Cult%20Temple,%20Wuxian%20Miao/SANY0008.JPG" alt=SANY0008.JPG style="object-fit:scale-down;
-            width:100%;
-            height:500px;
-            border: solid 1px #CCC"></div>
+      <img class="fix" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/G%20Five%20Manifestations%20Cult%20Temple,%20Wuxian%20Miao/SANY0008.JPG" alt=SANY0008.JPG ></div>
 
       <div class="mySlides">
       <div class="numbertext">3 / 5</div>
@@ -977,7 +984,7 @@
         <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/G%20Five%20Manifestations%20Cult%20Temple,%20Wuxian%20Miao/SANY0007.JPG" style="width:100%" onclick="currentSlide(1) " alt=SANY0007.JPG></div>
 
         <div class="column">
-        <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/G%20Five%20Manifestations%20Cult%20Temple,%20Wuxian%20Miao/SANY0008.JPG" style="width:100%" onclick="currentSlide(2) " alt=SANY0008.JPG></div>
+        <img class="fix demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/G%20Five%20Manifestations%20Cult%20Temple,%20Wuxian%20Miao/SANY0008.JPG" onclick="currentSlide(2) " alt=SANY0008.JPG></div>
 
         <div class="column">
         <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/G%20Five%20Manifestations%20Cult%20Temple,%20Wuxian%20Miao/SANY0009.JPG" style="width:100%" onclick="currentSlide(3) " alt=SANY0009.JPG></div>
