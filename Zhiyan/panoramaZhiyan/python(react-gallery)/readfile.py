@@ -26,7 +26,7 @@ def formatGallery(txtList,nameOfScene):
     for txt in txtList:
         print(' <div className="gallery-column">')
         print(' <img '+'id='+txt+' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/'
-          + nameOfScene + '/' + txt + '" alt=' +txt + 'onClick={this.on.bind(this)}></img></div>')
+          + nameOfScene + '/' + txt + '" alt="' +txt + '" onClick={this.on.bind(this)}></img></div>')
     print('\n')
     print('<div className="back-button">\n'+
           '<p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p>'+
@@ -37,7 +37,7 @@ def formatGallery(txtList,nameOfScene):
              +'"yaw": 1, \n'
              +'"type": "info",\n'
              +'"clickHandlerFunc" : expandImg,\n'
-             +'"clickHandlerArgs" : {"text":'+txt +'}\n'
+             +'"clickHandlerArgs" : {"text":"'+txt +'"}\n'
              +'},')
         
 
@@ -47,7 +47,7 @@ def galleryHtml(txtList,nameOfScene):
         print('<div class="mySlides">')
         print('<div class="numbertext">' + str(n) +' / 4</div>')
         print('<img src="'+ 'https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/'
-          + nameOfScene + '/' + txt + '" alt=' +txt + ' style="width:100%">'+
+          + nameOfScene + '/' + txt + '" alt="' +txt + '" style="width:100%">'+
               '</div>')
         n+=1
         print()
@@ -58,7 +58,7 @@ def galleryHtml2(txtList,nameOfScene):
     for txt in txtList:
         print('<div class="column">')
         print('<img class="demo cursor"'+' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/'
-          + nameOfScene + '/' + txt + '" style="width:100%" onclick="currentSlide(' + str(x) + ') ' + '" alt=' +txt +'></div>')
+          + nameOfScene + '/' + txt + '" style="width:100%" onclick="currentSlide(' + str(x) + ') ' + '" alt="' +txt +'"></div>')
         x+=1
         print()
 
