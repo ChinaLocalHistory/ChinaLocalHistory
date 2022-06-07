@@ -1,4 +1,4 @@
-var pageScene="A"; 
+var pageScene="E1"; 
 const gallery = <ReactGallery/>;
 //const domContainer = document.querySelector('#react-gallery');
 ReactDOM.render(gallery, document.getElementById('react-gallery'));
@@ -9,7 +9,7 @@ ReactDOM.render(gallery, document.getElementById('react-gallery'));
 //generating the panorama
 var v=pannellum.viewer('panorama', {
     "default":{
-        "firstScene":"E",
+        "firstScene":"E1",
         "sceneFadeDuration": 1000
     },
 
@@ -32,27 +32,68 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "hotSpots": [
                 {
-                    "pitch": 0.7695716407371126, 
-                    "yaw": -95.54280748056317, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Overview%20of%20the%20West%20Gate.JPG'}
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSC00012.JPG'}
                 },
                 {
-                    "pitch": -6.224028266500834,
-                    "yaw": 85.91131837122502,
-                    "type": "scene",
-                    "text": "B. Five Manifestations Cult Temple, Wuxian Miao",
-                    "sceneId": "B",
-                    "clickHandlerFunc" : toB,
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSC00014.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSCN0225.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSCN0229.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSCN0233.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSCN0234.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSCN0294.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSCN1061.JPG'}
                 }
             ]
         },
 
-        "B":{
-            "title":"B. Five Manifestations Cult Temple, Wuxian Miao",
+        "B1":{
+            "title":"B1. The Hall of Continuing Virtue, Yande Tang exterior",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/B.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/B.1%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -66,128 +107,229 @@ var v=pannellum.viewer('panorama', {
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
-               
-            {
-            "pitch":  7.171152625819008, 
-            "yaw": -4.245616451134026, 
-            "type": "info",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'Overview%20of%20the%20Watermouth.JPG'}
-            },
-            {
-                "pitch": -4.845269962047471, 
-                "yaw": -52.80660848248078,
-                "type": "scene",
-                "text":"C. Lord Yang Temple, Yanggong Miao",
-                "sceneId": "C",
-                "clickHandlerFunc" : toC,
-            },
-            {
-                "pitch": -14.233784317065176, 
-                "yaw":  126.65324634098477,
-                "type": "scene",
-                "text": "A. Half Moon Reservoir, Banyue Tang",
-                "sceneId": "A",
-                "clickHandlerFunc" : toA,
-            }
-            ]
-        },
-        "C":{
-            "title":"C. Lord Yang Temple, Yanggong Miao",
-            "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/C.jpg",
-            //angle range of horizontal view
-            "haov": 360,
-            //angle range of vertical view
-            "vaov": 75.9,
-            //vertical angle of the whole panorama
-            "vOffset": 0,
-            //default zoom-in control
-            "hfov": 90,
-            "minPitch":-30,
-            "maxPitch":30,
-            //"hotSpotDebug":true,
-            "autoLoad":true,
-            "hotSpots": [
-               
-            {
-                "pitch":  -24.90504120976177, 
-                "yaw": 140.9004422127586,
-                "type": "scene",
-                "text": "D. The Hall of Completing Will, Chengzhi Tang",
-                "sceneId": "D1",
-                "clickHandlerFunc" : toD1,
-            },
-            {
-                "pitch":-22.29490993983829, 
-                "yaw": -45.40962870380243,
-                "type": "scene",
-                "text": "B. Five Manifestations Cult Temple, Wuxian Miao",
-                "sceneId": "B",
-                "clickHandlerFunc" : toB,
-            }
-            ]
-        },
-
-
-        //need more works
-        "D1":{
-            "title":"D. The Hall of Completing Will, ChengZhi Tang",
-            "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/D1.jpg",
-            //angle range of horizontal view
-            "haov": 360,
-            //angle range of vertical view
-            "vaov": 75.9,
-            //vertical angle of the whole panorama
-            "vOffset": 0,
-            //default zoom-in control
-            "hfov": 90,
-            "minPitch":-30,
-            "maxPitch":30,
-            //"hotSpotDebug":true,
-            "autoLoad":true,
-            "hotSpots": [
-               
-            {
-                "pitch": -17.865535605353674, 
-                "yaw": -143.25477114574946,
-                "type": "scene",
-                "text": "D2. Hailin Court -- Shrine of Lord Guan, Guan Sheng Ci",
-                "sceneId": "D2",
-                "clickHandlerFunc" : toD2,
-            },
-            {
-                "pitch": -5.707430733660536, 
-                "yaw": 142.53051082553577,
-                "type": "scene",
-                "text":"C. Returning Dragon Bridge, Huilong Qiao",
-                "sceneId": "C",
-                "clickHandlerFunc" : toC,
-            },
-            
-            {
-                "pitch": -15.215655784527485,
-                "yaw": 0.7533702205573594,
-                "type": "scene",
-                "text":"E. Path between Sea and Unicorn Chamber and Guodong Primary School",
-                "sceneId": "E",
-                "clickHandlerFunc" : toE,
-                },
-              
                 {
-                "pitch":11.485475461189928, 
-                "yaw": 145.9436513290398, 
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'Overview%20of%20Hailin%20Court.JPG'}
+                "clickHandlerArgs" : {"text":'P0002473.JPG'}
                 },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'P0002474.JPG'}
+                }
+            ]
+        },
+
+        "B2":{
+            "title":"B2. The Hall of Continuing Virtue, Yande Tang",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/B.2%20panorama.jpeg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'1-YDT%20overview%20of%20temple%20hall.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'2-YDT%20west%20pillar%20in%20entrance%20hall.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'3-YDT_renovated_beam_structure_in_entrance.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'4-YDT_main_hall_sign.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'5-YDT_roof_and_supporting_beam_for_main_hall.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'6-YDT_waterway_between_entrance_hall_and_main_hall.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'7-YDT_east_wall_decoration_of_main_hall.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'8-YDT_ancestor_tablet_chest.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'9-YDT_ancestor_tablets_inside_chest.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'10-YDT_northwest_side_pillar_near_ancestor_tablet_chest.JPG'}
+            },
+            {
+            "pitch": 1, 
+            "yaw": 1, 
+            "type": "info",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'11-YDT_east_pillar_in_main_hall.JPG'}
+            }
+            ]
+        },
+
+        "C1":{
+            "title":"C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/C.1%20panorama.jpeg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSC00006.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSC00007.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSC00008.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSC00009.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSC00012.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSC00014.JPG'}
+                }
+            ]
+        },
+
+        "C2":{
+            "title":"C2. The Hall of Succeeding Glory, Chengxian Tang -- back room",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/C.2%20panorama.jpeg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               //need to add hotspots of switching screen to screen
+            
+            ]
+        },
+
+        "D1":{
+            "title":"D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/D.1%20panorama.jpeg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+            //need to add hotspots of switching screen to screen
               
             ]
         },
-    /*
+    
         "D2":{
-            "title":"D2. Hailin Court -- Shrine of Lord Guan, Guan Sheng Ci",
+            "title":"D2. Entrance to the Hall of Promoting Goodness, Jimei Tang",
             "type": "equirectangular",
             "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/D2.jpg",
             //angle range of horizontal view
@@ -203,107 +345,28 @@ var v=pannellum.viewer('panorama', {
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
-            
-                    {
-                    "pitch": -11.868629019937973, 
-                    "yaw": 88.31877844670032, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'DSCN1553.JPG'}
-                    },
-                    {
-                    "pitch": 17.34877089516667,
-                    "yaw": 14.20576797764312, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'DSCN1556.JPG'}
-                    },
-                    {
-                    "pitch": -12.462074996692106,  
-                    "yaw": 136.61035562271317,
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Introduction%20to%20Hailin%20Court%20in%20Chinese%20and%20English%20.JPG'}
-                    },
-                    {
-                    "pitch":27.416541860389085,
-                    "yaw": -142.75631508325478, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Looking%20out%20from%20the%20court%20.JPG'}
-                    },
-                    {
-                    "pitch": 2.394160340994728, 
-                    "yaw": 13.0273653855892, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002790.JPG'}
-                    },
-                    {
-                    "pitch": 17.43026419788107, 
-                    "yaw": -2.094543035674941,
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002791.JPG'}
-                    },
-                    {
-                    "pitch": -10.201650585528876, 
-                    "yaw": -59.130149637151526, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002793.JPG'}
-                    },
-                    {
-                    "pitch": -8.44607110224642,
-                    "yaw":  -39.05361049140934, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002794.JPG'}
-                    },
-                    {
-                    "pitch": -6.725361249449086, 
-                    "yaw":  53.43691376951663,
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002795.JPG'}
-                    },
-                    {
-                    "pitch": -7.810267986283563, 
-                    "yaw": 74.47906207967947, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002796.JPG'}
-                    },
-                    {
-                    "pitch":23.84237039264124,
-                    "yaw": 114.25803091291996,
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Record%20of%20the%20renovation%20of%20Hailin%20Court%20in%201994%20.JPG'}
-                    },   
-            {
-                "pitch": -20.74250591486505,
-                "yaw":  115.6584025415313,
-                "type": "scene",
-                "text": "D1 Hailin Court--exterior",
-                "sceneId": "D1",
-                "clickHandlerFunc" : toD1,
-            },
-            {
-                "pitch": -23.55951094876721, 
-                "yaw": -77.25226339342346,
-                "type": "scene",
-                "text":"D3 Hailin Court -- Chamber of Guanyin of the Southern Ocean Nanhai Guanyin Ge",
-                "sceneId": "D3",
-                "clickHandlerFunc" : toD3,
-            }
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'SANY0012.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'SANY0013.JPG'}
+                }
             ]
         },
 
-        "D3":{
-            "title":"D3. Hailin Court -- Chamber of Guanyin of the Southern Ocean Nanhai Guanyin Ge",
+
+        "E1":{
+            "title":"E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/D3.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/E.1%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -318,70 +381,130 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                    "pitch": 1, 
-                    "yaw": 1, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002798.JPG'}
-                    },
-                    {
-                    "pitch":  5.151257690414573,
-                    "yaw": -98.2509217745344, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'P0002799.JPG'}
-                    },   
-            {
-                "pitch": -21.391706106077184,
-                "yaw": 40.0319196510468,
-                "type": "scene",
-                "text": "D2. Hailin Court -- Shrine of Lord Guan, Guan Sheng Ci",
-                "sceneId": "D2",
-                "clickHandlerFunc" : toD2,
-            },
-            ]
-        },
-*/
-        "E":{
-            "title":"E. The Hall of Continuing Virtue, Yande Tang",
-            "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/E.jpg",
-            //angle range of horizontal view
-            "haov": 360,
-            //angle range of vertical view
-            "vaov": 75.9,
-            //vertical angle of the whole panorama
-            "vOffset": 0,
-            //default zoom-in control
-            "hfov": 90,
-            "minPitch":-30,
-            "maxPitch":30,
-            //"hotSpotDebug":true,
-            "autoLoad":true,
-            "hotSpots": [
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'P0002465.JPG'}
+                },
                 {
-                    "pitch": 9.067050007264166,
-                    "yaw": 53.024768243799144,
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Overview%20of%20the%20path%20.JPG'}
-                    },  
-            {
-                "pitch": -2.028715927162636, 
-                "yaw":-158.85376649216724,
-                "type": "scene",
-                "text": "D1. Hailin Court, Hailin Ge",
-                "sceneId": "D1",
-                "clickHandlerFunc" : toD1,
-            },
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'P0002466.JPG'}
+                }
             ]
         },
         
+        "E2":{
+            "title":"E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/E.2%20panorama.jpeg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'000380.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'000384.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'1-XST%20view%20of%20entry%20from%20north.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'2-XST%20main%20hall%20overhead%20signage.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'3-XST%202nd%20sign%20facing%20north%20wall.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'4-XST%20left%20pillar%20middle%20of%20north%20wall.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'5-XST%20right%20pillar%20middle%20of%20north%20wall.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'6-XST%20west%20wall%20beam%20structure.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'11-XST%20roof%20overhang%20SW%20corner.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'12-XST%20space%20between%20main%20hall%20and%20E%20building.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'13-XSWT%20outside%20view%20of%20east%20building.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'14-XST%20interior%20view%20of%20a%20room%20in%20east%20building.JPG'}
+                }
+            ]
+        },
 
-        "G":{
-            "title":"G. The Hall of Succeeding Glory, Chengxian Tang",
+        "E3":{
+            "title":"E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/G.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/E.3%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -395,37 +518,76 @@ var v=pannellum.viewer('panorama', {
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
-                
-                    {
-                    "pitch": 9.99497106530154,  
-                    "yaw": -41.54862154881994, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Closeup%20of%20the%20hall.jpg'}
-                    },
-                   
-            {
-                "pitch":-19.77574221825997,
-                "yaw":  -21.958199019956936,
-                "type": "scene",
-                "text": "H1 Xinwu Li, Front Courtyard",
-                "sceneId": "H1",
-                "clickHandlerFunc" : toH1,
-            },
-            {
-                "pitch": -26.58528794474873, 
-                "yaw": 130.91757761892572,
-                "type": "scene",
-                "text": "F1. He Lineage Ancestral Hall--exterior",
-                "sceneId": "F1",
-                "clickHandlerFunc" : toF1,
-            }
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'000458.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'000459.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'000460.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":';000461.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'000462.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'000463.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'000464.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'000465.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'DSC00022.JPG'}
+                }
             ]
         },
-        "H1":{
-            "title":"H. Entrance to the Hall of Promoting Goodness, Jimei Tang",
+
+        "F1":{
+            "title":"F1. The Hall of Abundant Splendor, Guangyu Tang",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/H1.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/F.1%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -439,45 +601,27 @@ var v=pannellum.viewer('panorama', {
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
-                
-                    {
-                    "pitch": 9.447322417706294, 
-                    "yaw": 151.410527094575, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Left-hand%20side%20window%20of%20the%20eastern%20wing.jpg'}
-                    },
-                   
-                    {
-                    "pitch": 8.249928268271615,
-                    "yaw":166.93897528139317 , 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Right-hand%20side%20window%20of%20the%20eastern%20wing.jpg'}
-                    },
-            {
-                "pitch": -31.33414675067754,
-                "yaw": -106.23040330298603,
-                "type": "scene",
-                "text": "G. Between He Lineage Ancestral Hall and Xinwu Li",
-                "sceneId": "G",
-                "clickHandlerFunc" : toG,
-            },
-            {
-                "pitch": -23.66886437445998,
-                "yaw": 65.92947151229332,
-                "type": "scene",
-                "text": "H2. Xinwu Li, Back Courtyard",
-                "sceneId": "H2",
-                "clickHandlerFunc" : toH2,
-            }
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'SANY0015.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'SANY0016.JPG'}
+                }
             ]
         },
-        /*
-        "H2":{
-            "title":"H. Xinwu Li",
+
+        "F2":{
+            "title":"F2. The Hall of Abundant Splendor, Guangyu Tang",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/H2.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/F.2%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -491,58 +635,20 @@ var v=pannellum.viewer('panorama', {
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
-            {
-                "pitch": -6.224028266500834,
-                "yaw": 85.91131837122502,
-                "type": "scene",
-                "text": "H1 Xinwu Li, Front Courtyard",
-                "sceneId": "H1",
-                "clickHandlerFunc" : toH1,
-            }
-            ]
-        },
-        */
-        "I":{
-            "title":"I. The Hall of Filial Devotion, Xiaosi Tang",
-            "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/I.jpg",
-            //angle range of horizontal view
-            "haov": 360,
-            //angle range of vertical view
-            "vaov": 75.9,
-            //vertical angle of the whole panorama
-            "vOffset": 0,
-            //default zoom-in control
-            "hfov": 90,
-            "minPitch":-30,
-            "maxPitch":30,
-            //"hotSpotDebug":true,
-            "autoLoad":true,
-            "hotSpots": [
-               
-                    {
-                    "pitch":  1.362592920052081, 
-                    "yaw": -140.32874629899163 , 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Closeup%20of%20the%20base%20of%20the%20arch.jpg'}
-                    },
-                    
-                    {
-                    "pitch": 26.03336914902445,   
-                    "yaw": -118.67324038144245, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Middle%20part%20of%20the%20arch%20with%20inscriptions%20on%20the%20frame.jpg'}
-                    },
-                    {
-                    "pitch": 11.85512515290337, 
-                    "yaw":  -119.19560127908154, 
-                    "type": "info",
-                    "clickHandlerFunc" : expandImg,
-                    "clickHandlerArgs" : {"text":'Overview%20of%20the%20arch.jpg'}
-                    },
-            
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'SANY0015.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'SANY0016.JPG'}
+                }
             ]
         },
        
@@ -592,11 +698,11 @@ function toA(){
     var i;
     var currentSceneTxt = document.getElementById('currentScene');
     currentSceneTxt.innerText="A. Half Moon Reservoir, Banyue Tang";
-    var myCircles = document.getElementsByClassName('cls-1');
+    var myCircles = document.getElementsByClassName('st0');
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-A');
+    var myCircle = document.getElementById('zhiyan-A');
     myCircle.style.fill = "#F26E22";
     v.loadScene("A");
     pageScene="A";
@@ -604,35 +710,69 @@ function toA(){
     ReactDOM.render(agallery, document.getElementById('react-gallery'));
 }
 
-function toB(){
+function toB1(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="B. Five Manifestations Cult Temple, Wuxian Miao";
-    var myCircles = document.getElementsByClassName('cls-1');
+    currentSceneTxt.innerText="B1. The Hall of Continuing Virtue, Yande Tang exterior";
+    var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-B');
+    var myCircle = document.getElementById('zhiyan-B');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("B");
-    pageScene="B";
+    v.loadScene("B1");
+    pageScene="B1";
     console.log(pageScene);
     const bgallery = <ReactGallery/>;
     ReactDOM.render(bgallery, document.getElementById('react-gallery'));
 }
 
-function toC(){
+function toB2(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="C. Lord Yang Temple, Yanggong Miao";
-    var myCircles = document.getElementsByClassName('cls-1');
+    currentSceneTxt.innerText="B2. The Hall of Continuing Virtue, Yande Tang";
+    var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-C');
+    var myCircle = document.getElementById('zhiyan-B');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("C");
-    pageScene="C";
+    v.loadScene("B2");
+    pageScene="B2";
+    console.log(pageScene);
+    const bgallery = <ReactGallery/>;
+    ReactDOM.render(bgallery, document.getElementById('react-gallery'));
+}
+
+function toC1(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="C1. The Hall of Succeeding Glory, Chengxian Tang -- front room";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('zhiyan-C');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("C1");
+    pageScene="C1";
+    console.log(pageScene);
+    const cgallery = <ReactGallery/>;
+    ReactDOM.render(cgallery, document.getElementById('react-gallery'));
+}
+
+function toC2(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="C2. The Hall of Succeeding Glory, Chengxian Tang -- back room";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('zhiyan-C');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("C2");
+    pageScene="C2";
     console.log(pageScene);
     const cgallery = <ReactGallery/>;
     ReactDOM.render(cgallery, document.getElementById('react-gallery'));
@@ -640,13 +780,13 @@ function toC(){
 
 function toD1(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="D1. The Hall of Completing Will, Chengzhi Tang";
-    var myCircles = document.getElementsByClassName('cls-1');
+    currentSceneTxt.innerText="D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior";
+    var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-D');
+    var myCircle = document.getElementById('zhiyan-D');
     myCircle.style.fill = "#F26E22";
     v.loadScene("D1");
     pageScene="D1";
@@ -654,16 +794,16 @@ function toD1(){
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
-/*
+
 function toD2(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="D2. Hailin Court -- Shrine of Lord Guan, Guan Sheng Ci";
-    var myCircles = document.getElementsByClassName('cls-1');
+    currentSceneTxt.innerText="D2. Entrance to the Hall of Promoting Goodness, Jimei Tang";
+    var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-D');
+    var myCircle = document.getElementById('zhiyan-D');
     myCircle.style.fill = "#F26E22";
     v.loadScene("D2");
     pageScene="D2";
@@ -672,104 +812,87 @@ function toD2(){
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-function toD3(){
+function toE1(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="D3  Hailin Court -- Chamber of Guanyin of the Southern Ocean Nanhai Guanyin Ge";
-    var myCircles = document.getElementsByClassName('cls-1');
+    currentSceneTxt.innerText="E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior";
+    var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-D');
+    var myCircle = document.getElementById('zhiyan-E');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("D3");
-    pageScene="D3";
-    console.log(pageScene);
-    const dgallery = <ReactGallery/>;
-    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
-}
-*/
-function toE(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="E. The Hall of Continuing Virtue, Yande Tang";
-    var myCircles = document.getElementsByClassName('cls-1');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('guodong-E');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("E");
-    pageScene="E";
+    v.loadScene("E1");
+    pageScene="E1";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-function toG(){
+function toE2(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="G. The Hall of Succeeding Glory, Chengxian Tang";
-    var myCircles = document.getElementsByClassName('cls-1');
+    currentSceneTxt.innerText="E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall";
+    var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-G');
+    var myCircle = document.getElementById('zhiyan-E');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("G");
-    pageScene="G";
+    v.loadScene("E2");
+    pageScene="E2";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-function toH1(){
+function toE3(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="H1. Entrance to the Hall of Promoting Goodness, Jimei Tang";
-    var myCircles = document.getElementsByClassName('cls-1');
+    currentSceneTxt.innerText="E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall";
+    var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-H');
+    var myCircle = document.getElementById('zhiyan-E');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("H1");
-    pageScene="H1";
+    v.loadScene("E3");
+    pageScene="E3";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-/*
-function toH2(){
+
+function toF1(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="H2. Xinwu Li, Back Courtyard";
-    var myCircles = document.getElementsByClassName('cls-1');
+    currentSceneTxt.innerText="F1. The Hall of Abundant Splendor, Guangyu Tang";
+    var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-H');
+    var myCircle = document.getElementById('zhiyan-F');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("H2");
-    pageScene="H2";
+    v.loadScene("F1");
+    pageScene="F1";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
-*/
-function toI(){
+
+function toF2(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="I. The Hall of Filial Devotion, Xiaosi Tang";
-    var myCircles = document.getElementsByClassName('cls-1');
+    currentSceneTxt.innerText="F1. The Hall of Abundant Splendor, Guangyu Tang";
+    var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('guodong-I');
+    var myCircle = document.getElementById('zhiyan-F');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("I");
-    pageScene="I";
+    v.loadScene("F2");
+    pageScene="F2";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
