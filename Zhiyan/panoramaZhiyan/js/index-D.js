@@ -320,7 +320,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
             //need to add hotspots of switching screen to screen
