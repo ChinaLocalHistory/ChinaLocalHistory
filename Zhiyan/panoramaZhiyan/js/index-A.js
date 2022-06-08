@@ -106,6 +106,22 @@ var v=pannellum.viewer('panorama', {
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'P0002473.JPG'}
                 },
+                {
+                    "pitch":-15.184729368304339,
+                    "yaw":-121.68834802962877,
+                    "type": "scene",
+                    "text": "A. Half Moon Reservoir, Banyue Tang",
+                    "sceneID":"A",
+                    "clickHandlerFunc": toA,
+                },
+                {
+                    "pitch":-8.290454109452979,
+                    "yaw":33.52286591044591,
+                    "type": "scene",
+                    "text": "B2. The Hall of Continuing Virtue, Yande Tang",
+                    "sceneID":"B2",
+                    "clickHandlerFunc": toB2,
+                }
             ]
         },
 
@@ -271,6 +287,14 @@ var v=pannellum.viewer('panorama', {
                 "text":"Hall of Succeeding Glory",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00014.JPG'}
+                },
+                {
+                    "pitch":-16.90555683102463,
+                    "yaw":11.543761398824886,
+                    "type": "scene",
+                    "text": "C2. The Hall of Succeeding Glory, Chengxian Tang -- back room",
+                    "sceneID":"C2",
+                    "clickHandlerFunc": toC2,
                 }
             ]
         },
@@ -372,19 +396,13 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'P0002465.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 5.226508027432661, 
+                "yaw": -148.16532792205166, 
+                "text":"Exterior of the Hall of Filial of Devotion - Gateway",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'P0002466.JPG'}
-                }
+                },
             ]
         },
         

@@ -381,19 +381,13 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'P0002465.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 5.226508027432661, 
+                "yaw": -148.16532792205166, 
+                "text":"Exterior of the Hall of Filial of Devotion - Gateway",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'P0002466.JPG'}
-                }
+                },
             ]
         },
         
