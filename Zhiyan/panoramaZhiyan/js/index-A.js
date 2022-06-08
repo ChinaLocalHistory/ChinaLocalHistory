@@ -32,26 +32,27 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 2.345475365114024,
+                "yaw": 31.832136364839414, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00012.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.48989981323274423, 
+                "yaw": 128.76527989776093, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00014.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch":  -1.0678504855662962, 
+                "yaw": -170.41160237631047, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSCN0225.JPG'}
                 },
+                /*
                 {
                 "pitch": 1, 
                 "yaw": 1, 
@@ -65,24 +66,24 @@ var v=pannellum.viewer('panorama', {
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSCN0233.JPG'}
-                },
+                },*/
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch":  2.3050495502017054, 
+                "yaw": 161.96623600826098, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSCN0234.JPG'}
-                },
+                },/*
                 {
                 "pitch": 1, 
                 "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSCN0294.JPG'}
-                },
+                },*/
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.282847007917533, 
+                "yaw": -138.6910043261086, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSCN1061.JPG'}
@@ -104,7 +105,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -236,7 +237,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
@@ -320,7 +321,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
             //need to add hotspots of switching screen to screen
@@ -377,7 +378,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -598,7 +599,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
