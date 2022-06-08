@@ -88,6 +88,14 @@ var v=pannellum.viewer('panorama', {
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSCN1061.JPG'}
                 }
+                {
+                    "pitch":-0.28860810255934893,
+                    "yaw":77.74459708662397,
+                    "type": "scenes",
+                    "text": "B.1 The Hall of Continuing Virtue, Yande Tang exterior",
+                    "sceneID":"B1",
+                    "clickHandlerFunc": toB1,
+                }
             ]
         },
 
