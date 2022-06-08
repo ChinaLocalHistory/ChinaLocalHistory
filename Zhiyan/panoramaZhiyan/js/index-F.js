@@ -217,7 +217,16 @@ var v=pannellum.viewer('panorama', {
             "text":"northwest side pillar",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'10-YDT_northwest_side_pillar_near_ancestor_tablet_chest.JPG'}
-            },/*
+            },
+            {
+                "pitch":-16.73963932014974,
+                "yaw":40.986240604759935,
+                "type": "scene",
+                "text": "B1. The Hall of Continuing Virtue, Yande Tang exterior",
+                "sceneID":"B1",
+                "clickHandlerFunc": toB1,
+            }
+            /*
             {
             "pitch": 1, 
             "yaw": 1, 
@@ -323,6 +332,14 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                //need to add hotspots of switching screen to screen
+               {
+                    "pitch":-26.455048534922017,
+                    "yaw":-63.84535620562678,
+                    "type": "scene",
+                    "text": "C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
+                    "sceneID":"C1",
+                    "clickHandlerFunc": toC1,
+                }
             
             ]
         },
@@ -525,8 +542,8 @@ var v=pannellum.viewer('panorama', {
                 "clickHandlerArgs" : {"text":'13-XSWT%20outside%20view%20of%20east%20building.JPG'}
                 },
                 {
-                    "pitch":1.60674585538679,
-                    "yaw":22.94901210316619,
+                    "pitch":-23.19832479842106,
+                    "yaw":22.19062344000269,
                     "type": "scene",
                     "text": "E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior",
                     "sceneID":"E1",
@@ -929,7 +946,7 @@ function toF1(){
 
 function toF2(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="F1. The Hall of Abundant Splendor, Guangyu Tang";
+    currentSceneTxt.innerText="F2. The Hall of Abundant Splendor, Guangyu Tang";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
