@@ -32,60 +32,52 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 2.345475365114024,
+                "yaw": 31.832136364839414, 
                 "type": "info",
+                "text": "Houses and mountains surrounding Half Moon Reservoir",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00012.JPG'}
+                "clickHandlerArgs" : {"text":'DSC00012.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.48989981323274423, 
+                "yaw": 128.76527989776093, 
                 "type": "info",
+                "text": "Houses surrounding Half Moon Reservoir",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00014.JPG'}
+                "clickHandlerArgs" : {"text":'DSC00014.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch":  -1.0678504855662962, 
+                "yaw": -170.41160237631047, 
                 "type": "info",
+                "text": "House of Great Peace",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0225.JPG'}
+                "clickHandlerArgs" : {"text":'DSCN0225.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch":  2.3050495502017054, 
+                "yaw": 161.96623600826098, 
                 "type": "info",
+                "text": "House of Great Peace",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0229.JPG'}
+                "clickHandlerArgs" : {"text":'DSCN0234.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.282847007917533, 
+                "yaw": -138.6910043261086, 
                 "type": "info",
+                "text":"Sign of Zhi Brook Village",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0233.JPG'}
+                "clickHandlerArgs" : {"text":'DSCN1061.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0234.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0294.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN1061.JPG'}
+                    "pitch":-0.28860810255934893,
+                    "yaw":77.74459708662397,
+                    "type": "scenes",
+                    "text": "B.1 The Hall of Continuing Virtue, Yande Tang exterior",
+                    "sceneID":"B1",
+                    "clickHandlerFunc": toB1,
                 }
             ]
         },
@@ -104,7 +96,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
