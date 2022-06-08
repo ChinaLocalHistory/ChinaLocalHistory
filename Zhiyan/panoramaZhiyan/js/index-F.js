@@ -26,66 +26,58 @@ var v=pannellum.viewer('panorama', {
             "vOffset": 0,
             //default zoom-in control
             "hfov": 90,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "minPitch":-30,
             "maxPitch":30,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 2.345475365114024,
+                "yaw": 31.832136364839414, 
                 "type": "info",
+                "text": "Houses and mountains surrounding Half Moon Reservoir",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00012.JPG'}
+                "clickHandlerArgs" : {"text":'DSC00012.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.48989981323274423, 
+                "yaw": 128.76527989776093, 
                 "type": "info",
+                "text": "Houses surrounding Half Moon Reservoir",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00014.JPG'}
+                "clickHandlerArgs" : {"text":'DSC00014.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch":  -1.0678504855662962, 
+                "yaw": -170.41160237631047, 
                 "type": "info",
+                "text": "House of Great Peace",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0225.JPG'}
+                "clickHandlerArgs" : {"text":'DSCN0225.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch":  2.3050495502017054, 
+                "yaw": 161.96623600826098, 
                 "type": "info",
+                "text": "House of Great Peace",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0229.JPG'}
+                "clickHandlerArgs" : {"text":'DSCN0234.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.282847007917533, 
+                "yaw": -138.6910043261086, 
                 "type": "info",
+                "text":"Sign of Zhi Brook Village",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0233.JPG'}
+                "clickHandlerArgs" : {"text":'DSCN1061.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0234.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0294.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN1061.JPG'}
+                    "pitch":-0.28860810255934893,
+                    "yaw":77.74459708662397,
+                    "type": "scene",
+                    "text": "B.1 The Hall of Continuing Virtue, Yande Tang exterior",
+                    "sceneID":"B1",
+                    "clickHandlerFunc": toB1,
                 }
             ]
         },
@@ -104,22 +96,31 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.5540749854981462, 
+                "yaw": 33.034659913032385, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'P0002473.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'P0002474.JPG'}
+                    "pitch":-15.184729368304339,
+                    "yaw":-121.68834802962877,
+                    "type": "scene",
+                    "text": "A. Half Moon Reservoir, Banyue Tang",
+                    "sceneID":"A",
+                    "clickHandlerFunc": toA,
+                },
+                {
+                    "pitch":-8.290454109452979,
+                    "yaw":33.52286591044591,
+                    "type": "scene",
+                    "text": "B2. The Hall of Continuing Virtue, Yande Tang",
+                    "sceneID":"B2",
+                    "clickHandlerFunc": toB2,
                 }
             ]
         },
@@ -138,7 +139,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                
@@ -236,50 +237,64 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 8.337252804835154, 
+                "yaw": -166.01129634940142,
                 "type": "info",
+                "text":"Opera stage",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00006.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.5553810146716338, 
+                "yaw": -179.07250575593994, 
                 "type": "info",
+                "text":"Opera stage - Carcings on the front of stage 1",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00007.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 1.0077390949549092, 
+                "yaw": -152.20671950640084, 
                 "type": "info",
+                "text":"Opera stage - Carcings on the front of stage 2",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00008.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.07695551466090804, 
+                "yaw": -165.97167069315068, 
                 "type": "info",
+                "text":"Opera stage - Carcings on the front of stage 3",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00009.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 30.131387345501626, 
+                "yaw": 168.3721021357841, 
                 "type": "info",
+                "text":"Carved bracket with the pattern of a lion playing with a ball",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00012.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 19.620647145724114, 
+                "yaw": 13.022607809986482, 
                 "type": "info",
+                "text":"Hall of Succeeding Glory",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00014.JPG'}
+                },
+                {
+                    "pitch":-16.90555683102463,
+                    "yaw":11.543761398824886,
+                    "type": "scene",
+                    "text": "C2. The Hall of Succeeding Glory, Chengxian Tang -- back room",
+                    "sceneID":"C2",
+                    "clickHandlerFunc": toC2,
                 }
             ]
         },
@@ -298,7 +313,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                //need to add hotspots of switching screen to screen
@@ -320,11 +335,18 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
             //need to add hotspots of switching screen to screen
-              
+              {
+                    "pitch":-13.63851591949794,
+                    "yaw":-103.28981818078637,
+                    "type": "scene",
+                    "text": "D2. Entrance to the Hall of Promoting Goodness, Jimei Tang",
+                    "sceneID":"D2",
+                    "clickHandlerFunc": toD2,
+                }
             ]
         },
     
@@ -342,7 +364,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -377,22 +399,24 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'P0002465.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 5.226508027432661, 
+                "yaw": -148.16532792205166, 
+                "text":"Exterior of the Hall of Filial of Devotion - Gateway",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'P0002466.JPG'}
+                },
+                {
+                    "pitch":-9.125729333981946,
+                    "yaw":-148.43665782064258,
+                    "type": "scene",
+                    "text": "E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
+                    "sceneID":"E2",
+                    "clickHandlerFunc": toE2,
                 }
             ]
         },
@@ -411,7 +435,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -515,7 +539,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -602,19 +626,22 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 4.538749535513733, 
+                "yaw": 170.50101380207101, 
+                "text":"The main gate of the Hall of Abundant Splendor",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'SANY0015.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0016.JPG'}
+                    "pitch":-17.732034608119175,
+                    "yaw":171.66685192530863,
+                    "type": "scene",
+                    "text": "F2. The Hall of Abundant Splendor, Guangyu Tang",
+                    "sceneID":"F2",
+                    "clickHandlerFunc": toF2,
                 }
+                
             ]
         },
 
@@ -632,7 +659,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {

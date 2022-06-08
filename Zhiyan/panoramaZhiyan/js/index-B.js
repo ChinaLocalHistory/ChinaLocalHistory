@@ -26,7 +26,7 @@ var v=pannellum.viewer('panorama', {
             "vOffset": 0,
             //default zoom-in control
             "hfov": 90,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "minPitch":-30,
             "maxPitch":30,
@@ -139,7 +139,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                
@@ -237,7 +237,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
@@ -313,7 +313,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                //need to add hotspots of switching screen to screen
@@ -335,11 +335,18 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
             //need to add hotspots of switching screen to screen
-              
+              {
+                    "pitch":-13.63851591949794,
+                    "yaw":-103.28981818078637,
+                    "type": "scene",
+                    "text": "D2. Entrance to the Hall of Promoting Goodness, Jimei Tang",
+                    "sceneID":"D2",
+                    "clickHandlerFunc": toD2,
+                }
             ]
         },
     
@@ -357,7 +364,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -392,7 +399,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -403,6 +410,14 @@ var v=pannellum.viewer('panorama', {
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'P0002466.JPG'}
                 },
+                {
+                    "pitch":-9.125729333981946,
+                    "yaw":-148.43665782064258,
+                    "type": "scene",
+                    "text": "E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
+                    "sceneID":"E2",
+                    "clickHandlerFunc": toE2,
+                }
             ]
         },
         
@@ -420,7 +435,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -524,7 +539,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -607,23 +622,26 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 4.538749535513733, 
+                "yaw": 170.50101380207101, 
+                "text":"The main gate of the Hall of Abundant Splendor",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'SANY0015.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0016.JPG'}
+                    "pitch":-17.732034608119175,
+                    "yaw":171.66685192530863,
+                    "type": "scene",
+                    "text": "F2. The Hall of Abundant Splendor, Guangyu Tang",
+                    "sceneID":"F2",
+                    "clickHandlerFunc": toF2,
                 }
+                
             ]
         },
 
@@ -641,7 +659,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
