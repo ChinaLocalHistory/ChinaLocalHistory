@@ -144,12 +144,14 @@ var v=pannellum.viewer('panorama', {
             "hotSpots": [
                
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": -6.99344672388277, 
+            "yaw": -153.94176799048614, 
             "type": "info",
+            "text":"Overview of the hall, inside",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'1-YDT%20overview%20of%20temple%20hall.JPG'}
             },
+            /*
             {
             "pitch": 1, 
             "yaw": 1, 
@@ -186,40 +188,44 @@ var v=pannellum.viewer('panorama', {
             "clickHandlerArgs" : {"text":'6-YDT_waterway_between_entrance_hall_and_main_hall.JPG'}
             },
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 6.655790938344923, 
+            "yaw": -153.74388369345868, 
             "type": "info",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'7-YDT_east_wall_decoration_of_main_hall.JPG'}
-            },
+            },*/
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 6.655790938344923, 
+            "yaw": -153.74388369345868, 
+            "text":"ancestor tablet chest",
             "type": "info",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'8-YDT_ancestor_tablet_chest.JPG'}
             },
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 4.980113799082637, 
+            "yaw": -153.74388369345868, 
+            "text":"ancestor tablet inside chest",
             "type": "info",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'9-YDT_ancestor_tablets_inside_chest.JPG'}
             },
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 2.9796029430713813, 
+            "yaw": -165.60613649816224, 
             "type": "info",
+            "text":"northwest side pillar",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'10-YDT_northwest_side_pillar_near_ancestor_tablet_chest.JPG'}
-            },
+            },/*
             {
             "pitch": 1, 
             "yaw": 1, 
             "type": "info",
+            "text":"northwest side pillar",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'11-YDT_east_pillar_in_main_hall.JPG'}
-            }
+            }*/
             ]
         },
 
@@ -439,88 +445,101 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000380.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 35.4323565958816, 
+                "yaw": 168.25801967097314, 
+                "text":"Roof decoration of the front hall and a plaque 'Annual presented scholar'",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000384.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 2.0790939136202424, 
+                "yaw": 9.54830149384452, 
                 "type": "info",
+                "text":"View of entry from north",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'1-XST%20view%20of%20entry%20from%20north.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 35.353551716816135, 
+                "yaw": -157.14030934836703, 
                 "type": "info",
+                "text":"Plaque - 'Annual Presented Scholar'",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'2-XST%20main%20hall%20overhead%20signage.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 13.175339463805967, 
+                "yaw": -157.5265884950741, 
                 "type": "info",
+                "text":"Sign - Hall of Dilial of Devotion",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'3-XST%202nd%20sign%20facing%20north%20wall.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 3.882713445189344, 
+                "yaw": -168.4442534302401, 
                 "type": "info",
+                "text": "Pillars on the left side",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'4-XST%20left%20pillar%20middle%20of%20north%20wall.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 3.882713445189344, 
+                "yaw": -145.39975435944322, 
                 "type": "info",
+                "text": "Pillars on the right side",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'5-XST%20right%20pillar%20middle%20of%20north%20wall.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 21.974044826378574, 
+                "yaw": 173.4229904414446, 
                 "type": "info",
+                "text": "Beam structure",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'6-XST%20west%20wall%20beam%20structure.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 22.87990277505625, 
+                "yaw": 125.01395301587343, 
                 "type": "info",
+                "text": "Eaves structure",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'11-XST%20roof%20overhang%20SW%20corner.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 1.4278914304471353, 
+                "yaw": -90.54408794342466, 
                 "type": "info",
+                "text": "Buildings on the right hand side",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'12-XST%20space%20between%20main%20hall%20and%20E%20building.JPG'}
+                "clickHandlerArgs" : {"text":'12-XST%20space%20between%20main%20hall%20and%20%20E%20building.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 1.7538858725839868, 
+                "yaw": -100.79721433099853, 
                 "type": "info",
+                "text": "Buildings on the right hand side",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'13-XSWT%20outside%20view%20of%20east%20building.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'14-XST%20interior%20view%20of%20a%20room%20in%20east%20building.JPG'}
+                    "pitch":1.60674585538679,
+                    "yaw":22.94901210316619,
+                    "type": "scene",
+                    "text": "E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior",
+                    "sceneID":"E1",
+                    "clickHandlerFunc": toE1,
+                }
+                ,
+                {
+                    "pitch":-21.128294758467757,
+                    "yaw":-156.70764823158387,
+                    "type": "scene",
+                    "text": "E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall",
+                    "sceneID":"E3",
+                    "clickHandlerFunc": toE3,
                 }
             ]
         },
