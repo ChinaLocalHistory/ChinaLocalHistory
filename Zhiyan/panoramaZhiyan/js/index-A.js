@@ -144,12 +144,14 @@ var v=pannellum.viewer('panorama', {
             "hotSpots": [
                
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": -6.99344672388277, 
+            "yaw": -153.94176799048614, 
             "type": "info",
+            "text":"Overview of the hall, inside",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'1-YDT%20overview%20of%20temple%20hall.JPG'}
             },
+            /*
             {
             "pitch": 1, 
             "yaw": 1, 
@@ -186,40 +188,44 @@ var v=pannellum.viewer('panorama', {
             "clickHandlerArgs" : {"text":'6-YDT_waterway_between_entrance_hall_and_main_hall.JPG'}
             },
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 6.655790938344923, 
+            "yaw": -153.74388369345868, 
             "type": "info",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'7-YDT_east_wall_decoration_of_main_hall.JPG'}
-            },
+            },*/
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 6.655790938344923, 
+            "yaw": -153.74388369345868, 
+            "text":"ancestor tablet chest",
             "type": "info",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'8-YDT_ancestor_tablet_chest.JPG'}
             },
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 4.980113799082637, 
+            "yaw": -153.74388369345868, 
+            "text":"ancestor tablet inside chest",
             "type": "info",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'9-YDT_ancestor_tablets_inside_chest.JPG'}
             },
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 2.9796029430713813, 
+            "yaw": -165.60613649816224, 
             "type": "info",
+            "text":"northwest side pillar",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'10-YDT_northwest_side_pillar_near_ancestor_tablet_chest.JPG'}
-            },
+            },/*
             {
             "pitch": 1, 
             "yaw": 1, 
             "type": "info",
+            "text":"northwest side pillar",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'11-YDT_east_pillar_in_main_hall.JPG'}
-            }
+            }*/
             ]
         },
 
@@ -506,7 +512,7 @@ var v=pannellum.viewer('panorama', {
                 "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'12-XST%20space%20between%20main%20hall%20and%20E%20building.JPG'}
+                "clickHandlerArgs" : {"text":'12-XST%20space%20between%20main%20hall%20and%20%20E%20building.JPG'}
                 },
                 {
                 "pitch": 1, 
