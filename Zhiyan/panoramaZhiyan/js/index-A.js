@@ -100,19 +100,12 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.5540749854981462, 
+                "yaw": 33.034659913032385, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'P0002473.JPG'}
                 },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'P0002474.JPG'}
-                }
             ]
         },
 
@@ -232,44 +225,50 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 8.337252804835154, 
+                "yaw": -166.01129634940142,
                 "type": "info",
+                "text":"Opera stage",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00006.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.5553810146716338, 
+                "yaw": -179.07250575593994, 
                 "type": "info",
+                "text":"Opera stage - Carcings on the front of stage 1",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00007.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 1.0077390949549092, 
+                "yaw": -152.20671950640084, 
                 "type": "info",
+                "text":"Opera stage - Carcings on the front of stage 2",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00008.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.07695551466090804, 
+                "yaw": -165.97167069315068, 
                 "type": "info",
+                "text":"Opera stage - Carcings on the front of stage 3",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00009.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 30.131387345501626, 
+                "yaw": 168.3721021357841, 
                 "type": "info",
+                "text":"Carved bracket with the pattern of a lion playing with a ball",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00012.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 19.620647145724114, 
+                "yaw": 13.022607809986482, 
                 "type": "info",
+                "text":"Hall of Succeeding Glory",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00014.JPG'}
                 }

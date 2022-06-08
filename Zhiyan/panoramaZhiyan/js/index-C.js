@@ -32,60 +32,52 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 2.345475365114024,
+                "yaw": 31.832136364839414, 
                 "type": "info",
+                "text": "Houses and mountains surrounding Half Moon Reservoir",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00012.JPG'}
+                "clickHandlerArgs" : {"text":'DSC00012.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.48989981323274423, 
+                "yaw": 128.76527989776093, 
                 "type": "info",
+                "text": "Houses surrounding Half Moon Reservoir",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00014.JPG'}
+                "clickHandlerArgs" : {"text":'DSC00014.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch":  -1.0678504855662962, 
+                "yaw": -170.41160237631047, 
                 "type": "info",
+                "text": "House of Great Peace",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0225.JPG'}
+                "clickHandlerArgs" : {"text":'DSCN0225.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch":  2.3050495502017054, 
+                "yaw": 161.96623600826098, 
                 "type": "info",
+                "text": "House of Great Peace",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0229.JPG'}
+                "clickHandlerArgs" : {"text":'DSCN0234.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.282847007917533, 
+                "yaw": -138.6910043261086, 
                 "type": "info",
+                "text":"Sign of Zhi Brook Village",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0233.JPG'}
+                "clickHandlerArgs" : {"text":'DSCN1061.JPG'},
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0234.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN0294.JPG'}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSCN1061.JPG'}
+                    "pitch":-0.28860810255934893,
+                    "yaw":77.74459708662397,
+                    "type": "scene",
+                    "text": "B.1 The Hall of Continuing Virtue, Yande Tang exterior",
+                    "sceneID":"B1",
+                    "clickHandlerFunc": toB1,
                 }
             ]
         },
@@ -104,23 +96,16 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.5540749854981462, 
+                "yaw": 33.034659913032385, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'P0002473.JPG'}
                 },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'P0002474.JPG'}
-                }
             ]
         },
 
@@ -240,44 +225,50 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 8.337252804835154, 
+                "yaw": -166.01129634940142,
                 "type": "info",
+                "text":"Opera stage",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00006.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.5553810146716338, 
+                "yaw": -179.07250575593994, 
                 "type": "info",
+                "text":"Opera stage - Carcings on the front of stage 1",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00007.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 1.0077390949549092, 
+                "yaw": -152.20671950640084, 
                 "type": "info",
+                "text":"Opera stage - Carcings on the front of stage 2",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00008.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.07695551466090804, 
+                "yaw": -165.97167069315068, 
                 "type": "info",
+                "text":"Opera stage - Carcings on the front of stage 3",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00009.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 30.131387345501626, 
+                "yaw": 168.3721021357841, 
                 "type": "info",
+                "text":"Carved bracket with the pattern of a lion playing with a ball",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00012.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 19.620647145724114, 
+                "yaw": 13.022607809986482, 
                 "type": "info",
+                "text":"Hall of Succeeding Glory",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00014.JPG'}
                 }
