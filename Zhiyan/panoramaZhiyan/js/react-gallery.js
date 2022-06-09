@@ -250,11 +250,12 @@ class ReactGallery extends React.Component {
   if(pageScene=="F2"){
     return(
        <div className="gallery-row">
-
        <div className="gallery-column">
-       <img id='SANY0015.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/F%20The%20Hall%20of%20Abundant%20Splendor,%20Guangyu%20Tang-F.2/SANY0015.JPG" alt='SANY0015.JPG' onClick={this.on.bind(this)}></img></div>
+       <img id='P0002468.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/F%20The%20Hall%20of%20Abundant%20Splendor%2C%20Guangyu%20Tang-F.2/P0002468.JPG" alt='P0002468.JPG' onClick={this.on.bind(this)}></img></div>
        <div className="gallery-column">
-       <img id='SANY0016.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/F%20The%20Hall%20of%20Abundant%20Splendor,%20Guangyu%20Tang-F.2/SANY0016.JPG" alt='SANY0016.JPG' onClick={this.on.bind(this)}></img></div>
+       <img id='SANY0017.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/F%20The%20Hall%20of%20Abundant%20Splendor%2C%20Guangyu%20Tang-F.2/SANY0017.JPG" alt='SANY0017.JPG' onClick={this.on.bind(this)}></img></div>
+       <div className="gallery-column">
+       <img id='SANY0018.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/F%20The%20Hall%20of%20Abundant%20Splendor%2C%20Guangyu%20Tang-F.2/SANY0018.JPG" alt='SANY0018.JPG' onClick={this.on.bind(this)}></img></div>
 
      
        <div className="back-button">
