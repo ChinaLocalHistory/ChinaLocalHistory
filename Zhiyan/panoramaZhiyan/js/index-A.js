@@ -121,6 +121,14 @@ var v=pannellum.viewer('panorama', {
                     "text": "B2. The Hall of Continuing Virtue, Yande Tang",
                     "sceneID":"B2",
                     "clickHandlerFunc": toB2,
+                },
+                {
+                    "pitch":-11.401247921602009,
+                    "yaw":94.24309345307182,
+                    "type": "scene",
+                    "text": "C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
+                    "sceneID":"C1",
+                    "clickHandlerFunc": toC1,
                 }
             ]
         },
@@ -144,8 +152,8 @@ var v=pannellum.viewer('panorama', {
             "hotSpots": [
                
             {
-            "pitch": -6.99344672388277, 
-            "yaw": -153.94176799048614, 
+            "pitch": -11.475739044729867, 
+            "yaw": -105.93081011643514, 
             "type": "info",
             "text":"Overview of the hall, inside",
             "clickHandlerFunc" : expandImg,
@@ -179,62 +187,64 @@ var v=pannellum.viewer('panorama', {
             "type": "info",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'5-YDT_roof_and_supporting_beam_for_main_hall.JPG'}
-            },
+            },*/
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": -8.514660248113652, 
+            "yaw": 65.63853313590937, 
             "type": "info",
+            "text":"`Sky Well` (small courtyard)",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'6-YDT_waterway_between_entrance_hall_and_main_hall.JPG'}
             },
+            
             {
-            "pitch": 6.655790938344923, 
-            "yaw": -153.74388369345868, 
+            "pitch": 9.522568936998807, 
+            "yaw": 16.443618819429382, 
             "type": "info",
+            "text":"East wall decoration",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'7-YDT_east_wall_decoration_of_main_hall.JPG'}
-            },*/
+            },
             {
-            "pitch": 6.655790938344923, 
-            "yaw": -153.74388369345868, 
+            "pitch": 4.729521133463686, 
+            "yaw": -105.44059481611677, 
             "text":"ancestor tablet chest",
             "type": "info",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'8-YDT_ancestor_tablet_chest.JPG'}
             },
             {
-            "pitch": 4.980113799082637, 
-            "yaw": -153.74388369345868, 
+            "pitch": 4.729521133463686, 
+            "yaw": -111.19721629617068, 
             "text":"ancestor tablet inside chest",
             "type": "info",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'9-YDT_ancestor_tablets_inside_chest.JPG'}
             },
             {
-            "pitch": 2.9796029430713813, 
-            "yaw": -165.60613649816224, 
+            "pitch": 4.729521133463686, 
+            "yaw": -115.76844826818753, 
             "type": "info",
             "text":"northwest side pillar",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'10-YDT_northwest_side_pillar_near_ancestor_tablet_chest.JPG'}
             },
             {
-                "pitch":-16.73963932014974,
-                "yaw":40.986240604759935,
+            "pitch": 4.729521133463686, 
+            "yaw": -94.39815403306663, 
+            "type": "info",
+            "text":"East side pillar",
+            "clickHandlerFunc" : expandImg,
+            "clickHandlerArgs" : {"text":'11-YDT_east_pillar_in_main_hall.JPG'}
+            },
+            {
+                "pitch":-12.798990600513335,
+                "yaw":75.69933177125694,
                 "type": "scene",
                 "text": "B1. The Hall of Continuing Virtue, Yande Tang exterior",
                 "sceneID":"B1",
                 "clickHandlerFunc": toB1,
-            }
-            /*
-            {
-            "pitch": 1, 
-            "yaw": 1, 
-            "type": "info",
-            "text":"northwest side pillar",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'11-YDT_east_pillar_in_main_hall.JPG'}
-            }*/
+            },
             ]
         },
 
@@ -310,6 +320,22 @@ var v=pannellum.viewer('panorama', {
                     "text": "C2. The Hall of Succeeding Glory, Chengxian Tang -- back room",
                     "sceneID":"C2",
                     "clickHandlerFunc": toC2,
+                },
+                {
+                    "pitch":-18.703607674387875,
+                    "yaw":153.9352386247616,
+                    "type": "scene",
+                    "text": "B1. The Hall of Continuing Virtue, Yande Tang exterior",
+                    "sceneID":"B1",
+                    "clickHandlerFunc": toB1,
+                },
+                {
+                    "pitch":-18.703607674387875,
+                    "yaw":168.8327670126108,
+                    "type": "scene",
+                    "text": "D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior",
+                    "sceneID":"D1",
+                    "clickHandlerFunc": toD1,
                 }
             ]
         },
@@ -333,8 +359,8 @@ var v=pannellum.viewer('panorama', {
             "hotSpots": [
                //need to add hotspots of switching screen to screen
                {
-                    "pitch":-26.455048534922017,
-                    "yaw":-63.84535620562678,
+                    "pitch":-11.53515617254781,
+                    "yaw":-76.52906684194716,
                     "type": "scene",
                     "text": "C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
                     "sceneID":"C1",
@@ -369,6 +395,22 @@ var v=pannellum.viewer('panorama', {
                     "text": "D2. Entrance to the Hall of Promoting Goodness, Jimei Tang",
                     "sceneID":"D2",
                     "clickHandlerFunc": toD2,
+                },
+                {
+                    "pitch":-17.99866270523993,
+                    "yaw":170.5062718172273,
+                    "type": "scene",
+                    "text": "E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior",
+                    "sceneID":"E1",
+                    "clickHandlerFunc": toE1,
+                },
+                {
+                    "pitch":-17.99866270523993,
+                    "yaw":170.5062718172273,
+                    "type": "scene",
+                    "text": "C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
+                    "sceneID":"C1",
+                    "clickHandlerFunc": toC1,
                 }
             ]
         },
@@ -376,7 +418,7 @@ var v=pannellum.viewer('panorama', {
         "D2":{
             "title":"D2. Entrance to the Hall of Promoting Goodness, Jimei Tang",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/panorama-pictures/D2.jpg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/D.2%20panorama.jpeg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -403,6 +445,14 @@ var v=pannellum.viewer('panorama', {
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'SANY0013.JPG'}
+                },
+                {
+                    "pitch":-13.63851591949794,
+                    "yaw":-103.28981818078637,
+                    "type": "scene",
+                    "text": "D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior",
+                    "sceneID":"D1",
+                    "clickHandlerFunc": toD1,
                 }
             ]
         },
@@ -440,6 +490,14 @@ var v=pannellum.viewer('panorama', {
                     "text": "E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
                     "sceneID":"E2",
                     "clickHandlerFunc": toE2,
+                },
+                {
+                    "pitch":-13.651314400582477,
+                    "yaw":2.0570076064097593,
+                    "type": "scene",
+                    "text": "D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior",
+                    "sceneID":"D1",
+                    "clickHandlerFunc": toD1,
                 }
             ]
         },
@@ -542,7 +600,7 @@ var v=pannellum.viewer('panorama', {
                 "clickHandlerArgs" : {"text":'13-XSWT%20outside%20view%20of%20east%20building.JPG'}
                 },
                 {
-                    "pitch":-23.19832479842106,
+                    "pitch":-14.456730942196272,
                     "yaw":22.19062344000269,
                     "type": "scene",
                     "text": "E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior",
@@ -551,7 +609,7 @@ var v=pannellum.viewer('panorama', {
                 }
                 ,
                 {
-                    "pitch":-21.128294758467757,
+                    "pitch":-15.017407920583326,
                     "yaw":-156.70764823158387,
                     "type": "scene",
                     "text": "E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall",
@@ -579,54 +637,57 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 8.519409540434541, 
+                "yaw": -134.90131326625982, 
+                "text":"The back of the front hall",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000458.JPG'}
-                },
+                },/*
                 {
                 "pitch": 1, 
                 "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000459.JPG'}
-                },
+                },*/
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 24.055317183552656, 
+                "yaw": -75.05233404942287, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000460.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 6.1925274840819675, 
+                "yaw": 50.76059493272072, 
+                "text":"Ancestral tablet chest",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":';000461.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 13.72873567114599, 
+                "yaw": 50.76059493272072, 
+                "text":"Ancestral Spirit tablets",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000462.JPG'}
-                },
+                },/*
                 {
                 "pitch": 1, 
                 "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000463.JPG'}
-                },
+                },*/
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 3.8485911290349764, 
+                "yaw": -16.77034632472374, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000464.JPG'}
-                },
+                },/*
                 {
                 "pitch": 1, 
                 "yaw": 1, 
@@ -640,7 +701,15 @@ var v=pannellum.viewer('panorama', {
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'DSC00022.JPG'}
-                }
+                },*/
+                {
+                    "pitch":-13.565045864306937,
+                    "yaw":107.30268339073082,
+                    "type": "scene",
+                    "text": "E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
+                    "sceneID":"E2",
+                    "clickHandlerFunc": toE2,
+                },
             ]
         },
 
@@ -699,18 +768,28 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -1.0675129204364804, 
+                "yaw": -161.4374636029392, 
+                "text":"Ancestral tablet chest",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0015.JPG'}
+                "clickHandlerArgs" : {"text":'SANY0017.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 7.89166328429929, 
+                "yaw": -161.4374636029392, 
+                "text":"plaque",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0016.JPG'}
+                "clickHandlerArgs" : {"text":'SANY0018.JPG'}
+                },
+                {
+                    "pitch":-13.9166668354319,
+                    "yaw":18.7867720050737,
+                    "type": "scene",
+                    "text": "F1. The Hall of Abundant Splendor, Guangyu Tang",
+                    "sceneID":"F1",
+                    "clickHandlerFunc": toF1,
                 }
             ]
         },
@@ -960,6 +1039,8 @@ function toF2(){
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
+
+
 
 /*
 function toG(){
