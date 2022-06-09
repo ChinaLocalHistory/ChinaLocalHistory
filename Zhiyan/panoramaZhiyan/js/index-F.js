@@ -703,14 +703,21 @@ var v=pannellum.viewer('panorama', {
                 "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0015.JPG'}
+                "clickHandlerArgs" : {"text":'P0002468.JPG'}
                 },
                 {
                 "pitch": 1, 
                 "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0016.JPG'}
+                "clickHandlerArgs" : {"text":'SANY0017.JPG'}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":'SANY0018.JPG'}
                 }
             ]
         },
