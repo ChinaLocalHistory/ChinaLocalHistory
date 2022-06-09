@@ -405,8 +405,8 @@ var v=pannellum.viewer('panorama', {
                     "clickHandlerFunc": toE1,
                 },
                 {
-                    "pitch":-17.99866270523993,
-                    "yaw":170.5062718172273,
+                    "pitch":-12.874567005200477,
+                    "yaw":-16.82322493561017,
                     "type": "scene",
                     "text": "C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
                     "sceneID":"C1",
@@ -433,22 +433,24 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -3.760818178532821, 
+                "yaw": -158.35870232115795, 
+                "text":"Overview",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'SANY0012.JPG'}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 16.170480122914704, 
+                "yaw": -158.35870232115795, 
+                "text":"Ancestral tablet chest",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'SANY0013.JPG'}
                 },
                 {
-                    "pitch":-13.63851591949794,
-                    "yaw":-103.28981818078637,
+                    "pitch":-13.924371653676996,
+                    "yaw":23.3804782089114,
                     "type": "scene",
                     "text": "D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior",
                     "sceneID":"D1",
