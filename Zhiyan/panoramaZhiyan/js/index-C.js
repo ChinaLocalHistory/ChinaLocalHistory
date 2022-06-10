@@ -712,6 +712,14 @@ var v=pannellum.viewer('panorama', {
                     "sceneID":"E2",
                     "clickHandlerFunc": toE2,
                 },
+                {
+                    "pitch":-11.043975945133068,
+                    "yaw":-69.49300150813578,
+                    "type": "scene",
+                    "text": "E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
+                    "sceneID":"E2",
+                    "clickHandlerFunc": toE2,
+                },
             ]
         },
 
