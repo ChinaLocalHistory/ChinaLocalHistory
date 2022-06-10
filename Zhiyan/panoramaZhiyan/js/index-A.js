@@ -608,11 +608,18 @@ var v=pannellum.viewer('panorama', {
                     "text": "E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior",
                     "sceneID":"E1",
                     "clickHandlerFunc": toE1,
-                }
-                ,
+                },
                 {
-                    "pitch":-15.017407920583326,
-                    "yaw":-156.70764823158387,
+                    "pitch":-13.43549874821627,
+                    "yaw":-65.33913327415188,
+                    "type": "scene",
+                    "text": "E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall",
+                    "sceneID":"E3",
+                    "clickHandlerFunc": toE3,
+                },
+                {
+                    "pitch":-13.43549874821627,
+                    "yaw":110.81429153033766,
                     "type": "scene",
                     "text": "E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall",
                     "sceneID":"E3",
