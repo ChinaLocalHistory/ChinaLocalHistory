@@ -666,7 +666,7 @@ var v=pannellum.viewer('panorama', {
                 "text":"Ancestral tablet chest",
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":';000461.JPG'}
+                "clickHandlerArgs" : {"text":'000461.JPG'}
                 },
                 {
                 "pitch": 13.72873567114599, 
