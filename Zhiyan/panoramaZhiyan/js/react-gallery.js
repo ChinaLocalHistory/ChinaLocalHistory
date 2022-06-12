@@ -13,14 +13,10 @@ class ReactGallery extends React.Component {
             <img id='DSC00014.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSC00014.JPG" alt='DSC00014.JPG' onClick={this.on.bind(this)}></img></div>
             <div className="gallery-column">
             <img id='DSCN0225.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0225.JPG" alt='DSCN0225.JPG' onClick={this.on.bind(this)}></img></div>
-            <div className="gallery-column">
-            <img id='DSCN0229.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0229.JPG" alt='DSCN0229.JPG' onClick={this.on.bind(this)}></img></div>
-            <div className="gallery-column">
-            <img id='DSCN0233.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0233.JPG" alt='DSCN0233.JPG' onClick={this.on.bind(this)}></img></div>
+            
             <div className="gallery-column">
             <img id='DSCN0234.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0234.JPG" alt='DSCN0234.JPG' onClick={this.on.bind(this)}></img></div>
-            <div className="gallery-column">
-            <img id='DSCN0294.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0294.JPG" alt='DSCN0294.JPG' onClick={this.on.bind(this)}></img></div>
+            
             <div className="gallery-column">
             <img id='DSCN1061.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN1061.JPG" alt='DSCN1061.JPG' onClick={this.on.bind(this)}></img></div>
             <div className="back-button">
@@ -35,9 +31,7 @@ class ReactGallery extends React.Component {
           <div className="gallery-row">
            <div className="gallery-column">
            <img id='P0002473.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.1%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang%20exterior/P0002473.JPG" alt='P0002473.JPG' onClick={this.on.bind(this)}></img></div>
-           <div className="gallery-column">
-           <img id='P0002474.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.1%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang%20exterior/P0002474.JPG" alt='P0002474.JPG' onClick={this.on.bind(this)}></img></div>
-
+           
           <div className="back-button">
           <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p></div>
           </div> 
@@ -47,6 +41,9 @@ class ReactGallery extends React.Component {
     if (pageScene== "B2") {
         return(
           <div className="gallery-row">
+           <div className="gallery-column">
+           <img id='P0002474.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.1%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang%20exterior/P0002474.JPG" alt='P0002474.JPG' onClick={this.on.bind(this)}></img></div>
+
            <div className="gallery-column">
            <img id='1-YDT%20overview%20of%20temple%20hall.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/1-YDT%20overview%20of%20temple%20hall.JPG" alt='1-YDT%20overview%20of%20temple%20hall.JPG' onClick={this.on.bind(this)}></img></div>
            
@@ -80,6 +77,9 @@ class ReactGallery extends React.Component {
            <div className="gallery-column">
            <img id='11-YDT_east_pillar_in_main_hall.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/B%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang-B.2%20The%20Hall%20of%20Continuing%20Virtue%2C%20Yande%20Tang/11-YDT_east_pillar_in_main_hall.JPG" alt='11-YDT_east_pillar_in_main_hall.JPG' onClick={this.on.bind(this)}></img></div>
            
+           <div className="gallery-column">
+            <img id='DSCN0294.JPG' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/img/A%20Half%20Moon%20Reservoir%2C%20Banyue%20Tang/DSCN0294.JPG" alt='DSCN0294.JPG' onClick={this.on.bind(this)}></img></div>
+
           <div className="back-button">
           <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Zhiyan/menu/zhiyan.html">&rarr;</a></b></p></div>
           </div> 
