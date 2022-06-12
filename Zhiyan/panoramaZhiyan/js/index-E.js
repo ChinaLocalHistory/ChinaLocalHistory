@@ -159,35 +159,38 @@ var v=pannellum.viewer('panorama', {
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'1-YDT%20overview%20of%20temple%20hall.JPG'}
             },
-            /*
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 3.4785978686062693, 
+            "yaw": 83.10083853133199, 
             "type": "info",
+            "text":"West pillar in Entrance hall",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'2-YDT%20west%20pillar%20in%20entrance%20hall.JPG'}
             },
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 20.545404379386582, 
+            "yaw": 75.50957951042817, 
             "type": "info",
+            "text":"Renovated beam structure",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'3-YDT_renovated_beam_structure_in_entrance.JPG'}
             },
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 23.207445945604665, 
+            "yaw": -103.66550833155856, 
             "type": "info",
+            "text":"Main hall sign",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'4-YDT_main_hall_sign.JPG'}
             },
             {
-            "pitch": 1, 
-            "yaw": 1, 
+            "pitch": 18.531386545812264, 
+            "yaw": 89.39950858579601, 
             "type": "info",
+            "text":"Roof and supporting beam",
             "clickHandlerFunc" : expandImg,
             "clickHandlerArgs" : {"text":'5-YDT_roof_and_supporting_beam_for_main_hall.JPG'}
-            },*/
+            },
             {
             "pitch": -8.514660248113652, 
             "yaw": 65.63853313590937, 
@@ -298,8 +301,8 @@ var v=pannellum.viewer('panorama', {
                 "clickHandlerArgs" : {"text":'DSC00009.JPG'}
                 },
                 {
-                "pitch": 30.131387345501626, 
-                "yaw": 168.3721021357841, 
+                "pitch": 7.787737392545937, 
+                "yaw": 6.583098976303849, 
                 "type": "info",
                 "text":"Carved bracket with the pattern of a lion playing with a ball",
                 "clickHandlerFunc" : expandImg,
