@@ -26,7 +26,7 @@ var v=pannellum.viewer('panorama', {
             "vOffset": 0,
             //default zoom-in control
             "hfov": 90,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "minPitch":-30,
             "maxPitch":30,
@@ -96,7 +96,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -147,7 +147,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                
@@ -265,7 +265,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
@@ -357,7 +357,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                //need to add hotspots of switching screen to screen
@@ -387,7 +387,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
             //need to add hotspots of switching screen to screen
@@ -432,7 +432,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -477,7 +477,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -521,7 +521,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -645,7 +645,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -655,14 +655,7 @@ var v=pannellum.viewer('panorama', {
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000458.JPG'}
-                },/*
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000459.JPG'}
-                },*/
+                },
                 {
                 "pitch": 24.055317183552656, 
                 "yaw": -75.05233404942287, 
@@ -685,35 +678,14 @@ var v=pannellum.viewer('panorama', {
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000462.JPG'}
-                },/*
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000463.JPG'}
-                },*/
+                },
                 {
                 "pitch": 3.8485911290349764, 
                 "yaw": -16.77034632472374, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":'000464.JPG'}
-                },/*
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000465.JPG'}
                 },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00022.JPG'}
-                },*/
                 {
                     "pitch":-13.565045864306937,
                     "yaw":107.30268339073082,
@@ -747,7 +719,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -784,7 +756,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
