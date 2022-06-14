@@ -740,7 +740,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            "pitch": 0.7435286539872826, 
+            "yaw": 173.51028586837054, 
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -777,7 +779,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "hotSpotDebug":true,
+            "pitch": 1.101096772917016, 
+            "yaw": -161.4374636029392, 
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
