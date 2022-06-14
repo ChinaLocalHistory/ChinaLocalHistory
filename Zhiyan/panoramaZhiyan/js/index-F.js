@@ -26,6 +26,8 @@ var v=pannellum.viewer('panorama', {
             "vOffset": 0,
             //default zoom-in control
             "hfov": 90,
+            "pitch":0.4950347216871744,
+            "yaw":98.53426094431822,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "minPitch":-30,
@@ -96,6 +98,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch":0.48785805876345967,
+            "yaw":37.66738775223549,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -147,6 +151,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch":1.0975898880450663,
+            "yaw":-105.48534675483569,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -265,6 +271,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -330,6 +338,7 @@ var v=pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "B1. The Hall of Continuing Virtue, Yande Tang exterior",
                     "sceneID":"B1",
+                    //"transform": "rotate(180deg)",
                     "clickHandlerFunc": toB1,
                 },
                 {
@@ -357,6 +366,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch":0.7265671856573602,
+            "yaw":119.87999401710053,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -387,6 +398,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch":1.0983116631691014,
+            "yaw":-102.28891154610704,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -432,6 +445,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch":0.3642837090303493,
+            "yaw":-158.01214088624315,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -477,6 +492,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch":0.7288870580340265,
+            "yaw":-148.48137665165783,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -521,6 +538,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch":0.6057653149603399,
+            "yaw":-157.26912308153436,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -645,6 +664,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch":0.6103280461592058,
+            "yaw":107.70363726046892,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -719,7 +740,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -756,7 +777,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
