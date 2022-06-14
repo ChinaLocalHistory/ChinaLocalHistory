@@ -338,7 +338,6 @@ var v=pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "B1. The Hall of Continuing Virtue, Yande Tang exterior",
                     "sceneID":"B1",
-                    "transform": "rotate(180deg)",
                     "clickHandlerFunc": toB1,
                 },
                 {
