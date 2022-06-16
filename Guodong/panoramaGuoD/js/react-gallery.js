@@ -10,7 +10,7 @@ class ReactGallery extends React.Component {
  <div className="gallery-column">
   <img id='Overview%20of%20the%20West%20Gate.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/A%20West%20Gate%2C%20Ximen/Overview%20of%20the%20West%20Gate.JPG" alt='Overview%20of%20the%20West%20Gate.JPG' onClick={this.on.bind(this)}></img></div>
   <div className="back-button">
-  <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p>
+  <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p>
   </div>
 </div>
   );
@@ -36,7 +36,7 @@ class ReactGallery extends React.Component {
 
 
 <div className="back-button">
-<p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+<p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
 </div> 
 );
     }
@@ -78,7 +78,7 @@ class ReactGallery extends React.Component {
 
 
 <div className="back-button">
-<p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+<p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
 </div>
 
 );
@@ -93,7 +93,7 @@ class ReactGallery extends React.Component {
           <img id='Overview%20of%20Hailin%20Court.JPG' src="https://raw.githubusercontent.com/jw4590/TangxiCityGodTemple/master/panorama%20-%20Guodong/img/D%20Hailin%20Court%2C%20Hailin%20Ge/D.1%20Hailin%20Court--exterior/Overview%20of%20Hailin%20Court.JPG" alt='Overview%20of%20Hailin%20Court.JPG' onClick={this.on.bind(this)}></img></div>
 
          <div className="back-button">
-         <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+         <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
          </div>
          );
     }
@@ -128,7 +128,7 @@ class ReactGallery extends React.Component {
        
        
        <div className="back-button">
-       <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+       <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
        </div>);
     }
     if(pageScene=="D3"){
@@ -142,7 +142,7 @@ class ReactGallery extends React.Component {
        
        
        <div className="back-button">
-       <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+       <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
        </div>);
     }
     if(pageScene=="E"){
@@ -156,7 +156,7 @@ class ReactGallery extends React.Component {
 
 
 <div className="back-button">
-<p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+<p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
 </div>
 );
     }
@@ -182,7 +182,7 @@ class ReactGallery extends React.Component {
      
      
      <div className="back-button">
-     <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+     <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
      </div>
      );
   }
@@ -211,7 +211,7 @@ class ReactGallery extends React.Component {
      
      
      <div className="back-button">
-     <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+     <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
      </div>);
 }
 
@@ -304,7 +304,7 @@ if(pageScene=="F3"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>
    
    
@@ -364,7 +364,7 @@ if(pageScene=="F4"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>);
 }
 
@@ -385,7 +385,7 @@ if(pageScene=="G"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>);
 }
 
@@ -410,7 +410,7 @@ if(pageScene=="H1"||pageScene=="H2"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>
    );
 }
@@ -434,7 +434,7 @@ if(pageScene=="I"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>);
 }
 
@@ -457,7 +457,7 @@ if(pageScene=="J1"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>);
 }
 
@@ -478,7 +478,7 @@ if(pageScene=="J2"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>);
 }
 
@@ -493,7 +493,7 @@ if(pageScene=="K1"||pageScene=="K2"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>);
 }
 
@@ -509,7 +509,7 @@ if(pageScene=="K3"||pageScene=="K4"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>);
 }
 if(pageScene=="L"){
@@ -525,7 +525,7 @@ if(pageScene=="L"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>);
 }
 if(pageScene=="M"){
@@ -541,7 +541,7 @@ if(pageScene=="M"){
    
    
    <div className="back-button">
-   <p><b><a href = "https://jw4590.github.io/TangxiCityGodTemple/panorama%20-%20Guodong/sites-links.html">&rarr;</a></b></p></div>
+   <p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Guodong/menu/index.html">&rarr;</a></b></p></div>
    </div>);
 }
 }
