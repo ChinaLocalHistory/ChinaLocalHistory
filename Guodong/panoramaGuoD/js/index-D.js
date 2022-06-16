@@ -26,6 +26,8 @@ var v=pannellum.viewer('panorama', {
             "vOffset": 0,
             //default zoom-in control
             "hfov": 90,
+            "pitch": 3.419427475332077,
+            "yaw": -95.71354349550919,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "minPitch":-30,
@@ -63,6 +65,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.45686471392102285,
+            "yaw": 10.488749249847702,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -106,6 +110,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.62479712302614,
+            "yaw": -138.51030193178983,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -142,6 +148,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.6187070364261071,
+            "yaw": -142.65032322253177,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -197,7 +205,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           //"hotSpotDebug":true,
+            "pitch": 0.4612709189130419,
+            "yaw": 6.473138843896855,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
             
@@ -311,6 +321,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.46119766512592464,
+            "yaw": -41.63842758859395,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -353,6 +365,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.45922778696602945,
+            "yaw": 45.232512731960355,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -387,6 +401,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.7881815850548602,
+            "yaw": -75.4062109617013,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -447,7 +463,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.6241898364555951,
+            "yaw": 61.64558383777387,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -541,7 +559,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.6204886439734818,
+            "yaw": 47.33133764898162,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 
@@ -669,7 +689,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.7887628715867732,
+            "yaw": 9.177590395303412,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 
@@ -767,7 +789,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.6278442785718856,
+            "yaw": -30.626007996783443,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 
@@ -811,6 +835,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.6278442785718847,
+            "yaw": 70.52387991888645,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -862,12 +888,14 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.7910668705359107,
+            "yaw": -53.19048565054878,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
             {
-                "pitch": -6.224028266500834,
-                "yaw": 85.91131837122502,
+                "pitch": -20.801687924442586,
+                "yaw": 129.16274099553988,
                 "type": "scene",
                 "text": "H1 Xinwu Li, Front Courtyard",
                 "sceneId": "H1",
@@ -889,7 +917,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.7903560245728345,
+            "yaw": -116.97589756916899,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                
@@ -932,7 +962,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.6260372488534367,
+            "yaw": -2.7258441622796283,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                     {
@@ -974,7 +1006,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.6223519950936521,
+            "yaw": 48.53278529821415,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                
@@ -1011,7 +1045,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.4581349465654271,
+            "yaw": 75.40254493653627,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                
@@ -1054,7 +1090,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.623977405689789,
+            "yaw": -124.26122334185189,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [      
                        
@@ -1090,6 +1128,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.7849061402815817,
+            "yaw": 75.12102562828797,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -1142,7 +1182,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.6263456123360341,
+            "yaw": -62.58101782319559,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [    
                        
@@ -1171,7 +1213,9 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-           // "hotSpotDebug":true,
+            "pitch": 0.62479712302614,
+            "yaw": 95.16028967029013,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -1221,6 +1265,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
+            "pitch": 0.4577899381536776,
+            "yaw": 16.826424058526264,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
