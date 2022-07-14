@@ -1,12 +1,29 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lu Family Compound</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- pannellum css & javaScript -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+
+    <!-- css  -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- Load React. -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="js/react-gallery.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <title>China Locals </title>
   </head>
 
 <body>
@@ -16,13 +33,13 @@
   </div>
 
   <script>
-
   $(function(){
     $("#nav-placeholder").load("index.html");
     
   });
   </script>
 <!--end of Navigation bar-->
+
   <!-- overlay for expanded img -->
   <div id="overlay" onclick="off()" style="display:none">
       <img id="expandedImg">
@@ -31,6 +48,7 @@
   <div class="container">
     <div class="img-overlay-wrap">
     <!-- basemap container  -->
+    
     <div class="basemap-container">
       <h1>Lu Family Compound</h1>
       <br>
