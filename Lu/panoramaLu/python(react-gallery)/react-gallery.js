@@ -1,5 +1,3 @@
-#Output of Readlines function is A%20Half%20Moon%20Reservoir,%20Banyue%20Tang
-
 <div className="gallery-row">
 
  <div className="gallery-column">
@@ -51,5 +49,5 @@
 
 
 <div className="back-button">
-<p><b><a href = "https://ChinaLocalHistory.github.io/TangxiCityGodTemple/menu/index.html">&rarr;</a></b></p></div>
+<p><b><a href = "https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/menu/Lu.html">&rarr;</a></b></p></div>
 </div>
