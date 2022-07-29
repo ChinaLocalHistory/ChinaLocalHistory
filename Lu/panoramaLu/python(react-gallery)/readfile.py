@@ -25,7 +25,7 @@ def formatGallery(txtList,nameOfScene):
     
     for txt in txtList:
         print(' <div className="gallery-column">')
-        print(' <img '+'id='+txt+' src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/'
+        print(' <img '+'id="'+txt+'" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/'
           + nameOfScene + '/' + txt + '" alt="' +txt + '" onClick={this.on.bind(this)}></img></div>')
     print('\n')
     print('<div className="back-button">\n'+
@@ -65,6 +65,6 @@ def galleryHtml2(txtList,nameOfScene):
 
 
         
-#formatGallery(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.3%20Villagers/')
-galleryHtml(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.7%20Countyard')
-galleryHtml2(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.7%20Countyard')
+formatGallery(edittxt(readgallery('gallery.txt')),'S.%20Lotus%20Pavilion%20Academy,%20Heting%20Shuyuan-S.2.%20Lotus%20Pavilion%20Academy')
+#galleryHtml(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.7%20Countyard')
+#galleryHtml2(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.7%20Countyard')
