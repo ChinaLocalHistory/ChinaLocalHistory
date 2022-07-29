@@ -2211,191 +2211,427 @@ function toA(){
     ReactDOM.render(agallery, document.getElementById('react-gallery'));
 }
 
-function toB1(){
+function toB(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="B1. The Hall of Continuing Virtue, Yande Tang exterior";
+    currentSceneTxt.innerText="B. Formal Entrance";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('zhiyan-B');
+    var myCircle = document.getElementById('Lu-B');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("B1");
-    pageScene="B1";
+    v.loadScene("B");
+    pageScene="B";
     console.log(pageScene);
     const bgallery = <ReactGallery/>;
     ReactDOM.render(bgallery, document.getElementById('react-gallery'));
 }
 
-function toB2(){
+function toC(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="B2. The Hall of Continuing Virtue, Yande Tang";
+    currentSceneTxt.innerText="C. His Lordship`s Mansion, Daifu Di 大夫第";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('zhiyan-B');
+    var myCircle = document.getElementById('Lu-C');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("B2");
-    pageScene="B2";
-    console.log(pageScene);
-    const bgallery = <ReactGallery/>;
-    ReactDOM.render(bgallery, document.getElementById('react-gallery'));
-}
-
-function toC1(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="C1. The Hall of Succeeding Glory, Chengxian Tang -- front room";
-    var myCircles = document.getElementsByClassName('st0');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('zhiyan-C');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("C1");
-    pageScene="C1";
+    v.loadScene("C");
+    pageScene="C";
     console.log(pageScene);
     const cgallery = <ReactGallery/>;
     ReactDOM.render(cgallery, document.getElementById('react-gallery'));
 }
 
-function toC2(){
+function toD(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="C2. The Hall of Succeeding Glory, Chengxian Tang -- back room";
+    currentSceneTxt.innerText="D. Head Gate/Victory Report Gate, Jiebao Men 捷報門";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('zhiyan-C');
+    var myCircle = document.getElementById('Lu-D');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("C2");
-    pageScene="C2";
-    console.log(pageScene);
-    const cgallery = <ReactGallery/>;
-    ReactDOM.render(cgallery, document.getElementById('react-gallery'));
-}
-
-function toD1(){
-    var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior";
-    var myCircles = document.getElementsByClassName('st0');
-    var i;
-    for(i=0;i<myCircles.length;i++){
-        myCircles[i].style.fill="#023859";
-    }
-    var myCircle = document.getElementById('zhiyan-D');
-    myCircle.style.fill = "#F26E22";
-    v.loadScene("D1");
-    pageScene="D1";
+    v.loadScene("D");
+    pageScene="D";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-function toD2(){
+function toE(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="D2. Entrance to the Hall of Promoting Goodness, Jimei Tang";
+    currentSceneTxt.innerText="E. Ceremonial Gate/Glory of the Nation Gate, Guoguang Men 國光門";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('zhiyan-D');
+    var myCircle = document.getElementById('Lu-E');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("D2");
-    pageScene="D2";
+    v.loadScene("E");
+    pageScene="E";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-function toE1(){
+function toF(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior";
+    currentSceneTxt.innerText="F. Seriousness and Consonance Hall, Suyong Hall, Suyong Tang 肅雍堂";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('zhiyan-E');
+    var myCircle = document.getElementById('Lu-F');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("E1");
-    pageScene="E1";
+    v.loadScene("F");
+    pageScene="F";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-function toE2(){
+function toG(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall";
+    currentSceneTxt.innerText="G. The Hallway 穿堂";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('zhiyan-E');
+    var myCircle = document.getElementById('Lu-G');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("E2");
-    pageScene="E2";
+    v.loadScene("G");
+    pageScene="G";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-function toE3(){
+function toH(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall";
+    currentSceneTxt.innerText="H. Long Life Hall, Tongshou Tang 同壽堂";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('zhiyan-E');
+    var myCircle = document.getElementById('Lu-H');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("E3");
-    pageScene="E3";
+    v.loadScene("H");
+    pageScene="H";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-
-function toF1(){
+function toI(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="F1. The Hall of Abundant Splendor, Guangyu Tang";
+    currentSceneTxt.innerText="I. Stone Gate/Enjoy Longevity Hall/Leshou Hall, Leshou Tang 樂壽堂";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('zhiyan-F');
+    var myCircle = document.getElementById('Lu-I');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("F1");
-    pageScene="F1";
+    v.loadScene("I");
+    pageScene="I";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
-function toF2(){
+function toJ1(){
     var currentSceneTxt = document.getElementById('currentScene');
-    currentSceneTxt.innerText="F2. The Hall of Abundant Splendor, Guangyu Tang";
+    currentSceneTxt.innerText="J.1 Harmony Through Generations Gate";
     var myCircles = document.getElementsByClassName('st0');
     var i;
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('zhiyan-F');
+    var myCircle = document.getElementById('Lu-J1');
     myCircle.style.fill = "#F26E22";
-    v.loadScene("F2");
-    pageScene="F2";
+    v.loadScene("J1");
+    pageScene="J1";
     console.log(pageScene);
     const dgallery = <ReactGallery/>;
     ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
 }
 
+function toJ2(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="J.2 Harmony Through the Generations Hall";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-J2');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("J2");
+    pageScene="J2";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toJ3(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="J.3 Harmony Through the Generations Middle Hall";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-J3');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("J3");
+    pageScene="J3";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toJ4(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="J.4 Harmony Through the Generations Back Hall";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-J4');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("J4");
+    pageScene="J4";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toK(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="K. Virtue Through the Generations Gateway, Shide Menfang 世德門坊";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-K');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("K");
+    pageScene="K";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toL(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="L. Surfeit of Kindness Hall, Dunyu Tang 惇裕堂";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-L');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("L");
+    pageScene="L";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toM(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="M. Cordial Meetings Hall, Jiahui Tang 嘉會堂";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-M');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("M");
+    pageScene="M";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toN1(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="N.1 Virtue Through the Generations Back Hall";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-N');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("N1");
+    pageScene="N1";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toN2(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="N.2 Virtue Through the Generations Main Hall";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-N');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("N2");
+    pageScene="N2";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toO(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="O. Good Blessings Hall, Shanqing Tang 善慶堂";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-O');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("O");
+    pageScene="O";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toP(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="P. Pleasant Gatherings Hall, Dunxu Tang 惇敘堂";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-P');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("P");
+    pageScene="P";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toQ1(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="Q.1 Planting Virue Front Hall";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-Q');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("Q1");
+    pageScene="Q1";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toQ2(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="Q.2 Planting Virue Hall";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-Q');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("Q2");
+    pageScene="Q2";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toQ3(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="Q.3 Planting Virue Back Hall";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-Q');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("Q3");
+    pageScene="Q3";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toR(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="R. East Chanting Hall, Dongyin Tang 東吟堂";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-R');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("R");
+    pageScene="R";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toS1(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="S.1 Lotus Pavilion Academy";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-S');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("S1");
+    pageScene="S1";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
+
+function toS2(){
+    var currentSceneTxt = document.getElementById('currentScene');
+    currentSceneTxt.innerText="S.2 Lotus Pavilion Academy";
+    var myCircles = document.getElementsByClassName('st0');
+    var i;
+    for(i=0;i<myCircles.length;i++){
+        myCircles[i].style.fill="#023859";
+    }
+    var myCircle = document.getElementById('Lu-S');
+    myCircle.style.fill = "#F26E22";
+    v.loadScene("S2");
+    pageScene="S2";
+    console.log(pageScene);
+    const dgallery = <ReactGallery/>;
+    ReactDOM.render(dgallery, document.getElementById('react-gallery'));  
+}
