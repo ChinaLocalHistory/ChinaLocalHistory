@@ -34,20 +34,20 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "hotSpots": [
                 {
-                    "pitch":-0.28860810255934893,
-                    "yaw":77.74459708662397,
+                    "pitch":1,
+                    "yaw":1,
                     "type": "scene",
-                    "text": "B. Formal Entrance",
+                    "text": "B",
                     "sceneID":"B",
                     "clickHandlerFunc": toB,
                 }
             ]
         },
 
-        "B1":{
-            "title":"B1. The Hall of Continuing Virtue, Yande Tang exterior",
+        "B":{
+            "title":"B. Formal Entrance",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/B.1%20panorama.jpeg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/B%20panorama.jpg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -64,163 +64,47 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 0.5540749854981462, 
-                "yaw": 33.034659913032385, 
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'P0002473.JPG'}
+                "clickHandlerArgs" : {"text":"001054.jpg"}
                 },
                 {
-                    "pitch":-15.184729368304339,
-                    "yaw":-121.68834802962877,
-                    "type": "scene",
-                    "text": "A. Half Moon Reservoir, Banyue Tang",
-                    "sceneID":"A",
-                    "clickHandlerFunc": toA,
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"001058.jpg"}
                 },
                 {
-                    "pitch":-8.290454109452979,
-                    "yaw":33.52286591044591,
-                    "type": "scene",
-                    "text": "B2. The Hall of Continuing Virtue, Yande Tang",
-                    "sceneID":"B2",
-                    "clickHandlerFunc": toB2,
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"001071.jpg"}
                 },
                 {
-                    "pitch":-11.401247921602009,
-                    "yaw":94.24309345307182,
-                    "type": "scene",
-                    "text": "C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
-                    "sceneID":"C1",
-                    "clickHandlerFunc": toC1,
-                }
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"001165.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"001167.jpg"}
+                },
             ]
         },
 
-        "B2":{
-            "title":"B2. The Hall of Continuing Virtue, Yande Tang",
+        "C":{
+            "title":"C. His Lordship`s Mansion, Daifu Di 大夫第",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/B.2%20panorama.jpeg",
-            //angle range of horizontal view
-            "haov": 360,
-            //angle range of vertical view
-            "vaov": 75.9,
-            //vertical angle of the whole panorama
-            "vOffset": 0,
-            //default zoom-in control
-            "hfov": 90,
-            "minPitch":-30,
-            "maxPitch":30,
-            "pitch":1.0975898880450663,
-            "yaw":-105.48534675483569,
-            //"hotSpotDebug":true,
-            "autoLoad":true,
-            "hotSpots": [
-               
-            {
-            "pitch": -11.475739044729867, 
-            "yaw": -105.93081011643514, 
-            "type": "info",
-            "text":"Overview of the hall, inside",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'1-YDT%20overview%20of%20temple%20hall.JPG'}
-            },
-            {
-            "pitch": 3.4785978686062693, 
-            "yaw": 83.10083853133199, 
-            "type": "info",
-            "text":"West pillar in Entrance hall",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'2-YDT%20west%20pillar%20in%20entrance%20hall.JPG'}
-            },
-            {
-            "pitch": 20.545404379386582, 
-            "yaw": 75.50957951042817, 
-            "type": "info",
-            "text":"Renovated beam structure",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'3-YDT_renovated_beam_structure_in_entrance.JPG'}
-            },
-            {
-            "pitch": 23.207445945604665, 
-            "yaw": -103.66550833155856, 
-            "type": "info",
-            "text":"Main hall sign",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'4-YDT_main_hall_sign.JPG'}
-            },
-            {
-            "pitch": 18.531386545812264, 
-            "yaw": 89.39950858579601, 
-            "type": "info",
-            "text":"Roof and supporting beam",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'5-YDT_roof_and_supporting_beam_for_main_hall.JPG'}
-            },
-            {
-            "pitch": -8.514660248113652, 
-            "yaw": 65.63853313590937, 
-            "type": "info",
-            "text":"`Sky Well` (small courtyard)",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'6-YDT_waterway_between_entrance_hall_and_main_hall.JPG'}
-            },
-            
-            {
-            "pitch": 9.522568936998807, 
-            "yaw": 16.443618819429382, 
-            "type": "info",
-            "text":"East wall decoration",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'7-YDT_east_wall_decoration_of_main_hall.JPG'}
-            },
-            {
-            "pitch": 4.729521133463686, 
-            "yaw": -105.44059481611677, 
-            "text":"ancestor tablet chest",
-            "type": "info",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'8-YDT_ancestor_tablet_chest.JPG'}
-            },
-            {
-            "pitch": 4.729521133463686, 
-            "yaw": -111.19721629617068, 
-            "text":"ancestor tablet inside chest",
-            "type": "info",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'9-YDT_ancestor_tablets_inside_chest.JPG'}
-            },
-            {
-            "pitch": 4.729521133463686, 
-            "yaw": -115.76844826818753, 
-            "type": "info",
-            "text":"northwest side pillar",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'10-YDT_northwest_side_pillar_near_ancestor_tablet_chest.JPG'}
-            },
-            {
-            "pitch": 4.729521133463686, 
-            "yaw": -94.39815403306663, 
-            "type": "info",
-            "text":"East side pillar",
-            "clickHandlerFunc" : expandImg,
-            "clickHandlerArgs" : {"text":'11-YDT_east_pillar_in_main_hall.JPG'}
-            },
-            {
-                "pitch":-12.798990600513335,
-                "yaw":75.69933177125694,
-                "type": "scene",
-                "text": "B1. The Hall of Continuing Virtue, Yande Tang exterior",
-                "sceneID":"B1",
-                "clickHandlerFunc": toB1,
-            },
-            ]
-        },
-
-        "C1":{
-            "title":"C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
-            "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/C.1%20panorama.jpeg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/C%20panorama.jpg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -237,116 +121,26 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                {
-                "pitch": 8.337252804835154, 
-                "yaw": -166.01129634940142,
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
-                "text":"Opera stage",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00006.JPG'}
+                "clickHandlerArgs" : {"text":"001060.jpg"}
                 },
                 {
-                "pitch": 0.5553810146716338, 
-                "yaw": -179.07250575593994, 
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
-                "text":"Opera stage - Carcings on the front of stage 1",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00007.JPG'}
+                "clickHandlerArgs" : {"text":"001062.jpg"}
                 },
-                {
-                "pitch": 1.0077390949549092, 
-                "yaw": -152.20671950640084, 
-                "type": "info",
-                "text":"Opera stage - Carcings on the front of stage 2",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00008.JPG'}
-                },
-                {
-                "pitch": -0.07695551466090804, 
-                "yaw": -165.97167069315068, 
-                "type": "info",
-                "text":"Opera stage - Carcings on the front of stage 3",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00009.JPG'}
-                },
-                {
-                "pitch": 7.787737392545937, 
-                "yaw": 6.583098976303849, 
-                "type": "info",
-                "text":"Carved bracket with the pattern of a lion playing with a ball",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00012.JPG'}
-                },
-                {
-                "pitch": 19.620647145724114, 
-                "yaw": 13.022607809986482, 
-                "type": "info",
-                "text":"Hall of Succeeding Glory",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'DSC00014.JPG'}
-                },
-                {
-                    "pitch":-16.90555683102463,
-                    "yaw":11.543761398824886,
-                    "type": "scene",
-                    "text": "C2. The Hall of Succeeding Glory, Chengxian Tang -- back room",
-                    "sceneID":"C2",
-                    "clickHandlerFunc": toC2,
-                },
-                {
-                    "pitch":-18.703607674387875,
-                    "yaw":153.9352386247616,
-                    "type": "scene",
-                    "text": "B1. The Hall of Continuing Virtue, Yande Tang exterior",
-                    "sceneID":"B1",
-                    "clickHandlerFunc": toB1,
-                },
-                {
-                    "pitch":-18.703607674387875,
-                    "yaw":168.8327670126108,
-                    "type": "scene",
-                    "text": "D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior",
-                    "sceneID":"D1",
-                    "clickHandlerFunc": toD1,
-                }
             ]
         },
 
-        "C2":{
-            "title":"C2. The Hall of Succeeding Glory, Chengxian Tang -- back room",
+        "D":{
+            "title":"D. Head Gate/Victory Report Gate, Jiebao Men 捷報門",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/C.2%20panorama.jpeg",
-            //angle range of horizontal view
-            "haov": 360,
-            //angle range of vertical view
-            "vaov": 75.9,
-            //vertical angle of the whole panorama
-            "vOffset": 0,
-            //default zoom-in control
-            "hfov": 90,
-            "minPitch":-30,
-            "maxPitch":30,
-            "pitch":0.7265671856573602,
-            "yaw":119.87999401710053,
-            //"hotSpotDebug":true,
-            "autoLoad":true,
-            "hotSpots": [
-               //need to add hotspots of switching screen to screen
-               {
-                    "pitch":-11.53515617254781,
-                    "yaw":-76.52906684194716,
-                    "type": "scene",
-                    "text": "C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
-                    "sceneID":"C1",
-                    "clickHandlerFunc": toC1,
-                }
-            
-            ]
-        },
-
-        "D1":{
-            "title":"D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior",
-            "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/D.1%20panorama.jpeg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/D%20panorama.jpg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -364,83 +158,82 @@ var v=pannellum.viewer('panorama', {
             "hotSpots": [
             //need to add hotspots of switching screen to screen
               {
-                    "pitch":-13.63851591949794,
-                    "yaw":-103.28981818078637,
-                    "type": "scene",
-                    "text": "D2. Entrance to the Hall of Promoting Goodness, Jimei Tang",
-                    "sceneID":"D2",
-                    "clickHandlerFunc": toD2,
-                },
-                {
-                    "pitch":-17.99866270523993,
-                    "yaw":170.5062718172273,
-                    "type": "scene",
-                    "text": "E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior",
-                    "sceneID":"E1",
-                    "clickHandlerFunc": toE1,
-                },
-                {
-                    "pitch":-12.874567005200477,
-                    "yaw":-16.82322493561017,
-                    "type": "scene",
-                    "text": "C1. The Hall of Succeeding Glory, Chengxian Tang -- front room",
-                    "sceneID":"C1",
-                    "clickHandlerFunc": toC1,
-                }
-            ]
-        },
-    
-        "D2":{
-            "title":"D2. Entrance to the Hall of Promoting Goodness, Jimei Tang",
-            "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/D.2%20panorama.jpeg",
-            //angle range of horizontal view
-            "haov": 360,
-            //angle range of vertical view
-            "vaov": 75.9,
-            //vertical angle of the whole panorama
-            "vOffset": 0,
-            //default zoom-in control
-            "hfov": 90,
-            "minPitch":-30,
-            "maxPitch":30,
-            "pitch":0.3642837090303493,
-            "yaw":-158.01214088624315,
-            //"hotSpotDebug":true,
-            "autoLoad":true,
-            "hotSpots": [
-                {
-                "pitch": -3.760818178532821, 
-                "yaw": -158.35870232115795, 
-                "text":"Overview",
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0012.JPG'}
+                "clickHandlerArgs" : {"text":"000791.jpg"}
                 },
                 {
-                "pitch": 16.170480122914704, 
-                "yaw": -158.35870232115795, 
-                "text":"Ancestral tablet chest",
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0013.JPG'}
+                "clickHandlerArgs" : {"text":"000792.jpg"}
                 },
                 {
-                    "pitch":-13.924371653676996,
-                    "yaw":23.3804782089114,
-                    "type": "scene",
-                    "text": "D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior",
-                    "sceneID":"D1",
-                    "clickHandlerFunc": toD1,
-                }
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000793.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000794.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000795.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000796.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000816.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"001064.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"001065.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"001169.jpg"}
+                },
             ]
         },
 
-
-        "E1":{
-            "title":"E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior",
+        "E":{
+            "title":"E. Ceremonial Gate/Glory of the Nation Gate, Guoguang Men 國光門",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/E.1%20panorama.jpeg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/E%20panorama.jpg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -457,238 +250,69 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 5.226508027432661, 
-                "yaw": -148.16532792205166, 
-                "text":"Exterior of the Hall of Filial of Devotion - Gateway",
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'P0002466.JPG'}
+                "clickHandlerArgs" : {"text":"000798.jpg"}
                 },
                 {
-                    "pitch":-9.125729333981946,
-                    "yaw":-148.43665782064258,
-                    "type": "scene",
-                    "text": "E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
-                    "sceneID":"E2",
-                    "clickHandlerFunc": toE2,
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000804.jpg"}
                 },
                 {
-                    "pitch":-13.651314400582477,
-                    "yaw":2.0570076064097593,
-                    "type": "scene",
-                    "text": "D1. Entrance to the Hall of Promoting Goodness, Jimei Tang exterior",
-                    "sceneID":"D1",
-                    "clickHandlerFunc": toD1,
-                }
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000807.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000814.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000815.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"001170.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"002734.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"002747.jpg"}
+                },
             ]
         },
         
-        "E2":{
-            "title":"E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
-            "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/E.2%20panorama.jpeg",
-            //angle range of horizontal view
-            "haov": 360,
-            //angle range of vertical view
-            "vaov": 75.9,
-            //vertical angle of the whole panorama
-            "vOffset": 0,
-            //default zoom-in control
-            "hfov": 90,
-            "minPitch":-30,
-            "maxPitch":30,
-            "pitch":0.6057653149603399,
-            "yaw":-157.26912308153436,
-            //"hotSpotDebug":true,
-            "autoLoad":true,
-            "hotSpots": [
-                {
-                "pitch": 35.4323565958816, 
-                "yaw": 168.25801967097314, 
-                "text":"Roof decoration of the front hall and a plaque 'Annual presented scholar'",
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000384.JPG'}
-                },
-                {
-                "pitch": 2.0790939136202424, 
-                "yaw": 9.54830149384452, 
-                "type": "info",
-                "text":"View of entry from north",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'1-XST%20view%20of%20entry%20from%20north.JPG'}
-                },
-                {
-                "pitch": 35.353551716816135, 
-                "yaw": -157.14030934836703, 
-                "type": "info",
-                "text":"Plaque - 'Annual Presented Scholar'",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'2-XST%20main%20hall%20overhead%20signage.JPG'}
-                },
-                {
-                "pitch": 13.175339463805967, 
-                "yaw": -157.5265884950741, 
-                "type": "info",
-                "text":"Sign - Hall of Dilial of Devotion",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'3-XST%202nd%20sign%20facing%20north%20wall.JPG'}
-                },
-                {
-                "pitch": 3.882713445189344, 
-                "yaw": -168.4442534302401, 
-                "type": "info",
-                "text": "Pillars on the left side",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'4-XST%20left%20pillar%20middle%20of%20north%20wall.JPG'}
-                },
-                {
-                "pitch": 3.882713445189344, 
-                "yaw": -145.39975435944322, 
-                "type": "info",
-                "text": "Pillars on the right side",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'5-XST%20right%20pillar%20middle%20of%20north%20wall.JPG'}
-                },
-                {
-                "pitch": 21.974044826378574, 
-                "yaw": 173.4229904414446, 
-                "type": "info",
-                "text": "Beam structure",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'6-XST%20west%20wall%20beam%20structure.JPG'}
-                },
-                {
-                "pitch": 22.87990277505625, 
-                "yaw": 125.01395301587343, 
-                "type": "info",
-                "text": "Eaves structure",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'11-XST%20roof%20overhang%20SW%20corner.JPG'}
-                },
-                {
-                "pitch": 1.4278914304471353, 
-                "yaw": -90.54408794342466, 
-                "type": "info",
-                "text": "Buildings on the right hand side",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'12-XST%20space%20between%20main%20hall%20and%20%20E%20building.JPG'}
-                },
-                {
-                "pitch": 1.7538858725839868, 
-                "yaw": -100.79721433099853, 
-                "type": "info",
-                "text": "Buildings on the right hand side",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'13-XSWT%20outside%20view%20of%20east%20building.JPG'}
-                },
-                {
-                    "pitch":-14.456730942196272,
-                    "yaw":22.19062344000269,
-                    "type": "scene",
-                    "text": "E1. The Hall of Filial Devotion, Xiaosi Tang -- exterior",
-                    "sceneID":"E1",
-                    "clickHandlerFunc": toE1,
-                },
-                {
-                    "pitch":-13.43549874821627,
-                    "yaw":-65.33913327415188,
-                    "type": "scene",
-                    "text": "E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall",
-                    "sceneID":"E3",
-                    "clickHandlerFunc": toE3,
-                },
-                {
-                    "pitch":-13.43549874821627,
-                    "yaw":110.81429153033766,
-                    "type": "scene",
-                    "text": "E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall",
-                    "sceneID":"E3",
-                    "clickHandlerFunc": toE3,
-                }
-            ]
-        },
 
-        "E3":{
-            "title":"E3. The Hall of Filial Devotion, Xiaosi Tang -- back hall",
+        "F":{
+            "title":"F. Seriousness and Consonance Hall, Suyong Hall, Suyong Tang 肅雍堂",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/E.3%20panorama.jpeg",
-            //angle range of horizontal view
-            "haov": 360,
-            //angle range of vertical view
-            "vaov": 75.9,
-            //vertical angle of the whole panorama
-            "vOffset": 0,
-            //default zoom-in control
-            "hfov": 90,
-            "minPitch":-30,
-            "maxPitch":30,
-            "pitch":0.6103280461592058,
-            "yaw":107.70363726046892,
-            //"hotSpotDebug":true,
-            "autoLoad":true,
-            "hotSpots": [
-                {
-                "pitch": 8.519409540434541, 
-                "yaw": -134.90131326625982, 
-                "text":"The back of the front hall",
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000458.JPG'}
-                },
-                {
-                "pitch": 24.055317183552656, 
-                "yaw": -75.05233404942287, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000460.JPG'}
-                },
-                {
-                "pitch": 6.1925274840819675, 
-                "yaw": 50.76059493272072, 
-                "text":"Ancestral tablet chest",
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000461.JPG'}
-                },
-                {
-                "pitch": 13.72873567114599, 
-                "yaw": 50.76059493272072, 
-                "text":"Ancestral Spirit tablets",
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000462.JPG'}
-                },
-                {
-                "pitch": 3.8485911290349764, 
-                "yaw": -16.77034632472374, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'000464.JPG'}
-                },
-                {
-                    "pitch":-13.565045864306937,
-                    "yaw":107.30268339073082,
-                    "type": "scene",
-                    "text": "E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
-                    "sceneID":"E2",
-                    "clickHandlerFunc": toE2,
-                },
-                {
-                    "pitch":-11.043975945133068,
-                    "yaw":-69.49300150813578,
-                    "type": "scene",
-                    "text": "E2. The Hall of Filial Devotion, Xiaosi Tang -- front hall",
-                    "sceneID":"E2",
-                    "clickHandlerFunc": toE2,
-                },
-            ]
-        },
-
-        "F1":{
-            "title":"F1. The Hall of Abundant Splendor, Guangyu Tang",
-            "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/F.1%20panorama.jpeg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/F%20panorama.jpg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -705,29 +329,202 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                 {
-                "pitch": 4.538749535513733, 
-                "yaw": 170.50101380207101, 
-                "text":"The main gate of the Hall of Abundant Splendor",
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0015.JPG'}
+                "clickHandlerArgs" : {"text":"000935.jpg"}
                 },
                 {
-                    "pitch":-17.732034608119175,
-                    "yaw":171.66685192530863,
-                    "type": "scene",
-                    "text": "F2. The Hall of Abundant Splendor, Guangyu Tang",
-                    "sceneID":"F2",
-                    "clickHandlerFunc": toF2,
-                }
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000942.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000943.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000944.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000946.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000949.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000950.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000951.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000952.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000953.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000955.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000956.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000957.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000958.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000959.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000961.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000963.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000964.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000966.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000967.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000971.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000972.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000973.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000974.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"001172.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"002745.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"002749.jpg"}
+                },
                 
             ]
         },
 
-        "F2":{
-            "title":"F2. The Hall of Abundant Splendor, Guangyu Tang",
+        "G":{
+            "title":"G. The Hallway 穿堂",
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Zhiyan/panoramaZhiyan/panorama-pictures/F.2%20panorama.jpeg",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/G%20panorama.jpg",
             //angle range of horizontal view
             "haov": 360,
             //angle range of vertical view
@@ -738,38 +535,1624 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "pitch": 1.101096772917016, 
-            "yaw": -161.4374636029392, 
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            //"hotSpots": [
+            //]
+        },
+
+        "H":{
+            "title":"H. Long Life Hall, Tongshou Tang 同壽堂",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/H%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            //"hotSpots": [
+            //]
+        },
+
+        "I":{
+            "title":"I. Stone Gate/Enjoy Longevity Hall/Leshou Hall, Leshou Tang 樂壽堂",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/I%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
-                {
-                "pitch": -1.0675129204364804, 
-                "yaw": -161.4374636029392, 
-                "text":"Ancestral tablet chest",
+               {
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0017.JPG'}
+                "clickHandlerArgs" : {"text":"000817.jpg"}
                 },
                 {
-                "pitch": 7.89166328429929, 
-                "yaw": -161.4374636029392, 
-                "text":"plaque",
+                "pitch": 1, 
+                "yaw": 1, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":'SANY0018.JPG'}
+                "clickHandlerArgs" : {"text":"000818.jpg"}
                 },
                 {
-                    "pitch":-13.9166668354319,
-                    "yaw":18.7867720050737,
-                    "type": "scene",
-                    "text": "F1. The Hall of Abundant Splendor, Guangyu Tang",
-                    "sceneID":"F1",
-                    "clickHandlerFunc": toF1,
-                }
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000819.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000820.jpg"}
+                },
             ]
         },
-       
+
+        "J1":{
+            "title":"J.1 Harmony Through Generations Gate",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/J.1%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000821.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000822.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000823.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000824.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000825.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000826.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000827.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000829.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000831.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000832.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000833.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000834.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000835.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000836.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000837.jpg"}
+                },
+            ]
+        },
+
+        "J2":{
+            "title":"J.2 Harmony Through the Generations Hall",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/J.2%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000978.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000981.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000982.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000983.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"000984.jpg"}
+                },
+            ]
+        },
+
+        "J3":{
+            "title":"J.3 Harmony Through the Generations Middle Hall",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/J.3%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"An%20overview%20of%20the%20eastern%20wall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"he%20bracket%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Introduction%20to%20the%20Middle%20Hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20courtyard%20from%20the%20northwestern%20corner%20.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20western%20room.jpg"}
+                },
+            ]
+        },
+
+        "J4":{
+            "title":"J.4 Harmony Through the Generations Back Hall",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/J.4%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Ancestral%20portrait%20and%20offerings.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20offerings.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Hallway%20of%20the%20eastern%20wing.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Introduction%20to%20the%20back%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Stone%20carving%20of%20the%20wall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20ancestral%20portrait.%20One%20pair%20of%20the%20couplets%20say.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20bracket%20on%20the%20left%20side%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20lattice%20of%20the%20window.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20lattice%20of%20the%20window2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20stone%20base%20of%20the%20pillar.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20stone%20pavement%20of%20the%20courtyard.jpg"}
+                },
+            ]
+        },
+
+        "K":{
+            "title":"K. Virtue Through the Generations Gateway, Shide Menfang 世德門坊",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/K%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20stone%20pavement.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20tiles%20of%20the%20roof.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20tiles%20of%20the%20roof2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20stone%20carving%20on%20the%20bottom%20of%20the%20gate%20frame.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20gateway.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20side%20door.%20The%20plaque%20on%20the%20top%20`Extraordinary%20fraternity`.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20gate.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20gate.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20left-hand%20side%20door.jpg"}
+                },
+            ]
+        },
+
+
+        "L":{
+            "title":"L. Surfeit of Kindness Hall, Dunyu Tang 惇裕堂",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/L%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20sculpture%20of%20qilin.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20wooden%20wall%20displayed%20on%20the%20left-hand%20side%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20wooden%20wall%20displayed%20on%20the%20north-western%20side%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20wooden%20wall%20displayed%20on%20the%20north-western%20side%20of%20the%20hall3.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20wooden%20wall%20displayed%20on%20the%20north-western%20side%20of%20the%20hall4.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"An%20overview%20of%20the%20gate.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"An%20overview%20of%20the%20gate1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20bracket%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20carvings%20of%20nine%20lions%20on%20the%20beams1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20carvings%20of%20nine%20lions%20on%20the%20beams2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20details%20of%20the%20carving.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20lion%20carvings%20on%20the%20ceiling.jpeg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20plaque%20`Surfeit%20of%20Kindness%20Hall`.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20stone%20pavement.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20wooden%20wall%20displayed%20in%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20wooden%20wall%20displayed%20in%20the%20hall4.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20wooden%20wall%20displayed%20in%20the%20hall5.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20doors%20on%20the%20left-hand%20side%20of%20the%20courtyard.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20doors%20on%20the%20left-hand%20side%20of%20the%20courtyard1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20walls%20on%20the%20left-hand%20side%20of%20the%20courtyard1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20walls%20on%20the%20left-hand%20side%20of%20the%20courtyard2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20walls%20on%20the%20left-hand%20side%20of%20the%20courtyard3.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20walls%20on%20the%20left-hand%20side%20of%20the%20courtyard4.jpg"}
+                },
+            ]
+        },
+
+        "M":{
+            "title":"M. Cordial Meetings Hall, Jiahui Tang 嘉會堂",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/M%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20painting%20behind%20the%20plague%20of%20`Cordial%20Meetings%20Hall`.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20ceiling%20structure.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20lattice%20in%20the%20middle%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20plaque%20`Cordial%20Meetings`.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20plaque%20`First%20Ranking%20Provincial%20Graduate`.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20plaque%20`Metropolitan%20graduate`.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20plaque%20`Provincial%20Commissioner.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20plaque%20`Provincial%20Commissioner1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20right-hand%20part%20of%20the%20lattice.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"the%20roof%20of%20the%20northeastern%20corner.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20carving%20displayed%20in%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20carving%20displayed%20in%20the%20hall1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20carving%20displayed%20in%20the%20hall2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20carving%20displayed%20in%20the%20hall3.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20carving%20displayed%20in%20the%20hall4.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wooden%20carving%20displayed%20in%20the%20hall15.jpg"}
+                },
+            ]
+        },
+
+        "N1":{
+            "title":"N.1 Virtue Through the Generations Back Hall",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/N.1%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Brackets%20displayed%20in%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Brackets%20displayed%20in%20the%20hall1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Brackets%20displayed%20in%20the%20hall2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20corner%20roof%20line%20in%20right%20corner%20of%20the%20courtyard.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20entry%20door%20to%20the%20courtyard.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20lattice%20of%20the%20window.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20right%20side%20door%20to%20the%20walkway.jpg"}
+                },
+            ]
+        },
+
+        "N2":{
+            "title":"N.2 Virtue Through the Generations Main Hall",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/N.2%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20ancestral%20tablets.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20carved%20stone%20foundation,%20which%20probably%20is%20the%20original%20work%20from%20the%20Ming%20Dynasty.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20interior%20roof%20line%20on%20the%20left%20side%20of%20main%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20side%20garden%20of%20Virtue%20through%20the%20Generations%20Main%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20support%20beams%20on%20the%20left-hand%20side%20with%20paintings1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20support%20beams%20on%20the%20right-hand%20side.jpg"}
+                },
+            ]
+        },
+
+        "O":{
+            "title":"O. Good Blessings Hall, Shanqing Tang 善慶堂",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/O%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Beam%20decoration.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20introducion%20to%20the%20exhibiton%20of%20the%20portraits%20of%20famous%20historical%20figures%20in%20this%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20introducion%20to%20the%20exhibiton%20of%20the%20portraits%20of%20famous%20historical%20figures%20in%20this%20hall1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20introducion%20to%20the%20exhibiton%20of%20the%20portraits%20of%20famous%20historical%20figures%20in%20this%20hall2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20lantern%20displayed%20in%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20plaque%20`Good%20Blessings`.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Wall%20painting.jpg"}
+                },
+            ]
+        },
+
+        "P":{
+            "title":"P. Pleasant Gatherings Hall, Dunxu Tang 惇敘堂",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/P%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20millstone%20in%20the%20courtyard.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20beam%20structure.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20bracket%20with%20a%20lion%20head.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20plaque%20`Pleasant%20Gatherings`.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20side%20room.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20southeastern%20corner%20of%20the%20courtyard.jpg"}
+                },
+            ]
+        },
+
+        "Q1":{
+            "title":"Q.1 Planting Virue Front Hall",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/Q.1%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Front%20gate%20of%20Planting%20Virue%20Front%20Hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Front%20gate%20of%20Planting%20Virue%20Front%20Hall1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Introduction%20to%20the%20stone%20steles%20and%20inscriptions%20displayed%20in%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Stone%20steles.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Stone%20steles1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Stone%20steles2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Stone%20steles3.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Stone%20steles4.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Stone%20steles5.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Stone%20steles6.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Stone%20steles7.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20beam%20structure%20of%20the%20front%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20bracket%20on%20the%20right-hand%20side.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20right-hand%20side%20doorway%20of%20the%20hall.%20The%20top%20plaque%20`Rising%20phoenix`.jpg"}
+                },
+            ]
+        },
+
+        "Q2":{
+            "title":"Q.2 Planting Virue Hall",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/Q.2%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20beam%20structure%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20beam%20structure%20of%20the%20hall1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20main%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20main%20hall1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20main%20hall2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20western%20side%20of%20the%20hall.jpg"}
+                },
+            ]
+        },
+
+        "Q3":{
+            "title":"Q.3 Planting Virue Back Hall",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/Q.3%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20bracket%20with%20a%20god%20riding%20a%20lion%20as%20an%20opera%20show.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20side%20doorway%20on%20the%20eastern%20side%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20side%20doorway%20on%20the%20western%20side%20of%20the%20hall..jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall2.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall3.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Tiles%20on%20the%20wall%20of%20the%20courtyard.jpg"}
+                },
+            ]
+        },
+
+        "R":{
+            "title":"R. East Chanting Hall, Dongyin Tang 東吟堂",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/R%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "minPitch":-30,
+            "maxPitch":30,
+            "pitch":0.6572235343677978,
+            "yaw":13.380923525264993,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "hotSpots": [
+               {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Chinese%20translation%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Inside%20overview%20of%20the%20hall.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"Inside%20overview%20of%20the%20hall1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20beam%20structure%20and%20the%20carving%20of%20the%20beam.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20beam%20structure%20and%20the%20carving%20of%20the%20beam1.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20bracket%20on%20the%20eastern%20side.jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20tiles%20of%20the%20roof%20line.jpg"}
+                },
+            ]
+        },
+
+        "S1":{
+            "title":"S.1 Lotus Pavilion Academy",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/chengyang02/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/S.1%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "pitch":0.4950347216871744,
+            "yaw":98.53426094431822,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "minPitch":-30,
+            "maxPitch":30,
+            //"hotSpots": [
+            //]
+        },
+
+        "S2":{
+            "title":"S.2 Lotus Pavilion Academy",
+            "type": "equirectangular",
+            "panorama": "https://raw.githubusercontent.com/chengyang02/ChinaLocalHistory/main/Lu/panoramaLu/panorama-pictures/S.2%20panorama.jpg",
+            //angle range of horizontal view
+            "haov": 360,
+            //angle range of vertical view
+            "vaov": 75.9,
+            //vertical angle of the whole panorama
+            "vOffset": 0,
+            //default zoom-in control
+            "hfov": 90,
+            "pitch":0.4950347216871744,
+            "yaw":98.53426094431822,
+            //"hotSpotDebug":true,
+            "autoLoad":true,
+            "minPitch":-30,
+            "maxPitch":30,
+            "hotSpots": [
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"A%20carving%20of%20dragons%20displayed%20in%20the%20room..jpg"}
+                },
+                {
+                "pitch": 1, 
+                "yaw": 1, 
+                "type": "info",
+                "clickHandlerFunc" : expandImg,
+                "clickHandlerArgs" : {"text":"The%20plaque.United%20by%20marriage%20forever.jpg"}
+                },
+            ]
+        },
+
+
 },
 }
 );
