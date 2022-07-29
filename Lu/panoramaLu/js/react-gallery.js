@@ -743,7 +743,7 @@ class ReactGallery extends React.Component {
         </div>
 
         );
-    }
+}
 
 }
      on(image) {
