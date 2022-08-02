@@ -60,7 +60,7 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "pitch":0.48785805876345967,
             "yaw":37.66738775223549,
-            //"hotSpotDebug":true,
+            "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
