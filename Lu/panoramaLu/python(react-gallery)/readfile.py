@@ -45,7 +45,7 @@ def galleryHtml(txtList,nameOfScene):
     n = 1
     for txt in txtList:
         print('<div class="mySlides">')
-        print('<div class="numbertext">' + str(n) +' / 4</div>')
+        print('<div class="numbertext">' + str(n) +' / 6</div>')
         print('<img src="'+ 'https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/'
           + nameOfScene + '/' + txt + '" alt="' +txt + '" style="width:100%">'+
               '</div>')
@@ -65,6 +65,6 @@ def galleryHtml2(txtList,nameOfScene):
 
 
         
-formatGallery(edittxt(readgallery('gallery.txt')),'S.%20Lotus%20Pavilion%20Academy,%20Heting%20Shuyuan-S.2.%20Lotus%20Pavilion%20Academy')
-#galleryHtml(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.7%20Countyard')
-#galleryHtml2(edittxt(readgallery('gallery.txt')),'J%20Inside%20the%20village-J.7%20Countyard')
+#formatGallery(edittxt(readgallery('gallery.txt')),'S.%20Lotus%20Pavilion%20Academy,%20Heting%20Shuyuan-S.2.%20Lotus%20Pavilion%20Academy')
+galleryHtml(edittxt(readgallery('gallery.txt')),'T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___')
+galleryHtml2(edittxt(readgallery('gallery.txt')),'T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___')

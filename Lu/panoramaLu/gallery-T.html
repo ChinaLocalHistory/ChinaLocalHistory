@@ -1,12 +1,132 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhiyan Village</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- pannellum css & javaScript -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+
+    <!-- css  -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- Load React. -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="js/react-gallery.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <title>China Locals </title>
+
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Position the image container (needed to position the left and right arrows) */
+    .gallery-container {
+      position: relative;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+      opacity: 1;}
+
+    /* resizing the pic in the gallery */
+    img.fix {
+      height: 56.3%;
+      width: 56.3%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      object-fit: scale-down;
+      }
+    
+    </style>
   </head>
 
 <body>
@@ -16,20 +136,25 @@
   </div>
 
   <script>
-
   $(function(){
-    $("#nav-placeholder").load("navbar.html");
+    $("#nav-placeholder").load("index.html");
     
   });
   </script>
 <!--end of Navigation bar-->
+
+  <!-- overlay for expanded img -->
+  <div id="overlay" onclick="off()" style="display:none">
+      <img id="expandedImg">
+  </div>
+
   <div class="container">
+    <div class="img-overlay-wrap">
     <!-- basemap container  -->
+
     <div class="basemap-container">
       <h2>Lu Family Compound</h2>
-      <br>
-      <h3>Menu</h3>
-      <br>
+      <h3 id="currentScene">S. Lotus Pavilion Academy, Heting Shuyuan 荷亭書院</h3>
       <!-- panorama-->
       <?xml version="1.0" encoding="utf-8"?>
       <!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -43,7 +168,7 @@
       </style>
       <g id="Layer_1">
         
-          <image style="overflow:visible;" width="195" height="500" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcU
+      <image style="overflow:visible;" width="195" height="500" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcU
       FhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgo
       KCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAH0AMMDASIA
       AhEBAxEB/8QAHAAAAgMAAwEAAAAAAAAAAAAAAAYEBQcCAwgB/8QAYRAAAQMDAgIEBggODwUHAwUA
@@ -578,183 +703,182 @@
         </image>
       </g>
       <g id="Layer_2">
-        <circle class="st0" cx="138.49" cy="443.19" r="21.08"/>
-        <circle class="st0" cx="141.41" cy="510.22" r="21.08"/>
-        <circle class="st0" cx="144.34" cy="565.22" r="21.08"/>
-        <circle class="st0" cx="274.6" cy="583.38" r="21.08"/>
-        <circle class="st0" cx="141.41" cy="637.52" r="21.08"/>
-        <circle class="st0" cx="274.6" cy="690.43" r="21.08"/>
-        <circle class="st0" cx="85.61" cy="765.53" r="21.08"/>
-        <circle class="st0" cx="144.34" cy="842.17" r="21.08"/>
-        <circle class="st0" cx="280.46" cy="842.17" r="21.08"/>
-        <circle class="st0" cx="283.39" cy="946.36" r="21.08"/>
-        <circle class="st0" cx="141.41" cy="964.51" r="21.08"/>
-        <circle class="st0" cx="283.39" cy="1045.26" r="21.08"/>
-        <circle class="st0" cx="283.39" cy="1087.42" r="21.08"/>
-        <circle class="st0" cx="372.69" cy="1075.65" r="21.08"/>
-        <circle class="st0" cx="449.39" cy="1093.8" r="21.08"/>
-        <circle class="st0" cx="449.39" cy="1160.46" r="21.08"/>
-        <circle class="st0" cx="144.34" cy="1139.38" r="21.08"/>
-        <circle class="st0" cx="380.59" cy="1351.21" r="21.08"/>
-        <circle class="st0" cx="449.39" cy="1393.38" r="21.08"/>
-        <circle class="st0" cx="540.79" cy="1422.74" r="21.08"/>
-        <text transform="matrix(1 0 0 1 132.6298 455.4916)" class="st1 st2 st3">J</text>
-        <text transform="matrix(1 0 0 1 138.4862 523.3832)" class="st1 st2 st3">I</text>
-        <text transform="matrix(1 0 0 1 132.6308 576.2992)" class="st1 st2 st3">H</text>
-        <text transform="matrix(1 0 0 1 265.2323 595.3549)" class="st1 st2 st3">P</text>
-        <text transform="matrix(1 0 0 1 262.0478 701.184)" class="st1 st2 st3">O</text>
-        <text transform="matrix(1 0 0 1 129.4452 651.5756)" class="st1 st2 st3">G</text>
-        <text transform="matrix(1 0 0 1 267.6454 852.4447)" class="st1 st2 st3">N</text>
-        <text transform="matrix(1 0 0 1 76.9599 778.5228)" class="st1 st2 st3">T</text>
-        <text transform="matrix(1 0 0 1 135.6991 855.3724)" class="st1 st2 st3">F</text>
-        <text transform="matrix(1 0 0 1 268.746 957.8939)" class="st1 st2 st3">M</text>
-        <text transform="matrix(1 0 0 1 133.6396 976.4613)" class="st1 st2 st3">E</text>
-        <text transform="matrix(1 0 0 1 273.7108 1054.5697)" class="st1 st2 st3">L</text>
-        <text transform="matrix(1 0 0 1 274.4071 1100.5082)" class="st1 st2 st3">K</text>
-        <text transform="matrix(1 0 0 1 359.5116 1084.4955)" class="st1 st2 st3">Q</text>
-        <text transform="matrix(1 0 0 1 441.123 1105.5785)" class="st1 st2 st3">R</text>
-        <text transform="matrix(1 0 0 1 440.8671 1172.4515)" class="st1 st2 st3">C</text>
-        <text transform="matrix(1 0 0 1 135.6991 1151.3099)" class="st1 st2 st3">D</text>
-        <text transform="matrix(1 0 0 1 372.6942 1364.265)" class="st1 st2 st3">S</text>
-        <text transform="matrix(1 0 0 1 440.8671 1404.5853)" class="st1 st2 st3">B</text>
-        <text transform="matrix(1 0 0 1 530.0389 1433.3353)" class="st1 st2 st3">A</text>
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-J.html">
+        <circle class="st0" id="Lu-J" cx="138.49" cy="443.19" r="21.08" onclick="toJ()" />
+        <text transform="matrix(1 0 0 1 132.6298 455.4916)" class="st1 st2 st3" onclick="toJ()">J</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-I.html">
+        <circle class="st0" id="Lu-I" cx="141.41" cy="510.22" r="21.08" onclick="toI()"/>
+        <text transform="matrix(1 0 0 1 138.4862 523.3832)" class="st1 st2 st3" onclick="toI()">I</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-H.html">
+        <circle class="st0" id="Lu-H" cx="144.34" cy="565.22" r="21.08" onclick="toH()" />
+        <text transform="matrix(1 0 0 1 132.6308 576.2992)" class="st1 st2 st3" onclick="toH()">H</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-P.html">
+        <circle class="st0" id="Lu-P" cx="274.6" cy="583.38" r="21.08" onclick="toP()" />
+        <text transform="matrix(1 0 0 1 265.2323 595.3549)" class="st1 st2 st3" onclick="toP()">P</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-O.html">
+          <circle class="st0" id="Lu-G" cx="274.6" cy="690.43" r="21.08" onclick="toO()" />
+        <text transform="matrix(1 0 0 1 262.0478 701.184)" class="st1 st2 st3" onclick="toO()">O</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-G.html">
+        <circle class="st0" id="Lu-O" cx="141.41" cy="637.52" r="21.08" onclick="toG()" />
+        <text transform="matrix(1 0 0 1 129.4452 651.5756)" class="st1 st2 st3" onclick="toG()">G</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-N.html">
+        <circle class="st0" id="Lu-F" cx="280.46" cy="842.17" r="21.08" onclick="toN()" />
+        <text transform="matrix(1 0 0 1 267.6454 852.4447)" class="st1 st2 st3" onclick="toN()">N</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/gallery-T.html">
+          <circle class="st0" id="Lu-N" cx="85.61" cy="765.53" r="21.08" onclick="toT()" style="fill:#F26E22"/>
+        <text transform="matrix(1 0 0 1 76.9599 778.5228)" class="st1 st2 st3" onclick="toT()">T</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-F.html">
+        <circle class="st0" id="Lu-T" cx="144.34" cy="842.17" r="21.08" onclick="toF()" />
+        <text transform="matrix(1 0 0 1 135.6991 855.3724)" class="st1 st2 st3" onclick="toF()">F</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-M.html">
+        <circle class="st0" id="Lu-M" cx="283.39" cy="946.36" r="21.08" onclick="toM()"/>
+        <text transform="matrix(1 0 0 1 268.746 957.8939)" class="st1 st2 st3" onclick="toM()">M</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-E.html">
+        <circle class="st0" id="Lu-E" cx="141.41" cy="964.51" r="21.08" onclick="toE()"/>
+        <text transform="matrix(1 0 0 1 133.6396 976.4613)" class="st1 st2 st3" onclick="toE()">E</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-L.html">
+        <circle class="st0" id="Lu-L" cx="283.39" cy="1045.26" r="21.08" onclick="toL()" />
+        <text transform="matrix(1 0 0 1 273.7108 1054.5697)" class="st1 st2 st3" onclick="toL()">L</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-K.html">
+        <circle class="st0" id="Lu-K" cx="283.39" cy="1087.42" r="21.08" onclick="toK()"/>
+        <text transform="matrix(1 0 0 1 274.4071 1100.5082)" class="st1 st2 st3" onclick="toK()">K</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-Q.html">
+        <circle class="st0" id="Lu-Q" cx="372.69" cy="1075.65" r="21.08" onclick="toQ()" />
+        <text transform="matrix(1 0 0 1 359.5116 1084.4955)" class="st1 st2 st3" onclick="toQ()">Q</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-R.html">
+        <circle class="st0" id="Lu-R" cx="449.39" cy="1093.8" r="21.08" onclick="toR()" />
+        <text transform="matrix(1 0 0 1 441.123 1105.5785)" class="st1 st2 st3" onclick="toR()">R</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-C.html">
+        <circle class="st0" id="Lu-C" cx="449.39" cy="1160.46" r="21.08" onclick="toC()" />
+        <text transform="matrix(1 0 0 1 440.8671 1172.4515)" class="st1 st2 st3" onclick="toC()">C</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-D.html">
+        <circle class="st0" id="Lu-D" cx="144.34" cy="1139.38" r="21.08" onclick="toD()" />
+        <text transform="matrix(1 0 0 1 135.6991 1151.3099)" class="st1 st2 st3" onclick="toD()">D</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-S.html">
+        <circle class="st0" id="Lu-S" cx="380.59" cy="1351.21" r="21.08" onclick="toS()" />
+        <text transform="matrix(1 0 0 1 372.6942 1364.265)" class="st1 st2 st3" onclick="toS()">S</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-B.html">
+        <circle class="st0" id="Lu-B" cx="449.39" cy="1393.38" r="21.08" onclick="toB()"/>
+        <text transform="matrix(1 0 0 1 440.8671 1404.5853)" class="st1 st2 st3" onclick="toB()">B</text></a>
+
+        <a href="https://chinalocalhistory.github.io/ChinaLocalHistory/Lu/panoramaLu/index-A.html">
+        <circle class="st0" id="Lu-A" cx="540.79" cy="1422.74" r="21.08" onclick="toA()"/>
+        <text transform="matrix(1 0 0 1 530.0389 1433.3353)" class="st1 st2 st3" onclick="toA()">A</text></a>
+
       </g>
       </svg>
 
     </div>
-    <!-- menu container  -->
-    <div id="menu-container">
-      <table style="width:100%" id = "table">
-   
-  <!-- informations about the dots  -->
-         <tr>
-            <td><a href = "..\..\Lu\panoramaLu\index-A.html">A. Street to the Compound</a></td>
-         </tr>
+    </div>
+    <!-- panorama container  -->
+    <div id="pano-container" style="flex:60%">
+      <h1 style="text-align:center">G. Five Manifestations Cult Temple, Wuxian Miao</h1>
 
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-B.html">B. Formal Entrance</a></dt>
+      <div class="gallery-container">
+      <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/Chinese%20introduction%20to%20the%20study.jpg" alt="Chinese%20introduction%20to%20the%20study.jpg" style="width:100%"></div>
 
-            <dd class="indent"><a href = "..\..\Lu\doc\Tr.html">Memorial Arch for the Triplets</dd></a>
-            <dd class="indent"><a href = "..\..\Lu\doc\Ch.html">Memorial Gate for the Chaste Widow</dd></a>
-            <dd class="indent"><a href = "..\..\Lu\doc\Ce.html">Memorial Arch for the Censor-in-Chief</dd></a>
-            </td>
-          </tr>
+      <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/English%20introduction%20to%20the%20study.jpg" alt="English%20introduction%20to%20the%20study.jpg" style="width:100%"></div>
 
-          <tr>
-            <td><a href = "..\..\Lu\panoramaLu\index-C.html">C. His Lordship`s Mansion, Daifu Di 大夫第</a></td>
-          </tr>
+      <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/Inside%20overview.jpg" alt="Inside%20overview.jpg" style="width:100%"></div>
 
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-D.html">D. Head Gate/Victory Report Gate, Jiebao Men 捷報門 </a></dt>
-            <dd class="indent">Head Gate was built at the same time as Seriousness and Consonance Hall was built (1456-1462). It was renovated in 1825 and again in 1988.</dd>
-            </td>
-          </tr>
+      <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/The%20old%20map%20of%20the%20Lu%20family%20compound.jpg" alt="The%20old%20map%20of%20the%20Lu%20family%20compound.jpg" style="width:100%"></div>
 
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-E.html">E. Ceremonial Gate/Glory of the Nation Gate, Guoguang Men 國光門 </a></dt>
-            <dd class="indent">The Ceremonial Gate was built at the same time as Seriousness and Consonance Hall, in the mid-fifteenth century. It was renovated in 1867 and 1985. It is said that when officials of the third rank or above visited the compound the middle gate would be opened and the threshold removed in order to show respect.</dd>
-            </td>
-          </tr>
+      <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/The%20outside%20view%20of%20the%20study.jpg" alt="The%20outside%20view%20of%20the%20study.jpg" style="width:100%"></div>
 
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-F.html">F. Seriousness and Consonance Hall, Suyong Hall, Suyong Tang 肅雍堂 </a></dt>
-            <dd class="indent"><a href="..\..\Lu\doc\rsch.html">Account of Seriousness (su) and Consonance (yong) Hall</dd></a>
-            <dd class="indent">Suyong tang, Seriousness and Consonance Hall, was built between 1456 and 1462 by Lu Rong. It is the very center of the compound. The name `seriousness and consonance` (suyong) comes from the Classic of Poetry, one of the Confucian Classics. It is the most important public space in the compound and the location for lineage-wide rituals, celebrations, entertainment, and discussions.</dd>
-            </td>
-          </tr>
+      <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/The%20roof%20of%20the%20study.jpg" alt="The%20roof%20of%20the%20study.jpg" style="width:100%"></div>
 
+      
 
-          <tr>
-            <td><a href = "..\..\Lu\panoramaLu\index-G.html">G. The Hallway 穿堂 </a></td>
-          </tr>
-
-          <tr>
-            <td><a href = "..\..\Lu\panoramaLu\index-H.html">H. Long Life Hall, Tongshou Tang 同壽堂</a></td>
-          </tr>
-
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-I.html">I. Stone Gate/Enjoy Longevity Hall/Leshou Hall, Leshou Tang 樂壽堂</a></dt>
-              <dd class="indent"> Enjoy Longevity Hall was built after Seriousness and Consonance Hall. It has been renovated since. It is located at the back of Seriousness and Consonance Hall; it served as living space for family members.</dd>
-            </td>
-          </tr>
-
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-J.html">J. Harmony Through Generations Hall, Shiyong Tang 世雍堂</dt></a>
-            <!-- <dt><a href = "..\..\Lu\panoramaLu\index-J1.html" class="indent">J.1 Harmony Through Generations Gate</a></dt>
-            <dt><a href = "..\..\Lu\panoramaLu\index-J2.html" class="indent">J.2 Harmony Through the Generations Hall</a></dt>
-            <dt><a href = "..\..\Lu\panoramaLu\index-J3.html" class="indent">J.3 Harmony Through the Generations Middle Hall</a></dt>
-            <dt><a href = "..\..\Lu\panoramaLu\index-J4.html" class="indent">J.4 Harmony Through the Generations Back Hall</a></dt> -->
-            </td>
-          </tr>
-
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-K.html">K. Virtue Through the Generations Gateway, Shide Menfang 世德門坊 </a></dt>
-            <dd class="indent">The Virtue through the Generations Gateway was built in the first half of the 17th century. It was destroyed in the 1950s. The gateway we see today was moved from Liutang Village in 1993.</dd>
-            </td>
-          </tr>
-
-          <tr>
-            <td><a href = "..\..\Lu\panoramaLu\index-L.html">L. Surfeit of Kindness Hall, Dunyu Tang 惇裕堂  </a></td>
-          </tr>
-
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-M.html">M. Cordial Meetings Hall, Jiahui Tang 嘉會堂 </a></dt>
-            <dd class="indent">Cordial Meetings Hall was used as a reception room. It was originally located elsewhere, and was moved to the current location after a flood in 1989.</dd>
-            </td>
-          </tr>
-
-          <tr>
-            <td><dt> <a href = "..\..\Lu\panoramaLu\index-N.html">N. Virtue Through Generations Hall, Shide Tang 世德堂 </dt></a>
-              <!-- 
-            <dt><a href = "..\..\Lu\panoramaLu\index-N1.html" class="indent">N.1 Virtue Through the Generations Back Hall</a></dt>
-            <dt><a href = "..\..\Lu\panoramaLu\index-N2.html" class="indent">N.2 Virtue Through the Generations Main Hall</a></dt>-->
-            </td>
-          </tr>
-
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-O.html">O. Good Blessings Hall, Shanqing Tang 善慶堂 </a></dt>
-            <dd class="indent">Good Blessings Hall was built during 1851-1861. Originally it was located behind the Lu Lineage Ancestral Hall. It was moved to its current location in 1993.</dd>
-            </td>
-          </tr>
-
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-P.html">P. Pleasant Gatherings Hall, Dunxu Tang 惇敘堂 </a></dt>
-            <dd class="indent">Pleasant Gatherings Hall was built in the later half of the fifteenth century by Lu Ben. It was originally located elsewhere and was moved to the current location after the flood in 1989. The rooms on the two sides were built during the renovation.</dd>
-            </td>
-          </tr>
-
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-Q.html">Q. Planting Virtue Hall, Shude Tang 樹德堂 </dt></a>
-            <dt><a class="indent" href="..\..\Lu\doc\rpvh.html">Record of the Righteous Construction of Planting Virtue Hall</a></dt>
-            <!--
-            <dt><a href = "..\..\Lu\panoramaLu\index-Q1.html" class="indent">Q.1 Planting Virue Front Hall</a></dt>
-            <dt><a href = "..\..\Lu\panoramaLu\index-Q2.html" class="indent">Q.2 Planting Virue Hall</a></dt>
-            <dt><a href = "..\..\Lu\panoramaLu\index-Q3.html" class="indent">Q.3 Planting Virue Back Hall</a></dt>
-            </td>-->
-          </tr>
-
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-R.html">R. East Chanting Hall, Dongyin Tang 東吟堂 </a></dt>
-            <dd class="indent">East Chanting Hall was built during 1488-1506. It has been renovated several times, most recently in the early twentieth century.</dd>
-            </td>
-          </tr>
-
-          <tr>
-            <td><dt><a href = "..\..\Lu\panoramaLu\index-S.html">S. Lotus Pavilion Academy, Heting Shuyuan 荷亭書院 </dt></a>
-            <!--
-            <dt><a href = "..\..\Lu\panoramaLu\index-S1.html" class="indent">S.1 Lotus Pavilion Academy</a></dt>
-            <dt><a href = "..\..\Lu\panoramaLu\index-S2.html" class="indent">S.2 Lotus Pavilion Academy</a></dt>
-            </td>-->
-          </tr>
-
-          <tr>
-            <td><a href = "..\..\Lu\panoramaLu\gallery-T.html">T. West Snow Study, Xixue Xuan 西雪軒 </a></td>
-          </tr>
           
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
 
-        </table>
+       <div class="row">
+        <div class="column">
+        <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/Chinese%20introduction%20to%20the%20study.jpg" style="width:100%" onclick="currentSlide(1) " alt="Chinese%20introduction%20to%20the%20study.jpg"></div>
+
+        <div class="column">
+        <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/English%20introduction%20to%20the%20study.jpg" style="width:100%" onclick="currentSlide(2) " alt="English%20introduction%20to%20the%20study.jpg"></div>
+
+        <div class="column">
+        <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/Inside%20overview.jpg" style="width:100%" onclick="currentSlide(3) " alt="Inside%20overview.jpg"></div>
+
+        <div class="column">
+        <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/The%20old%20map%20of%20the%20Lu%20family%20compound.jpg" style="width:100%" onclick="currentSlide(4) " alt="The%20old%20map%20of%20the%20Lu%20family%20compound.jpg"></div>
+
+        <div class="column">
+        <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/The%20outside%20view%20of%20the%20study.jpg" style="width:100%" onclick="currentSlide(5) " alt="The%20outside%20view%20of%20the%20study.jpg"></div>
+
+        <div class="column">
+        <img class="demo cursor" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/T.%20West%20Snow%20Study,%20Xixue%20Xuan%20___/The%20roof%20of%20the%20study.jpg" style="width:100%" onclick="currentSlide(6) " alt="The%20roof%20of%20the%20study.jpg"></div>
+            
+    </div>
+      </div>
+
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+
+      }
+      </script>
+
     </div>
 
-    </div>
+  </div>
 </body>
 </html>
+
