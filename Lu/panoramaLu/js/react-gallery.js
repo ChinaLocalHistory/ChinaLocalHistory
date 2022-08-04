@@ -21,8 +21,6 @@ class ReactGallery extends React.Component {
            <div className="gallery-column">
            <img id="001054.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/B.%20Formal%20Entrance/001054.jpg" alt="001054.jpg" onClick={this.on.bind(this)}></img></div>
            <div className="gallery-column">
-           <img id="001058.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/B.%20Formal%20Entrance/001058.jpg" alt="001058.jpg" onClick={this.on.bind(this)}></img></div>
-           <div className="gallery-column">
            <img id="001071.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/B.%20Formal%20Entrance/001071.jpg" alt="001071.jpg" onClick={this.on.bind(this)}></img></div>
            <div className="gallery-column">
            <img id="001165.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/B.%20Formal%20Entrance/001165.jpg" alt="001165.jpg" onClick={this.on.bind(this)}></img></div>
@@ -43,7 +41,7 @@ class ReactGallery extends React.Component {
          <div className="gallery-column">
          <img id="001060.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/C.%20His%20Lordship`s%20Mansion,%20Daifu%20Di%20___/001060.jpg" alt="001060.jpg" onClick={this.on.bind(this)}></img></div>
          <div className="gallery-column">
-         <img id="001062.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/C.%20His%20Lordship`s%20Mansion,%20Daifu%20Di%20___/001062.jpg" alt="001062.jpg" onClick={this.on.bind(this)}></img></div>
+         <img id="001058.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/C.%20His%20Lordship`s%20Mansion,%20Daifu%20Di%20___/001058.jpg" alt="001058.jpg" onClick={this.on.bind(this)}></img></div>
 
 
         <div className="back-button">
@@ -461,7 +459,7 @@ class ReactGallery extends React.Component {
            <div className="gallery-column">
            <img id="Wooden%20carving%20displayed%20in%20the%20hall4.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/M.%20Cordial%20Meetings%20Hall,%20Jiahui%20Tang%20___/Wooden%20carving%20displayed%20in%20the%20hall4.jpg" alt="Wooden%20carving%20displayed%20in%20the%20hall4.jpg" onClick={this.on.bind(this)}></img></div>
            <div className="gallery-column">
-           <img id="Wooden%20carving%20displayed%20in%20the%20hall15.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/M.%20Cordial%20Meetings%20Hall,%20Jiahui%20Tang%20___/Wooden%20carving%20displayed%20in%20the%20hall15.jpg" alt="Wooden%20carving%20displayed%20in%20the%20hall15.jpg" onClick={this.on.bind(this)}></img></div>
+           <img id="Wooden%20carving%20displayed%20in%20the%20hall5.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/M.%20Cordial%20Meetings%20Hall,%20Jiahui%20Tang%20___/Wooden%20carving%20displayed%20in%20the%20hall5.jpg" alt="Wooden%20carving%20displayed%20in%20the%20hall5.jpg" onClick={this.on.bind(this)}></img></div>
 
 
           <div className="back-button">

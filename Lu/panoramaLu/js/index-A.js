@@ -70,14 +70,6 @@ var v=pannellum.viewer('panorama', {
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"001054.jpg"}
                 },
-                /*
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":"001071.jpg"}
-                },*/
                 {
                 "pitch": 0.6307329175577401, 
                 "yaw": -70.90268163960926, 
@@ -1283,7 +1275,7 @@ var v=pannellum.viewer('panorama', {
                 "clickHandlerArgs" : {"text":"The%20wooden%20wall%20displayed%20in%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 2.9232896384458478, 
+                "pitch": -1.0686380621641292, 
                 "yaw": -34.005653188806264, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
@@ -1497,8 +1489,8 @@ var v=pannellum.viewer('panorama', {
                     "clickHandlerFunc": toN1,
                 },
                 {
-                    "pitch":-16.064532438006516,
-                    "yaw":119.02118349240527,
+                    "pitch":-17.18012137992056,
+                    "yaw":-118.69969748397338,
                     "type": "scene",
                     "text": "L",
                     "sceneID":"L",
@@ -2006,66 +1998,74 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "pitch":0.6572235343677978,
-            "yaw":13.380923525264993,
+            "pitch":1.0634607918580437,
+            "yaw":44.213521317466736,
             "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 6.897972805098761, 
+                "yaw": 92.67233692616483, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 3.594337313950159, 
+                "yaw": 92.67233692616483, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 24.265225028607375, 
+                "yaw": 57.00308534623661, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20beam%20structure%20of%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 20.374715697012086, 
+                "yaw": 74.86378398856426, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20beam%20structure%20of%20the%20hall1.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 10.119500264587652, 
+                "yaw": 43.91948088072995, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20main%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -4.966018484227306, 
+                "yaw": 21.54617342746845, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20main%20hall1.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 1.2207473145525387, 
+                "yaw": 43.91948088072995, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20main%20hall2.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 5.629436451024249, 
+                "yaw": -46.35175500192948, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20western%20side%20of%20the%20hall.jpg"}
+                },
+                {
+                    "pitch":-11.912716930639112,
+                    "yaw":-136.80146878910602,
+                    "type": "scene",
+                    "text": "Q1",
+                    "sceneID":"Q1",
+                    "clickHandlerFunc": toQ1,
                 },
                 {
                     "pitch":-14.736450806378338,
@@ -2092,77 +2092,77 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "pitch":0.6572235343677978,
-            "yaw":13.380923525264993,
+            "pitch":1.2147883937356725,
+            "yaw":28.60779012637335,
             "hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 11.676915964469782, 
+                "yaw": 54.60160302064766, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"A%20bracket%20with%20a%20god%20riding%20a%20lion%20as%20an%20opera%20show.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 1.8285220933499178, 
+                "yaw": 74.24851054652055, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"A%20side%20doorway%20on%20the%20eastern%20side%20of%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 2.411312330868778, 
+                "yaw": -16.934236412685205, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"A%20side%20doorway%20on%20the%20western%20side%20of%20the%20hall..jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 5.276241447908139, 
+                "yaw": 79.99194697431871, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 4.04064927683734, 
+                "yaw": 11.210541824876213, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 7.172261108129289, 
+                "yaw": 28.682582819282047, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall1.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.8295769648052378, 
+                "yaw": 28.682582819282047, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall2.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 3.4223180503013206, 
+                "yaw": 28.682582819282047, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20hall3.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 7.165982549591137, 
+                "yaw": 85.19835254149716, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Tiles%20on%20the%20wall%20of%20the%20courtyard.jpg"}
                 },
                 {
-                    "pitch":-14.736450806378338,
-                    "yaw":44.46919934249966,
+                    "pitch":-13.246846013182545,
+                    "yaw":-151.2122416228073,
                     "type": "scene",
                     "text": "Q2",
                     "sceneID":"Q2",
@@ -2293,12 +2293,20 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "hotSpots": [
                 {
-                    "pitch":-11.228377162238207,
-                    "yaw":-35.375608626257936,
+                    "pitch":-24.10775267844222,
+                    "yaw":27.01955223519285,
                     "type": "scene",
                     "text": "S2",
                     "sceneID":"S2",
                     "clickHandlerFunc": toS2,
+                },
+                {
+                    "pitch":-15.001668062579693,
+                    "yaw":-155.54577033330867,
+                    "type": "scene",
+                    "text": "B",
+                    "sceneID":"B",
+                    "clickHandlerFunc": toB,
                 },
             ]
         },
@@ -2323,22 +2331,8 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "hotSpots": [
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":"A%20carving%20of%20dragons%20displayed%20in%20the%20room..jpg"}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":"The%20plaque.United%20by%20marriage%20forever.jpg"}
-                },
-                {
-                    "pitch":-11.228377162238207,
-                    "yaw":-35.375608626257936,
+                    "pitch":-19.17046381925235,
+                    "yaw":-154.18561603261205,
                     "type": "scene",
                     "text": "S1",
                     "sceneID":"S1",
