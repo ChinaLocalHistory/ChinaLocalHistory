@@ -254,7 +254,7 @@ class ReactGallery extends React.Component {
          <div className="gallery-column">
          <img id="000982.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/J.Harmony%20Through%20Generations%20Hall,%20Shiyong%20Tang%20___J.2.%20Harmony%20Through%20the%20Generations%20Hall/000982.jpg" alt="000982.jpg" onClick={this.on.bind(this)}></img></div>
          <div className="gallery-column">
-         <img id="000983.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/J.Harmony%20Through%20Generations%20Hall,%20Shiyong%20Tang%20___J.2.%20Harmony%20Through%20the%20Generations%20Hall/000983.jpg" alt="000983.jpg" onClick={this.on.bind(this)}></img></div>
+         <img id="000983.jpeg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/J.Harmony%20Through%20Generations%20Hall,%20Shiyong%20Tang%20___J.2.%20Harmony%20Through%20the%20Generations%20Hall/000983.jpeg" alt="000983.jpeg" onClick={this.on.bind(this)}></img></div>
          <div className="gallery-column">
          <img id="000984.jpg" src="https://raw.githubusercontent.com/ChinaLocalHistory/ChinaLocalHistory/main/Lu/panoramaLu/img/J.Harmony%20Through%20Generations%20Hall,%20Shiyong%20Tang%20___J.2.%20Harmony%20Through%20the%20Generations%20Hall/000984.jpg" alt="000984.jpg" onClick={this.on.bind(this)}></img></div>
 

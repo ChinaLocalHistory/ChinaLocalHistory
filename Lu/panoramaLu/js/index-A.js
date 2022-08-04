@@ -579,8 +579,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "pitch":0.6572235343677978,
-            "yaw":13.380923525264993,
+            "pitch":0.8258102539750828,
+            "yaw":-157.7065205016064,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -617,8 +617,8 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "pitch":0.6572235343677978,
-            "yaw":13.380923525264993,
+            "pitch":0.9840484731633079,
+            "yaw":-34.579228140361884,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
@@ -683,119 +683,92 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "pitch":0.6572235343677978,
-            "yaw":13.380923525264993,
+            "pitch":1.0585191644975236,
+            "yaw":46.71737304725285,
             //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
-               {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":"000821.jpg"}
-                },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":"000822.jpg"}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 3.6890118704367385, 
+                "yaw": 57.4060991202215, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000823.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 3.6890118704367385, 
+                "yaw": 36.976224677096525, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000824.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":"000825.jpg"}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 10.212671721664782, 
+                "yaw": 157.41514332617083, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000826.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":"000827.jpg"}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 23.886999310744827, 
+                "yaw": 124.60043591358081, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000829.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 29.348464617794658, 
+                "yaw": 92.10994895490573, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000831.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":"000832.jpg"}
-                },
-                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 12.467478022945874, 
+                "yaw": 42.869016338037376, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000833.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 10.758954517808291, 
+                "yaw": 81.89756081792328, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000834.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -5.0943886310546285, 
+                "yaw": 39.63293586784191, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000835.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -5.93265744908688, 
+                "yaw": 29.646324516560277, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000836.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 20.833391957504592, 
+                "yaw": 67.59933303253933, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000837.jpg"}
                 },
                 {
-                    "pitch":-12.970621370580734,
-                    "yaw":-36.08823376281001,
+                    "pitch":-9.568483108437857,
+                    "yaw":-135.59976471724372,
+                    "type": "scene",
+                    "text": "I",
+                    "sceneID":"I",
+                    "clickHandlerFunc": toI,
+                },
+                {
+                    "pitch":-3.3665769212621357,
+                    "yaw":47.31588228796594,
                     "type": "scene",
                     "text": "J2",
                     "sceneID":"J2",
@@ -818,49 +791,50 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "pitch":0.6572235343677978,
-            "yaw":13.380923525264993,
-            "hotSpotDebug":true,
+            "pitch":0.6690189464290073,
+            "yaw":27.157935149088843,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
-               {
-                "pitch": 1, 
-                "yaw": 1, 
-                "type": "info",
-                "clickHandlerFunc" : expandImg,
-                "clickHandlerArgs" : {"text":"000978.jpg"}
-                },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -1.1289329975401834, 
+                "yaw": 178.05439162419387, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000981.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.9356267589189691, 
+                "yaw": -119.47640701222883, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000982.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 4.771371848669187, 
+                "yaw": 166.90866453133668, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000983.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 4.97474786124033, 
+                "yaw": -111.34507908329661, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"000984.jpg"}
                 },
                 {
-                    "pitch":-12.970621370580734,
-                    "yaw":-36.08823376281001,
+                    "pitch":-8.82968761828907,
+                    "yaw":-151.7711301349208,
+                    "type": "scene",
+                    "text": "J1",
+                    "sceneID":"J1",
+                    "clickHandlerFunc": toJ1,
+                },
+                {
+                    "pitch":12.83462001409595,
+                    "yaw":25.4445491992455,
                     "type": "scene",
                     "text": "J3",
                     "sceneID":"J3",
@@ -883,49 +857,57 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "pitch":0.6572235343677978,
-            "yaw":13.380923525264993,
-            "hotSpotDebug":true,
+            "pitch":0.822595278782591,
+            "yaw":73.95784726097425,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 13.203240353097982, 
+                "yaw": 7.085742557857387, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"An%20overview%20of%20the%20eastern%20wall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 13.72742388689442, 
+                "yaw": -52.13657853794983, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"he%20bracket%20of%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 13.5180265309380916, 
+                "yaw": -0.08130640592764848, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Introduction%20to%20the%20Middle%20Hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 8.273753764390081, 
+                "yaw": 33.374591215707454, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20overview%20of%20the%20courtyard%20from%20the%20northwestern%20corner%20.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 0.9051409947157152, 
+                "yaw": 72.82032314696824, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20western%20room.jpg"}
                 },
                 {
-                    "pitch":-12.970621370580734,
-                    "yaw":-36.08823376281001,
+                    "pitch":-9.310445385970228,
+                    "yaw":-102.68267335971717,
+                    "type": "scene",
+                    "text": "J2",
+                    "sceneID":"J2",
+                    "clickHandlerFunc": toJ2,
+                },
+                {
+                    "pitch":-8.84660342753118,
+                    "yaw":72.82040298082302,
                     "type": "scene",
                     "text": "J4",
                     "sceneID":"J4",
@@ -948,87 +930,95 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "minPitch":-30,
             "maxPitch":30,
-            "pitch":0.6572235343677978,
-            "yaw":13.380923525264993,
-            "hotSpotDebug":true,
+            "pitch":0.273260475007742,
+            "yaw":37.32439587483043,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -0.19858876265054193, 
+                "yaw": 39.19651149385237, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Ancestral%20portrait%20and%20offerings.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 4.465553972264669, 
+                "yaw": 28.33140285406199, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20offerings.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 2.2847818550966954, 
+                "yaw": 86.08903903241139, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Hallway%20of%20the%20eastern%20wing.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 5.042250530604931, 
+                "yaw": 55.28864875302577, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Introduction%20to%20the%20back%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -6.440034410678434, 
+                "yaw": -91.10807352176586, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Stone%20carving%20of%20the%20wall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 6.560156585099659, 
+                "yaw": 39.452540192435265, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20ancestral%20portrait.%20One%20pair%20of%20the%20couplets%20say.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 15.014064603450276, 
+                "yaw": -10.508005294385852, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20bracket%20on%20the%20left%20side%20of%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 8.708274902897289, 
+                "yaw": 6.923437730821647, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20lattice%20of%20the%20window.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 6.4875312909832585, 
+                "yaw": -28.030038316558397, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20lattice%20of%20the%20window2.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -8.149954084746712, 
+                "yaw": 13.981162339377054, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20stone%20base%20of%20the%20pillar.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -22.444189632097814, 
+                "yaw": -98.98832965501072, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20stone%20pavement%20of%20the%20courtyard.jpg"}
+                },
+                {
+                    "pitch":-12.61134139140638,
+                    "yaw":-137.33697439643967,
+                    "type": "scene",
+                    "text": "J3",
+                    "sceneID":"J3",
+                    "clickHandlerFunc": toJ3,
                 },
             ]
         },
@@ -1602,7 +1592,7 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "pitch":0.6572235343677978,
             "yaw":13.380923525264993,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
@@ -2000,7 +1990,7 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "pitch":1.0634607918580437,
             "yaw":44.213521317466736,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
@@ -2094,7 +2084,7 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "pitch":1.2147883937356725,
             "yaw":28.60779012637335,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                {
@@ -2325,7 +2315,7 @@ var v=pannellum.viewer('panorama', {
             "hfov": 90,
             "pitch":0.4950347216871744,
             "yaw":98.53426094431822,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "minPitch":-30,
             "maxPitch":30,
