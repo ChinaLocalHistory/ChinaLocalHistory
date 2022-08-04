@@ -1606,64 +1606,64 @@ var v=pannellum.viewer('panorama', {
             "autoLoad":true,
             "hotSpots": [
                {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 6.417086715289606, 
+                "yaw": -37.38217979058402, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"Chinese%20introduction%20to%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 6.448121286737106, 
+                "yaw": -30.783536126590718, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"English%20introduction%20to%20the%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 10.847999605087882, 
+                "yaw": 45.56199280791695, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20ancestral%20tablets.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": -15.105706253701925, 
+                "yaw": 47.87201393524796, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20carved%20stone%20foundation,%20which%20probably%20is%20the%20original%20work%20from%20the%20Ming%20Dynasty.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 30.723689833796755, 
+                "yaw": -45.66100545089307, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20interior%20roof%20line%20on%20the%20left%20side%20of%20main%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 3.757196326665177, 
+                "yaw": -49.23725795372612, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20side%20garden%20of%20Virtue%20through%20the%20Generations%20Main%20hall.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 27.365175844181234, 
+                "yaw": 2.2350119058076316, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20support%20beams%20on%20the%20left-hand%20side%20with%20paintings1.jpg"}
                 },
                 {
-                "pitch": 1, 
-                "yaw": 1, 
+                "pitch": 27.365175844181234, 
+                "yaw": 84.82018626043086, 
                 "type": "info",
                 "clickHandlerFunc" : expandImg,
                 "clickHandlerArgs" : {"text":"The%20support%20beams%20on%20the%20right-hand%20side.jpg"}
                 },
                 {
                     "pitch":-7.6827005541824995,
-                    "yaw":19.177068233331262,
+                    "yaw":45.42622458634819,
                     "type": "scene",
                     "text": "O",
                     "sceneID":"O",
@@ -1671,7 +1671,7 @@ var v=pannellum.viewer('panorama', {
                 },
                 {
                     "pitch":-13.346510261504443,
-                    "yaw":-156.5442900336769,
+                    "yaw":-139.90911903978218,
                     "type": "scene",
                     "text": "N1",
                     "sceneID":"N1",
@@ -2544,7 +2544,7 @@ function toJ1(){
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('Lu-J1');
+    var myCircle = document.getElementById('Lu-J');
     myCircle.style.fill = "#F26E22";
     v.loadScene("J1");
     pageScene="J1";
@@ -2561,7 +2561,7 @@ function toJ2(){
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('Lu-J2');
+    var myCircle = document.getElementById('Lu-J');
     myCircle.style.fill = "#F26E22";
     v.loadScene("J2");
     pageScene="J2";
@@ -2578,7 +2578,7 @@ function toJ3(){
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('Lu-J3');
+    var myCircle = document.getElementById('Lu-J');
     myCircle.style.fill = "#F26E22";
     v.loadScene("J3");
     pageScene="J3";
@@ -2595,7 +2595,7 @@ function toJ4(){
     for(i=0;i<myCircles.length;i++){
         myCircles[i].style.fill="#023859";
     }
-    var myCircle = document.getElementById('Lu-J4');
+    var myCircle = document.getElementById('Lu-J');
     myCircle.style.fill = "#F26E22";
     v.loadScene("J4");
     pageScene="J4";
