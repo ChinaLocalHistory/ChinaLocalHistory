@@ -793,7 +793,7 @@ var v=pannellum.viewer('panorama', {
             "maxPitch":30,
             "pitch":0.6690189464290073,
             "yaw":27.157935149088843,
-            "hotSpotDebug":true,
+            //"hotSpotDebug":true,
             "autoLoad":true,
             "hotSpots": [
                 {
@@ -833,7 +833,7 @@ var v=pannellum.viewer('panorama', {
                     "clickHandlerFunc": toJ1,
                 },
                 {
-                    "pitch":12.83462001409595,
+                    "pitch":-12.83462001409595,
                     "yaw":25.4445491992455,
                     "type": "scene",
                     "text": "J3",

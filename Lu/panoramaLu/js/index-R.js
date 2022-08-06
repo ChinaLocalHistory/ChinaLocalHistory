@@ -833,7 +833,7 @@ var v=pannellum.viewer('panorama', {
                     "clickHandlerFunc": toJ1,
                 },
                 {
-                    "pitch":12.83462001409595,
+                    "pitch":-12.83462001409595,
                     "yaw":25.4445491992455,
                     "type": "scene",
                     "text": "J3",
