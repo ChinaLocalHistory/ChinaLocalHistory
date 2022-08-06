@@ -83,8 +83,8 @@ function GetMap() {
     Microsoft.Maps.Events.addHandler(pin3, 'click', pushpinClicked);
     
     //Lu
-    var thirdcation = new Microsoft.Maps.Location(29.268356, 120.253692)
-    var pin4 = new Microsoft.Maps.Pushpin(thirdcation, {
+    var fourthcation = new Microsoft.Maps.Location(29.268356, 120.253692)
+    var pin4 = new Microsoft.Maps.Pushpin(fourthcation, {
         title: 'Lu Family Compound',
         subTitle: '雅溪盧宅',
         text: '4'
@@ -95,7 +95,7 @@ function GetMap() {
     });
 
     infobox4.setMap(map);
-    pin3.metadata = {
+    pin4.metadata = {
         title: 'Lu Family Compound',
         description: ' <p>这里是雅溪盧宅的简介</p><br><a href="Lu/menu/Lu.html">Details</a>'
     };
