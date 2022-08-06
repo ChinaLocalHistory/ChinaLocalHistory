@@ -2,7 +2,7 @@ function GetMap() {
     var map = new Microsoft.Maps.Map('#myMap', {
         credentials: 'AtEkXNzDUPvuBvqBdOvEO9hhcBMvIWBj6t-_1FVGdLdHIjaQ_Js9l0-5-d_vlnVg',
         center: new Microsoft.Maps.Location(29.054112, 119.410129),
-        zoom : 11       
+        zoom : 10       
     });
 
 
@@ -63,6 +63,7 @@ function GetMap() {
     };
     Microsoft.Maps.Events.addHandler(pin2, 'click', pushpinClicked);
     
+    //Zhiyan
     var thirdcation = new Microsoft.Maps.Location(29.363032, 119.361547)
     var pin3 = new Microsoft.Maps.Pushpin(thirdcation, {
         title: 'Zhiyan Village',
@@ -81,11 +82,30 @@ function GetMap() {
     };
     Microsoft.Maps.Events.addHandler(pin3, 'click', pushpinClicked);
     
+    //Lu
+    var thirdcation = new Microsoft.Maps.Location(29.268356, 120.253692)
+    var pin4 = new Microsoft.Maps.Pushpin(thirdcation, {
+        title: 'Lu Family Compound',
+        subTitle: '雅溪盧宅',
+        text: '4'
+    });
+    var infobox4;
+    infobox4 = new Microsoft.Maps.Infobox(map, {
+        visible: false,
+    });
+
+    infobox4.setMap(map);
+    pin3.metadata = {
+        title: 'Lu Family Compound',
+        description: ' <p>这里是雅溪盧宅的简介</p><br><a href="Lu/menu/Lu.html">Details</a>'
+    };
+    Microsoft.Maps.Events.addHandler(pin4, 'click', pushpinClicked);
     
 
     //Add the pushpin to the map
     map.entities.push(pin);
     map.entities.push(pin2);
     map.entities.push(pin3);
+    map.entities.push(pin4);
 }
 
